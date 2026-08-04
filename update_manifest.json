@@ -1,0 +1,8 @@
+{
+  "version": "2.5.0",
+  "title": "Cập nhật bảng Tính điểm học tập",
+  "description": "Cố định độ rộng cột học phần L1/L2, giữ các cột còn lại co giãn và bổ sung cơ chế thông báo cập nhật bán tự động.",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.0/Scores_update_v2.5.0.zip",
+  "release_notes_url": "",
+  "sha256": "6858e8e05a93040b9c361ff0760217a2623fdfb13f98b6c4a069969efc36797e"
+}
