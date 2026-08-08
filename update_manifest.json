@@ -1,20 +1,18 @@
 {
-  "version": "2.5.2",
-  "title": "Menu nhóm thu gọn/mở rộng",
+  "version": "2.5.3",
+  "title": "Lịch sử phiên bản và tự động tạo manifest",
   "released_at": "2026-08-08",
   "channel": "stable",
-  "description": "Cải tiến sidebar để các nhóm chức năng có thể ẩn/hiện menu con, giúp menu gọn hơn khi số lượng chức năng tăng.",
+  "description": "Bổ sung lịch sử các phiên bản đã phát hành trên trang Phiên bản & Cập nhật và chuẩn hóa quy trình phát hành bằng releases.json.",
   "features": [
-    "Ẩn/hiện menu con theo từng nhóm chức năng trên sidebar",
-    "Hiển thị mũi tên trạng thái mở/đóng cho từng nhóm",
-    "Ghi nhớ trạng thái các nhóm bằng localStorage",
-    "Lần đầu chỉ mở nhóm chứa chức năng đang được chọn",
-    "Khi chọn một chức năng, nhóm tương ứng tự được giữ mở",
-    "Shortcut từ Dashboard tự mở nhóm chứa chức năng đích",
-    "Tương thích sidebar thu gọn dạng icon và giao diện mobile",
-    "Giữ nguyên trang Phiên bản & Cập nhật và cơ chế update vi sai"
+    "Hiển thị lịch sử phiên bản trực tiếp trong trang Phiên bản & Cập nhật",
+    "Đọc lịch sử từ releases.json trên GitHub",
+    "Hiển thị chi tiết tên, ngày phát hành và chức năng của từng phiên bản",
+    "Đánh dấu phiên bản hiện đang sử dụng",
+    "Giữ riêng lịch sử backup cục bộ và lịch sử release trên GitHub",
+    "Hỗ trợ quy trình publish_update.py tự tính SHA-256 và sinh manifest"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.2/Scores_update_v2.5.2.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.3/Scores_update_v2.5.3.zip",
   "release_notes_url": "",
-  "sha256": "019121a8ec42c99354388c9bb4db8c93e6b900b387dd28261992c2397f85dbaf"
+  "sha256": "6ab3d9e1b7b69e7e94a13291b95752627a4eb72b25dd82c8128af889462ac1ba"
 }
