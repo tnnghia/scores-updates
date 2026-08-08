@@ -4,5 +4,5 @@
   "description": "Cố định độ rộng cột học phần L1/L2, giữ các cột còn lại co giãn và bổ sung cơ chế thông báo cập nhật bán tự động.",
   "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.0/Scores_update_v2.5.0.zip",
   "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.5.0",
-  "sha256": "740bb872c9cb49ee04b7debd2a3cb30b3f205fa84e0550bca269ebcc71bd734b"
+  "sha256": "6c4fc78a723955945076995c87194533a0571970f6c9ca0b08b1ef3eece7481c"
 }
