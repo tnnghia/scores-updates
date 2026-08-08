@@ -1,18 +1,19 @@
 {
-  "version": "2.5.3",
-  "title": "Lịch sử phiên bản và tự động tạo manifest",
+  "version": "2.5.4",
   "released_at": "2026-08-08",
   "channel": "stable",
-  "description": "Bổ sung lịch sử các phiên bản đã phát hành trên trang Phiên bản & Cập nhật và chuẩn hóa quy trình phát hành bằng releases.json.",
+  "title": "Điều chỉnh tiêu đề học phần",
+  "description": "Tên học phần trong Tính điểm học tập tự xuống dòng theo từ trong khung 84 px, giữ L1/L2 đúng 42 px.",
   "features": [
-    "Hiển thị lịch sử phiên bản trực tiếp trong trang Phiên bản & Cập nhật",
-    "Đọc lịch sử từ releases.json trên GitHub",
-    "Hiển thị chi tiết tên, ngày phát hành và chức năng của từng phiên bản",
-    "Đánh dấu phiên bản hiện đang sử dụng",
-    "Giữ riêng lịch sử backup cục bộ và lịch sử release trên GitHub",
-    "Hỗ trợ quy trình publish_update.py tự tính SHA-256 và sinh manifest"
+    "Tên học phần dài tự xuống dòng theo từ, không bẻ chữ tiếng Việt",
+    "Giữ mỗi học phần rộng 84 px",
+    "Giữ L1 và L2 rộng 42 px ở desktop và mobile",
+    "Số tín chỉ hiển thị riêng bên dưới tên học phần và không xuống dòng",
+    "Hàng tiêu đề có chiều cao cơ sở 72 px và tự tăng khi cần",
+    "Giữ nguyên CSS Phiên bản & Cập nhật và Lịch sử phiên bản",
+    "Không thay đổi giải thuật tính điểm"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.3/Scores_update_v2.5.3.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.4/Scores_update_v2.5.4.zip",
   "release_notes_url": "",
-  "sha256": "6ab3d9e1b7b69e7e94a13291b95752627a4eb72b25dd82c8128af889462ac1ba"
+  "sha256": "d97c0c7c47a66e5ae9d5c853646ee16194d3b7c7c233e47228319bf118046581"
 }

@@ -1,6 +1,25 @@
 {
-  "latest": "2.5.3",
+  "latest": "2.5.4",
   "releases": [
+    {
+      "version": "2.5.4",
+      "released_at": "2026-08-08",
+      "channel": "stable",
+      "title": "Điều chỉnh tiêu đề học phần",
+      "description": "Tên học phần trong Tính điểm học tập tự xuống dòng theo từ trong khung 84 px, giữ L1/L2 đúng 42 px.",
+      "features": [
+        "Tên học phần dài tự xuống dòng theo từ, không bẻ chữ tiếng Việt",
+        "Giữ mỗi học phần rộng 84 px",
+        "Giữ L1 và L2 rộng 42 px ở desktop và mobile",
+        "Số tín chỉ hiển thị riêng bên dưới tên học phần và không xuống dòng",
+        "Hàng tiêu đề có chiều cao cơ sở 72 px và tự tăng khi cần",
+        "Giữ nguyên CSS Phiên bản & Cập nhật và Lịch sử phiên bản",
+        "Không thay đổi giải thuật tính điểm"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.4/Scores_update_v2.5.4.zip",
+      "release_notes_url": "",
+      "sha256": "d97c0c7c47a66e5ae9d5c853646ee16194d3b7c7c233e47228319bf118046581"
+    },
     {
       "version": "2.5.3",
       "released_at": "2026-08-08",
