@@ -1,6 +1,24 @@
 {
-  "latest": "2.5.4",
+  "latest": "2.5.5",
   "releases": [
+    {
+      "version": "2.5.5",
+      "released_at": "2026-08-08",
+      "channel": "stable",
+      "title": "Đồng bộ phiên bản từ version.json",
+      "description": "Chuẩn hóa version.json thành nguồn phiên bản duy nhất để trạng thái cập nhật luôn đồng bộ với các file đã cài.",
+      "features": [
+        "Chuyển nguồn phiên bản hiện tại sang version.json",
+        "Không còn phụ thuộc APP_VERSION trong config.py",
+        "API Phiên bản & Cập nhật đọc version động sau khi server khởi động lại",
+        "version.json là file bắt buộc trong mọi gói cập nhật",
+        "Updater cài version.json sau cùng để chỉ nâng phiên bản khi các file chức năng đã được chép",
+        "Giữ nguyên cơ chế SHA-256, backup, rollback và phát hành tự động"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.5/Scores_update_v2.5.5.zip",
+      "release_notes_url": "",
+      "sha256": "f55c25d59da4e2b0f59b6158f626f030fb89d4edc8ff0150e2cdf1e83babed0b"
+    },
     {
       "version": "2.5.4",
       "released_at": "2026-08-08",
