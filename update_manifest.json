@@ -1,19 +1,20 @@
 {
-  "version": "2.5.1",
-  "title": "Phiên bản & Cập nhật hệ thống",
+  "version": "2.5.2",
+  "title": "Menu nhóm thu gọn/mở rộng",
   "released_at": "2026-08-08",
   "channel": "stable",
-  "description": "Bỏ banner cập nhật nổi và chuyển toàn bộ quản lý phiên bản sang trang Phiên bản & Cập nhật riêng.",
+  "description": "Cải tiến sidebar để các nhóm chức năng có thể ẩn/hiện menu con, giúp menu gọn hơn khi số lượng chức năng tăng.",
   "features": [
-    "Trang Phiên bản & Cập nhật riêng trong menu Hệ thống",
-    "Hiển thị phiên bản hiện tại và trạng thái phiên bản mới",
-    "Hiển thị danh sách chức năng của phiên bản đang sử dụng",
-    "Hiển thị nội dung và chức năng của phiên bản mới trước khi cập nhật",
-    "Theo dõi trạng thái tải, sao lưu, cài đặt và khởi động lại ngay trong trang",
-    "Bỏ banner và thông báo nổi về phiên bản trên các trang nghiệp vụ",
-    "Giữ cơ chế cập nhật tự động, SHA-256, backup vi sai và rollback hiện có"
+    "Ẩn/hiện menu con theo từng nhóm chức năng trên sidebar",
+    "Hiển thị mũi tên trạng thái mở/đóng cho từng nhóm",
+    "Ghi nhớ trạng thái các nhóm bằng localStorage",
+    "Lần đầu chỉ mở nhóm chứa chức năng đang được chọn",
+    "Khi chọn một chức năng, nhóm tương ứng tự được giữ mở",
+    "Shortcut từ Dashboard tự mở nhóm chứa chức năng đích",
+    "Tương thích sidebar thu gọn dạng icon và giao diện mobile",
+    "Giữ nguyên trang Phiên bản & Cập nhật và cơ chế update vi sai"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.1/Scores_update_v2.5.1.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.2/Scores_update_v2.5.2.zip",
   "release_notes_url": "",
-  "sha256": "2401d3684e83bbfab01cb0c6ce60b78e212f4b59560654a422bdb825a7240d05"
+  "sha256": "019121a8ec42c99354388c9bb4db8c93e6b900b387dd28261992c2397f85dbaf"
 }
