@@ -1,8 +1,19 @@
 {
-  "version": "2.5.0",
-  "title": "Cập nhật bảng Tính điểm học tập",
-  "description": "Cố định độ rộng cột học phần L1/L2, giữ các cột còn lại co giãn và bổ sung cơ chế thông báo cập nhật bán tự động.",
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.0/Scores_update_v2.5.0.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.5.0",
-  "sha256": "b9b47800631ebe861f8b6f27cc2d8c8da974ed5a7c528ed9de9dcadfdcb6d529"
+  "version": "2.5.1",
+  "title": "Phiên bản & Cập nhật hệ thống",
+  "released_at": "2026-08-08",
+  "channel": "stable",
+  "description": "Bỏ banner cập nhật nổi và chuyển toàn bộ quản lý phiên bản sang trang Phiên bản & Cập nhật riêng.",
+  "features": [
+    "Trang Phiên bản & Cập nhật riêng trong menu Hệ thống",
+    "Hiển thị phiên bản hiện tại và trạng thái phiên bản mới",
+    "Hiển thị danh sách chức năng của phiên bản đang sử dụng",
+    "Hiển thị nội dung và chức năng của phiên bản mới trước khi cập nhật",
+    "Theo dõi trạng thái tải, sao lưu, cài đặt và khởi động lại ngay trong trang",
+    "Bỏ banner và thông báo nổi về phiên bản trên các trang nghiệp vụ",
+    "Giữ cơ chế cập nhật tự động, SHA-256, backup vi sai và rollback hiện có"
+  ],
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.1/Scores_update_v2.5.1.zip",
+  "release_notes_url": "",
+  "sha256": "2401d3684e83bbfab01cb0c6ce60b78e212f4b59560654a422bdb825a7240d05"
 }
