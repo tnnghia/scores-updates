@@ -1,35 +1,77 @@
 {
-  "latest": "2.5.2",
+  "latest": "2.5.3",
   "releases": [
+    {
+      "version": "2.5.3",
+      "released_at": "2026-08-08",
+      "channel": "stable",
+      "title": "Lịch sử phiên bản và tự động tạo manifest",
+      "description": "Bổ sung lịch sử các phiên bản đã phát hành trên trang Phiên bản & Cập nhật và chuẩn hóa quy trình phát hành bằng releases.json.",
+      "features": [
+        "Hiển thị lịch sử phiên bản trực tiếp trong trang Phiên bản & Cập nhật",
+        "Đọc lịch sử từ releases.json trên GitHub",
+        "Hiển thị chi tiết tên, ngày phát hành và chức năng của từng phiên bản",
+        "Đánh dấu phiên bản hiện đang sử dụng",
+        "Giữ riêng lịch sử backup cục bộ và lịch sử release trên GitHub",
+        "Hỗ trợ quy trình publish_update.py tự tính SHA-256 và sinh manifest"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.3/Scores_update_v2.5.3.zip",
+      "release_notes_url": "",
+      "sha256": "6ab3d9e1b7b69e7e94a13291b95752627a4eb72b25dd82c8128af889462ac1ba"
+    },
     {
       "version": "2.5.2",
       "released_at": "2026-08-08",
+      "channel": "stable",
       "title": "Menu nhóm thu gọn/mở rộng",
-      "description": "Cải tiến sidebar để các nhóm chức năng có thể ẩn/hiện menu con.",
+      "description": "Cải tiến sidebar để các nhóm chức năng có thể ẩn/hiện menu con, giúp menu gọn hơn khi số lượng chức năng tăng.",
       "features": [
         "Ẩn/hiện menu con theo từng nhóm chức năng trên sidebar",
         "Hiển thị mũi tên trạng thái mở/đóng cho từng nhóm",
         "Ghi nhớ trạng thái các nhóm bằng localStorage",
         "Lần đầu chỉ mở nhóm chứa chức năng đang được chọn",
-        "Tương thích sidebar thu gọn và mobile"
+        "Khi chọn một chức năng, nhóm tương ứng tự được giữ mở",
+        "Shortcut từ Dashboard tự mở nhóm chứa chức năng đích",
+        "Tương thích sidebar thu gọn dạng icon và giao diện mobile"
       ],
       "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.2/Scores_update_v2.5.2.zip",
+      "release_notes_url": "",
       "sha256": "019121a8ec42c99354388c9bb4db8c93e6b900b387dd28261992c2397f85dbaf"
     },
     {
       "version": "2.5.1",
       "released_at": "2026-08-08",
+      "channel": "stable",
       "title": "Phiên bản & Cập nhật hệ thống",
-      "description": "Chuyển chức năng cập nhật sang trang quản trị riêng.",
+      "description": "Bỏ banner cập nhật nổi và chuyển quản lý phiên bản sang trang Phiên bản & Cập nhật riêng.",
       "features": [
-        "Trang Phiên bản & Cập nhật riêng",
-        "Hiển thị phiên bản hiện tại và phiên bản mới",
-        "Hiển thị nội dung chức năng từng phiên bản",
-        "Theo dõi trạng thái cập nhật trong trang",
-        "Bỏ banner cập nhật nổi"
+        "Trang Phiên bản & Cập nhật riêng trong menu Hệ thống",
+        "Hiển thị phiên bản hiện tại và trạng thái phiên bản mới",
+        "Hiển thị chức năng của phiên bản đang sử dụng",
+        "Hiển thị nội dung và chức năng của phiên bản mới",
+        "Theo dõi trạng thái cập nhật trực tiếp trong trang",
+        "Bỏ banner và thông báo cập nhật nổi"
       ],
       "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.1/Scores_update_v2.5.1.zip",
+      "release_notes_url": "",
       "sha256": "2401d3684e83bbfab01cb0c6ce60b78e212f4b59560654a422bdb825a7240d05"
+    },
+    {
+      "version": "2.5.0",
+      "released_at": "2026-08-08",
+      "channel": "stable",
+      "title": "Cải tiến Tính điểm học tập và cơ chế cập nhật",
+      "description": "Cải tiến bảng Tính điểm học tập, cơ chế lựa chọn driver CSDL và cơ chế cập nhật/backup vi sai.",
+      "features": [
+        "Cố định cột L1/L2 trong Tính điểm học tập",
+        "Tự động lựa chọn và fallback ODBC Driver SQL Server",
+        "Cache Working Driver trong phiên chạy",
+        "Backup vi sai khi cập nhật",
+        "Rollback khi bản mới không khởi động được"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.0/Scores_update_v2.5.0.zip",
+      "release_notes_url": "",
+      "sha256": "b9b47800631ebe861f8b6f27cc2d8c8da974ed5a7c528ed9de9dcadfdcb6d529"
     }
   ]
 }
