@@ -1,0 +1,35 @@
+{
+  "latest": "2.5.2",
+  "releases": [
+    {
+      "version": "2.5.2",
+      "released_at": "2026-08-08",
+      "title": "Menu nhóm thu gọn/mở rộng",
+      "description": "Cải tiến sidebar để các nhóm chức năng có thể ẩn/hiện menu con.",
+      "features": [
+        "Ẩn/hiện menu con theo từng nhóm chức năng trên sidebar",
+        "Hiển thị mũi tên trạng thái mở/đóng cho từng nhóm",
+        "Ghi nhớ trạng thái các nhóm bằng localStorage",
+        "Lần đầu chỉ mở nhóm chứa chức năng đang được chọn",
+        "Tương thích sidebar thu gọn và mobile"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.2/Scores_update_v2.5.2.zip",
+      "sha256": "019121a8ec42c99354388c9bb4db8c93e6b900b387dd28261992c2397f85dbaf"
+    },
+    {
+      "version": "2.5.1",
+      "released_at": "2026-08-08",
+      "title": "Phiên bản & Cập nhật hệ thống",
+      "description": "Chuyển chức năng cập nhật sang trang quản trị riêng.",
+      "features": [
+        "Trang Phiên bản & Cập nhật riêng",
+        "Hiển thị phiên bản hiện tại và phiên bản mới",
+        "Hiển thị nội dung chức năng từng phiên bản",
+        "Theo dõi trạng thái cập nhật trong trang",
+        "Bỏ banner cập nhật nổi"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.1/Scores_update_v2.5.1.zip",
+      "sha256": "2401d3684e83bbfab01cb0c6ce60b78e212f4b59560654a422bdb825a7240d05"
+    }
+  ]
+}
