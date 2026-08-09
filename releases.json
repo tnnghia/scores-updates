@@ -1,6 +1,21 @@
 {
-  "latest": "2.5.14",
+  "latest": "2.5.15",
   "releases": [
+    {
+      "version": "2.5.15",
+      "released_at": "2026-08-09",
+      "channel": "stable",
+      "title": "Sửa bảng thống kê theo quyết định tốt nghiệp",
+      "description": "Tách cấu trúc bảng theo Quyết định tốt nghiệp để sửa lỗi lệch cột.",
+      "features": [
+        "Theo Quyết định render đúng 7 cột",
+        "Dòng tỷ lệ và tổng cộng đúng 7 cột",
+        "Khóa lớp và Khóa ngành/nghề giữ 9 cột"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.15/Scores_update_v2.5.15.zip",
+      "release_notes_url": "",
+      "sha256": "6e8f4160cde70bfd3e69f6082698577250d36b759d06eead81ab6f5ab86b9556"
+    },
     {
       "version": "2.5.14",
       "released_at": "2026-08-09",
