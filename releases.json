@@ -1,6 +1,30 @@
 {
-  "latest": "2.5.12",
+  "latest": "2.5.13",
   "releases": [
+    {
+      "version": "2.5.13",
+      "released_at": "2026-08-09",
+      "channel": "stable",
+      "title": "Sĩ số, tỷ lệ và thẻ xếp loại tốt nghiệp",
+      "description": "Bổ sung sĩ số, tỷ lệ tốt nghiệp và các thẻ Xuất sắc, Giỏi, Khá, Trung bình, Khá trở lên.",
+      "features": [
+        "Áp dụng cho Quyết định công nhận tốt nghiệp",
+        "Áp dụng cho Khóa lớp",
+        "Áp dụng cho Khóa ngành/nghề",
+        "Bổ sung cột Sĩ số và Tỷ lệ TN (%)",
+        "Bổ sung thẻ Tổng sĩ số",
+        "Bổ sung riêng thẻ Xuất sắc",
+        "Bổ sung riêng thẻ Giỏi",
+        "Bổ sung riêng thẻ Khá",
+        "Giữ thẻ Trung bình và Khá trở lên",
+        "Các thẻ xếp loại tính tỷ lệ trên tổng số tốt nghiệp",
+        "Tổng số tốt nghiệp tính tỷ lệ trên tổng sĩ số",
+        "Xuất Excel bổ sung Sĩ số và Tỷ lệ TN (%)"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.13/Scores_update_v2.5.13.zip",
+      "release_notes_url": "",
+      "sha256": "ccf8c6917c0b784d990b2e6092ed0f60c12ca9700d43b94c9be3ccf1996c3e36"
+    },
     {
       "version": "2.5.12",
       "released_at": "2026-08-09",
