@@ -1,6 +1,25 @@
 {
-  "latest": "2.5.11",
+  "latest": "2.5.12",
   "releases": [
+    {
+      "version": "2.5.12",
+      "released_at": "2026-08-09",
+      "channel": "stable",
+      "title": "Phân lớp cân bằng giới tính",
+      "description": "Bổ sung cột Giới tính và tùy chọn cân bằng giới tính khi phân lớp tự động.",
+      "features": [
+        "Bổ sung cột Giới tính trong danh sách thí sinh phân lớp",
+        "Hiển thị Nam/Nữ thay cho giá trị 0/1",
+        "Bổ sung tùy chọn Cân bằng giới tính, bật mặc định",
+        "Khi cân bằng, xét cả số Nam/Nữ và sĩ số hiện có của từng lớp",
+        "Nếu tắt cân bằng giới tính, giữ nguyên cơ chế chia vòng ABC",
+        "Hiển thị sĩ số, số Nam và số Nữ hiện có bên từng lớp",
+        "Phân tự động vẫn chỉ lập phương án, chưa ghi CSDL"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.12/Scores_update_v2.5.12.zip",
+      "release_notes_url": "",
+      "sha256": "a8ef9473f2034097fba984673b1e96ad81c2ea73ecdef87d8605ca1afaf638f3"
+    },
     {
       "version": "2.5.11",
       "released_at": "2026-08-09",
