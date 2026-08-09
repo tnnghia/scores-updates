@@ -1,18 +1,20 @@
 {
-  "version": "2.5.17",
+  "version": "2.5.18",
   "released_at": "2026-08-09",
   "channel": "stable",
-  "title": "Co giãn bảng thống kê tốt nghiệp",
-  "description": "Bảng tốt nghiệp tự co giãn đúng 100% theo cấu trúc 7 hoặc 9 cột.",
+  "title": "Cập nhật vi sai tuần tự",
+  "description": "Nâng cấp updater để tự lập chuỗi các phiên bản còn thiếu, backup một lần và rollback toàn chuỗi nếu có lỗi.",
   "features": [
-    "Theo Quyết định tạo thật bảng 7 cột và chiếm 100% chiều ngang",
-    "Khóa lớp và Khóa ngành/nghề tạo thật bảng 9 cột và chiếm 100% chiều ngang",
-    "Không còn colgroup 9 cột ẩn gây khoảng trắng bên phải",
-    "Chiều rộng cột dùng tỷ lệ phần trăm",
-    "Màn hình nhỏ vẫn hỗ trợ cuộn ngang",
-    "Không thay đổi dữ liệu và giải thuật thống kê"
+    "Giữ cơ chế ZIP cập nhật vi sai",
+    "Tự đọc releases.json và lập chuỗi phiên bản còn thiếu",
+    "Máy ở phiên bản cũ tự cài lần lượt các bản trung gian",
+    "Backup một lần trước toàn bộ chuỗi cập nhật",
+    "Kiểm tra SHA-256 từng gói trước khi cài",
+    "Kiểm tra version.json từng gói và hỗ trợ trường requires cho các bản sau",
+    "Rollback toàn bộ về phiên bản ban đầu nếu một bước lỗi",
+    "v2.5.18 là checkpoint chứa các thay đổi chức năng từ v2.5.6 đến v2.5.17 để bootstrap an toàn cho máy từ v2.5.5 trở lên"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.17/Scores_update_v2.5.17.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.18/Scores_update_v2.5.18.zip",
   "release_notes_url": "",
-  "sha256": "051e40b28abb1ee371484eb039e4230dbfc59035acfe86b6814de0ef882da30e"
+  "sha256": "833d9634d877d362444efc055dca4ee75aab30bb6b20151fac06c4fc8fda4df1"
 }
