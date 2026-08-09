@@ -1,18 +1,21 @@
 {
-  "version": "2.5.8",
+  "version": "2.5.9",
   "released_at": "2026-08-09",
   "channel": "stable",
-  "title": "Sửa công thức Maso khi phân lớp",
-  "description": "Điều chỉnh Maso sinh viên theo Tenlop: bỏ toàn bộ dấu gạch ngang, bỏ ký tự cuối và nối TT 3 chữ số.",
+  "title": "Chuẩn hóa phân lớp từ hồ sơ sinh viên tạm",
+  "description": "Phân lớp chuyển sang cập nhật hồ sơ Sinhvien tạm đã tạo khi xác nhận nhập học, đồng thời cập nhật ThisinhXT.Phanlop=1.",
   "features": [
-    "Giữ cơ chế Phân tự động chỉ lập phương án trước khi lưu",
-    "Maso lấy từ Tenlop thay vì MaL",
-    "Tenlop được bỏ toàn bộ ký tự '-'",
-    "Bỏ ký tự cuối sau khi chuẩn hóa Tenlop",
-    "Nối TT dạng 3 chữ số để tạo Maso",
-    "MaTS tiếp tục lấy trực tiếp từ ThisinhXT.Maso"
+    "Danh sách chờ phân lớp dựa trên ThisinhXT.Nhaphoc=1 và Phanlop=0",
+    "Không INSERT thêm Sinhvien khi phân lớp",
+    "Tìm hồ sơ tạm theo MaTS, MaSV tiền tố XT hoặc MaTSXT",
+    "UPDATE hồ sơ tạm thành mã sinh viên/lớp chính thức",
+    "Giữ MaSVgoc của hồ sơ tạm để truy vết mã XT ban đầu",
+    "MaTS tiếp tục lấy từ ThisinhXT.Maso",
+    "Maso theo Tenlop bỏ dấu '-', bỏ ký tự cuối và nối TT 3 chữ số",
+    "Cập nhật ThisinhXT.Phanlop=1 sau khi phân lớp thành công",
+    "UPDATE Sinhvien và Phanlop chạy cùng transaction"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.8/Scores_update_v2.5.8.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.9/Scores_update_v2.5.9.zip",
   "release_notes_url": "",
-  "sha256": "c5a2fd672c7729ea4af75cf362d280aebd3670f4fa440c3b79317388c2c2a910"
+  "sha256": "17e94a3756e80438c1df47b28342a329f3cb80732d71f4a5c8347cb7c615ac39"
 }
