@@ -1,6 +1,26 @@
 {
-  "latest": "2.5.6",
+  "latest": "2.5.7",
   "releases": [
+    {
+      "version": "2.5.7",
+      "released_at": "2026-08-09",
+      "channel": "stable",
+      "title": "Sửa Phân lớp: phân thử và chuẩn hóa dữ liệu Sinhvien",
+      "description": "Sửa chức năng Phân lớp để Phân tự động chỉ lập phương án trước khi lưu; đồng thời chuẩn hóa ánh xạ cột và công thức Maso/MaTS.",
+      "features": [
+        "Phân tự động chỉ lập phương án, không ghi ngay vào bảng Sinhvien",
+        "Cho phép chỉnh lớp dự kiến trước khi nhấn Lưu phân lớp",
+        "Sửa Dktudo thành DkTudo = 0",
+        "Ánh xạ ThisinhXT.Fld01 sang Sinhvien.TrinhdoVH",
+        "Ánh xạ ThisinhXT.TongDXT sang Sinhvien.Tong",
+        "Ánh xạ ThisinhXT.DiemUT sang Sinhvien.DiemUt",
+        "Maso = MaL bỏ ký tự số cuối + TT 3 chữ số",
+        "MaTS lấy trực tiếp từ ThisinhXT.Maso"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.7/Scores_update_v2.5.7.zip",
+      "release_notes_url": "",
+      "sha256": "11bdab6ff065b7a542de542ee4edd42a16911cd395d92472e24c8589125bae11"
+    },
     {
       "version": "2.5.6",
       "released_at": "2026-08-09",
