@@ -1,19 +1,18 @@
 {
-  "version": "2.5.16",
+  "version": "2.5.17",
   "released_at": "2026-08-09",
   "channel": "stable",
-  "title": "Khôi phục và sửa thống kê tốt nghiệp",
-  "description": "Khôi phục render và bộ lọc tốt nghiệp bị lỗi ở v2.5.15, đồng thời sửa đúng bảng theo Quyết định.",
+  "title": "Co giãn bảng thống kê tốt nghiệp",
+  "description": "Bảng tốt nghiệp tự co giãn đúng 100% theo cấu trúc 7 hoặc 9 cột.",
   "features": [
-    "Khôi phục render Khóa lớp",
-    "Khôi phục render Khóa ngành/nghề",
-    "Khôi phục bộ lọc Quyết định công nhận tốt nghiệp",
-    "Giữ nguyên các hàm tiện ích và danh mục của v2.5.14",
-    "Theo Quyết định render đúng 7 cột",
-    "Khóa lớp và Khóa ngành/nghề render đúng 9 cột",
-    "Không thay đổi giải thuật sĩ số của v2.5.14"
+    "Theo Quyết định tạo thật bảng 7 cột và chiếm 100% chiều ngang",
+    "Khóa lớp và Khóa ngành/nghề tạo thật bảng 9 cột và chiếm 100% chiều ngang",
+    "Không còn colgroup 9 cột ẩn gây khoảng trắng bên phải",
+    "Chiều rộng cột dùng tỷ lệ phần trăm",
+    "Màn hình nhỏ vẫn hỗ trợ cuộn ngang",
+    "Không thay đổi dữ liệu và giải thuật thống kê"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.16/Scores_update_v2.5.16.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.17/Scores_update_v2.5.17.zip",
   "release_notes_url": "",
-  "sha256": "fffa7464638778193de5b9c106135589b5566a042d12c4a0de6a95cea78b7008"
+  "sha256": "051e40b28abb1ee371484eb039e4230dbfc59035acfe86b6814de0ef882da30e"
 }

@@ -1,6 +1,24 @@
 {
-  "latest": "2.5.16",
+  "latest": "2.5.17",
   "releases": [
+    {
+      "version": "2.5.17",
+      "released_at": "2026-08-09",
+      "channel": "stable",
+      "title": "Co giãn bảng thống kê tốt nghiệp",
+      "description": "Bảng tốt nghiệp tự co giãn đúng 100% theo cấu trúc 7 hoặc 9 cột.",
+      "features": [
+        "Theo Quyết định tạo thật bảng 7 cột và chiếm 100% chiều ngang",
+        "Khóa lớp và Khóa ngành/nghề tạo thật bảng 9 cột và chiếm 100% chiều ngang",
+        "Không còn colgroup 9 cột ẩn gây khoảng trắng bên phải",
+        "Chiều rộng cột dùng tỷ lệ phần trăm",
+        "Màn hình nhỏ vẫn hỗ trợ cuộn ngang",
+        "Không thay đổi dữ liệu và giải thuật thống kê"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.17/Scores_update_v2.5.17.zip",
+      "release_notes_url": "",
+      "sha256": "051e40b28abb1ee371484eb039e4230dbfc59035acfe86b6814de0ef882da30e"
+    },
     {
       "version": "2.5.16",
       "released_at": "2026-08-09",
