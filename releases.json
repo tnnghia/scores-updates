@@ -1,6 +1,26 @@
 {
-  "latest": "2.5.5",
+  "latest": "2.5.6",
   "releases": [
+    {
+      "version": "2.5.6",
+      "released_at": "2026-08-09",
+      "channel": "stable",
+      "title": "Quản sinh - Phân lớp đầu khóa",
+      "description": "Bổ sung nhóm Quản sinh và chức năng Phân lớp thí sinh đã nhập học vào lớp đúng khóa, ngành và trình độ; đồng thời chuẩn hóa tên nhóm Quản lý đào tạo và Khảo thí.",
+      "features": [
+        "Đổi tên nhóm Đào tạo thành Quản lý đào tạo và Lịch giảng dạy thành Khảo thí",
+        "Bổ sung menu Quản sinh với Phân lớp và Lớp sinh hoạt",
+        "Bổ sung vị trí Lớp học phần theo từng học kỳ trong Quản lý đào tạo",
+        "Bổ sung vị trí Xếp lịch thi lần 1 và lần 2 trong Khảo thí",
+        "Phân lớp tự động theo ABC và chia vòng qua các lớp được chọn",
+        "Phân lớp thủ công từng thí sinh vào từng lớp",
+        "Tự sinh MaSV, Maso, TT, MaHKdau, mật khẩu ngày sinh và các trường Sinhvien theo quy tắc đầu khóa",
+        "Chống phân lớp trùng và rollback toàn bộ nếu một thí sinh trong đợt bị lỗi"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.6/Scores_update_v2.5.6.zip",
+      "release_notes_url": "",
+      "sha256": "cda22319f079e7d6a54a629f3dc7f290459abb1079f4c34e049192077345463f"
+    },
     {
       "version": "2.5.5",
       "released_at": "2026-08-08",
