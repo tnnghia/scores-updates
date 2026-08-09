@@ -1,6 +1,28 @@
 {
-  "latest": "2.5.9",
+  "latest": "2.5.10",
   "releases": [
+    {
+      "version": "2.5.10",
+      "released_at": "2026-08-09",
+      "channel": "stable",
+      "title": "Xác nhận nhập học trong Quản lý tuyển sinh",
+      "description": "Dời Xác nhận nhập học sang Quản lý tuyển sinh, bổ sung chọn theo đợt/ngành-trình độ và tạo hồ sơ Sinhvien tạm khi lưu.",
+      "features": [
+        "Đưa nút Xác nhận nhập học sau Xét tuyển và trước Xuất DS",
+        "Bỏ nút Xác nhận nhập học khỏi Thống kê & báo cáo",
+        "Popup lọc theo đợt xét tuyển và ngành - trình độ",
+        "Kế thừa điều kiện khoản thu HP HK1/Áo đồng phục/Khám sức khỏe/BHTD",
+        "Cho phép chọn từng thí sinh hoặc chọn tất cả",
+        "Khi lưu cập nhật ThisinhXT.Nhaphoc=1",
+        "Đồng thời tạo hồ sơ Sinhvien tạm dạng MaSV=XT+MaTSXT, Maso=ThisinhXT.Maso",
+        "Giữ MaSVgoc=MaSV tạm, MaTS=MaTSXT và lưu MaTSXT để Phân lớp truy vết",
+        "Nhaphoc và tạo Sinhvien tạm chạy cùng transaction",
+        "Có thể sửa hồ sơ lịch sử đã Nhaphoc nhưng còn thiếu Sinhvien tạm"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.10/Scores_update_v2.5.10.zip",
+      "release_notes_url": "",
+      "sha256": "edaa64c6e855315ded5ea5fbe664eb1ac7b53727300a57af229de4ecc73b8851"
+    },
     {
       "version": "2.5.9",
       "released_at": "2026-08-09",
