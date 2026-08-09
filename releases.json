@@ -1,6 +1,24 @@
 {
-  "latest": "2.5.13",
+  "latest": "2.5.14",
   "releases": [
+    {
+      "version": "2.5.14",
+      "released_at": "2026-08-09",
+      "channel": "stable",
+      "title": "Hoàn thiện thống kê tốt nghiệp",
+      "description": "Sĩ số động = tốt nghiệp + đang học; chỉ áp dụng sĩ số cho Khóa lớp và Khóa ngành/nghề.",
+      "features": [
+        "Quyết định tốt nghiệp không hiển thị cột/thẻ Sĩ số",
+        "Khóa lớp và Khóa ngành/nghề có Sĩ số và Tỷ lệ TN",
+        "Sĩ số = số tốt nghiệp + số đang học Tinhtrang=0, không đếm trùng",
+        "Loại nghỉ, bảo lưu và trạng thái khác khỏi sĩ số",
+        "Giữ các thẻ Xuất sắc, Giỏi, Khá, Trung bình, Khá trở lên",
+        "Excel theo Quyết định không có Sĩ số và Tỷ lệ TN"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.14/Scores_update_v2.5.14.zip",
+      "release_notes_url": "",
+      "sha256": "e56d5700fc340b74d5ec6eae7152840a758654de240285a38194a13836894a80"
+    },
     {
       "version": "2.5.13",
       "released_at": "2026-08-09",
