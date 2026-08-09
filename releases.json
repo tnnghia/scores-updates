@@ -1,6 +1,24 @@
 {
-  "latest": "2.5.7",
+  "latest": "2.5.8",
   "releases": [
+    {
+      "version": "2.5.8",
+      "released_at": "2026-08-09",
+      "channel": "stable",
+      "title": "Sửa công thức Maso khi phân lớp",
+      "description": "Điều chỉnh Maso sinh viên theo Tenlop: bỏ toàn bộ dấu gạch ngang, bỏ ký tự cuối và nối TT 3 chữ số.",
+      "features": [
+        "Giữ cơ chế Phân tự động chỉ lập phương án trước khi lưu",
+        "Maso lấy từ Tenlop thay vì MaL",
+        "Tenlop được bỏ toàn bộ ký tự '-'",
+        "Bỏ ký tự cuối sau khi chuẩn hóa Tenlop",
+        "Nối TT dạng 3 chữ số để tạo Maso",
+        "MaTS tiếp tục lấy trực tiếp từ ThisinhXT.Maso"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.8/Scores_update_v2.5.8.zip",
+      "release_notes_url": "",
+      "sha256": "c5a2fd672c7729ea4af75cf362d280aebd3670f4fa440c3b79317388c2c2a910"
+    },
     {
       "version": "2.5.7",
       "released_at": "2026-08-09",
