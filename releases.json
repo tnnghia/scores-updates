@@ -1,6 +1,27 @@
 {
-  "latest": "2.6.0",
+  "latest": "2.6.1",
   "releases": [
+    {
+      "version": "2.6.1",
+      "released_at": "2026-08-10",
+      "channel": "stable",
+      "title": "Quản lý danh mục học phần",
+      "description": "Hoàn thiện Bước 01 với chức năng xem, tìm kiếm, thêm, sửa, xóa và nhập Excel hàng loạt bảng Hocphan.",
+      "features": [
+        "Hiển thị toàn bộ danh mục Hocphan với các cột có ý nghĩa sử dụng",
+        "Tìm kiếm, thêm, sửa và xóa từng học phần",
+        "Nhập tối đa 1000 học phần mỗi lần bằng file Excel",
+        "Có nút tải trực tiếp file Excel mẫu trên giao diện",
+        "Tự sinh MaHP 4 chữ số và Maso khi người dùng để trống",
+        "Tự đồng bộ các cột tên và viết tắt ngôn ngữ phụ",
+        "Để trống MaLoaiHP, MaGVs và MaDV đối với học phần mới",
+        "Không thay đổi dữ liệu ba cột kỹ thuật khi sửa học phần cũ",
+        "Nhập Excel theo transaction, có lỗi sẽ không ghi dữ liệu dở dang"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.1/Scores_update_v2.6.1.zip",
+      "release_notes_url": "",
+      "sha256": "51456ffd0b1d16b54aa55e7b6eb7ac97e39497491582460b34de83a648a3b839"
+    },
     {
       "version": "2.6.0",
       "released_at": "2026-08-10",

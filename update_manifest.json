@@ -1,20 +1,21 @@
 {
-  "version": "2.6.0",
+  "version": "2.6.1",
   "released_at": "2026-08-10",
   "channel": "stable",
-  "title": "Giao diện quản lý lớp học phần theo học kỳ",
-  "description": "Xây dựng khung giao diện 5 bước độc lập cho quy trình quản lý lớp học phần theo từng học kỳ.",
+  "title": "Quản lý danh mục học phần",
+  "description": "Hoàn thiện Bước 01 với chức năng xem, tìm kiếm, thêm, sửa, xóa và nhập Excel hàng loạt bảng Hocphan.",
   "features": [
-    "Bước 1: giao diện Danh mục môn học - bảng Hocphan",
-    "Bước 2: giao diện Chương trình đào tạo - bảng CTDTLop",
-    "Bước 3: giao diện Tạo lớp học phần - bảng LopHP",
-    "Bước 4: giao diện Nhập phân công theo học kỳ và lớp",
-    "Bước 5: giao diện Đưa HSSV vào lớp học phần",
-    "Cho phép chuyển tự do giữa 5 bước",
-    "Tạo vị trí lưu file Excel mẫu cho các bước nhập liệu",
-    "Không thay đổi chức năng Quản sinh và Phân lớp hiện tại"
+    "Hiển thị toàn bộ danh mục Hocphan với các cột có ý nghĩa sử dụng",
+    "Tìm kiếm, thêm, sửa và xóa từng học phần",
+    "Nhập tối đa 1000 học phần mỗi lần bằng file Excel",
+    "Có nút tải trực tiếp file Excel mẫu trên giao diện",
+    "Tự sinh MaHP 4 chữ số và Maso khi người dùng để trống",
+    "Tự đồng bộ các cột tên và viết tắt ngôn ngữ phụ",
+    "Để trống MaLoaiHP, MaGVs và MaDV đối với học phần mới",
+    "Không thay đổi dữ liệu ba cột kỹ thuật khi sửa học phần cũ",
+    "Nhập Excel theo transaction, có lỗi sẽ không ghi dữ liệu dở dang"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.0/Scores_update_v2.6.0.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.1/Scores_update_v2.6.1.zip",
   "release_notes_url": "",
-  "sha256": "e3e4960cfb3c18f9cacbf744bee92b2cd411d0a6a1b3d0815b64eaa3f7acb396"
+  "sha256": "51456ffd0b1d16b54aa55e7b6eb7ac97e39497491582460b34de83a648a3b839"
 }
