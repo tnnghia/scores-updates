@@ -1,6 +1,26 @@
 {
-  "latest": "2.5.22",
+  "latest": "2.5.23",
   "releases": [
+    {
+      "version": "2.5.23",
+      "released_at": "2026-08-10",
+      "channel": "stable",
+      "title": "Bổ sung quản trị tài khoản",
+      "description": "Thêm màn hình dành cho admin để quản lý tài khoản trong SQLite.",
+      "features": [
+        "Thêm và xem danh sách tài khoản",
+        "Reset mật khẩu tài khoản về mặc định 123456",
+        "Chỉnh sửa quyền các tài khoản không phải admin",
+        "Khóa hoặc mở khóa tài khoản",
+        "Xóa tài khoản không phải admin",
+        "Tự nhận diện bảng user hoặc Users trong cơ sở dữ liệu SQLite",
+        "Ưu tiên backup_tuyensinh.sqlite3 và tương thích ngược backup_tuyensinh.db",
+        "Bảo vệ cả hai file cơ sở dữ liệu khi cập nhật tự động"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.23/Scores_update_v2.5.23.zip",
+      "release_notes_url": "",
+      "sha256": "3c7d97cdcf1b307d00d7b388b0225fbec4206315bfe826ea903d2710adbb8d63"
+    },
     {
       "version": "2.5.22",
       "released_at": "2026-08-10",
