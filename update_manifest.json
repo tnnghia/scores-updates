@@ -1,20 +1,20 @@
 {
-  "version": "2.5.23",
+  "version": "2.6.0",
   "released_at": "2026-08-10",
   "channel": "stable",
-  "title": "Bổ sung quản trị tài khoản",
-  "description": "Thêm màn hình dành cho admin để quản lý tài khoản trong SQLite.",
+  "title": "Giao diện quản lý lớp học phần theo học kỳ",
+  "description": "Xây dựng khung giao diện 5 bước độc lập cho quy trình quản lý lớp học phần theo từng học kỳ.",
   "features": [
-    "Thêm và xem danh sách tài khoản",
-    "Reset mật khẩu tài khoản về mặc định 123456",
-    "Chỉnh sửa quyền các tài khoản không phải admin",
-    "Khóa hoặc mở khóa tài khoản",
-    "Xóa tài khoản không phải admin",
-    "Tự nhận diện bảng user hoặc Users trong cơ sở dữ liệu SQLite",
-    "Ưu tiên backup_tuyensinh.sqlite3 và tương thích ngược backup_tuyensinh.db",
-    "Bảo vệ cả hai file cơ sở dữ liệu khi cập nhật tự động"
+    "Bước 1: giao diện Danh mục môn học - bảng Hocphan",
+    "Bước 2: giao diện Chương trình đào tạo - bảng CTDTLop",
+    "Bước 3: giao diện Tạo lớp học phần - bảng LopHP",
+    "Bước 4: giao diện Nhập phân công theo học kỳ và lớp",
+    "Bước 5: giao diện Đưa HSSV vào lớp học phần",
+    "Cho phép chuyển tự do giữa 5 bước",
+    "Tạo vị trí lưu file Excel mẫu cho các bước nhập liệu",
+    "Không thay đổi chức năng Quản sinh và Phân lớp hiện tại"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.23/Scores_update_v2.5.23.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.0/Scores_update_v2.6.0.zip",
   "release_notes_url": "",
-  "sha256": "3c7d97cdcf1b307d00d7b388b0225fbec4206315bfe826ea903d2710adbb8d63"
+  "sha256": "e3e4960cfb3c18f9cacbf744bee92b2cd411d0a6a1b3d0815b64eaa3f7acb396"
 }
