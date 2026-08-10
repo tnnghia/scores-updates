@@ -1,6 +1,21 @@
 {
-  "latest": "2.5.21",
+  "latest": "2.5.22",
   "releases": [
+    {
+      "version": "2.5.22",
+      "released_at": "2026-08-10",
+      "channel": "stable",
+      "title": "Tinh gọn thẻ thống kê tốt nghiệp",
+      "description": "Đưa thông tin Khá trở lên vào dòng phụ thứ hai trong thẻ Tổng số tốt nghiệp.",
+      "features": [
+        "Bỏ thẻ Khá trở lên đứng riêng",
+        "Hiển thị số lượng và tỷ lệ Khá trở lên ở dòng phụ thứ hai, dưới cùng thẻ Tổng số tốt nghiệp",
+        "Giữ nguyên dữ liệu và cách tính thống kê tốt nghiệp"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.22/Scores_update_v2.5.22.zip",
+      "release_notes_url": "",
+      "sha256": "7789c545ebb0061a5b5babff1adead126058560f57730f4bb26a89dca878b18b"
+    },
     {
       "version": "2.5.21",
       "released_at": "2026-08-10",

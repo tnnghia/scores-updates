@@ -1,17 +1,15 @@
 {
-  "version": "2.5.21",
+  "version": "2.5.22",
   "released_at": "2026-08-10",
   "channel": "stable",
-  "title": "Cải tiến thống kê báo cáo và kiểm tra cập nhật",
-  "description": "Bổ sung tải lại thống kê tuyển sinh, tự động tải thống kê tốt nghiệp theo lựa chọn và bỏ thời gian chờ kiểm tra cập nhật 15 phút.",
+  "title": "Tinh gọn thẻ thống kê tốt nghiệp",
+  "description": "Đưa thông tin Khá trở lên vào dòng phụ thứ hai trong thẻ Tổng số tốt nghiệp.",
   "features": [
-    "Thêm nút Tải lại cạnh danh sách chọn năm trong thống kê tuyển sinh",
-    "Bỏ dòng chú thích Số liệu nhập học trong thống kê tuyển sinh",
-    "Tự động tải bảng tốt nghiệp khi chọn Khóa lớp, Khóa ngành/nghề hoặc Quyết định công nhận tốt nghiệp",
-    "Bỏ nút Thống kê trong phần thống kê tốt nghiệp",
-    "Luôn kiểm tra manifest cập nhật mới nhất, không chờ cache 15 phút"
+    "Bỏ thẻ Khá trở lên đứng riêng",
+    "Hiển thị số lượng và tỷ lệ Khá trở lên ở dòng phụ thứ hai, dưới cùng thẻ Tổng số tốt nghiệp",
+    "Giữ nguyên dữ liệu và cách tính thống kê tốt nghiệp"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.21/Scores_update_v2.5.21.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.22/Scores_update_v2.5.22.zip",
   "release_notes_url": "",
-  "sha256": "2975712d2a21ffd04f5135a60cfc3a4cb565fa9abb3fc718e32f52d6e18e3b7d"
+  "sha256": "7789c545ebb0061a5b5babff1adead126058560f57730f4bb26a89dca878b18b"
 }
