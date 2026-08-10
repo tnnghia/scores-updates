@@ -1,15 +1,17 @@
 {
-  "version": "2.5.20",
+  "version": "2.5.21",
   "released_at": "2026-08-10",
   "channel": "stable",
-  "title": "Điều chỉnh vị trí trường Dân tộc",
-  "description": "Đưa dropdown Dân tộc lên cùng hàng với Mã số, Họ lót, Tên và Giới tính trong modal Cập nhật Thông tin thí sinh.",
+  "title": "Cải tiến thống kê báo cáo và kiểm tra cập nhật",
+  "description": "Bổ sung tải lại thống kê tuyển sinh, tự động tải thống kê tốt nghiệp theo lựa chọn và bỏ thời gian chờ kiểm tra cập nhật 15 phút.",
   "features": [
-    "Đưa dropdown Dân tộc lên hàng thông tin đầu tiên",
-    "Sắp xếp cùng hàng với Mã số, Họ lót, Tên và Giới tính",
-    "Giữ nguyên chức năng đọc, chọn và lưu mã dân tộc đã có từ phiên bản 2.5.19"
+    "Thêm nút Tải lại cạnh danh sách chọn năm trong thống kê tuyển sinh",
+    "Bỏ dòng chú thích Số liệu nhập học trong thống kê tuyển sinh",
+    "Tự động tải bảng tốt nghiệp khi chọn Khóa lớp, Khóa ngành/nghề hoặc Quyết định công nhận tốt nghiệp",
+    "Bỏ nút Thống kê trong phần thống kê tốt nghiệp",
+    "Luôn kiểm tra manifest cập nhật mới nhất, không chờ cache 15 phút"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.20/Scores_update_v2.5.20.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.5.21/Scores_update_v2.5.21.zip",
   "release_notes_url": "",
-  "sha256": "862296b63db90ce5ae544306d26098baf8be2b7e82b4dc786814258c480f78dd"
+  "sha256": "2975712d2a21ffd04f5135a60cfc3a4cb565fa9abb3fc718e32f52d6e18e3b7d"
 }
