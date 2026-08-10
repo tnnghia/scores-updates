@@ -1,6 +1,29 @@
 {
-  "latest": "2.6.2",
+  "latest": "2.6.3",
   "releases": [
+    {
+      "version": "2.6.3",
+      "released_at": "2026-08-10",
+      "channel": "stable",
+      "title": "Quản lý chương trình đào tạo theo lớp",
+      "description": "Hoàn thiện Bước 02 với chức năng xem, lọc, thêm, sửa, xóa, đổi học kỳ, nhập Excel và sao chép CTDTLop giữa các khóa/lớp.",
+      "features": [
+        "Hiển thị CTDTLop theo khóa, lớp và nhóm từng học kỳ",
+        "Thêm, sửa, xóa học phần và đổi học kỳ trực tiếp",
+        "Liên kết và kiểm tra dữ liệu Hocphan, Lop, Hocky và NhomHPTC",
+        "Có nút tải trực tiếp file Excel mẫu tối giản trên giao diện",
+        "Nhập tối đa 3000 dòng mỗi lần và hoàn tác toàn bộ nếu có lỗi",
+        "Tự sinh Sotinchi = tín chỉ lý thuyết + tín chỉ thực hành",
+        "Tự sinh Sotiet/Sogio = tín chỉ lý thuyết × 15 + tín chỉ thực hành × 30 và cho phép tín chỉ lẻ",
+        "Đồng bộ Dieukien với Khongtinhdiem và KhongtinhdiemHB",
+        "Tự sinh học kỳ thứ, ID còn trống và các cột kỹ thuật",
+        "Sao chép chương trình lớp cũ sang lớp mới và tự dịch mã học kỳ theo khóa",
+        "Cho phép chỉ bổ sung môn chưa có hoặc thay toàn bộ chương trình lớp đích"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.3/Scores_update_v2.6.3.zip",
+      "release_notes_url": "",
+      "sha256": "dab95fbd24f3f705a0fdd55e03c6a36030588a6dd652e39131710dcee98c04e1"
+    },
     {
       "version": "2.6.2",
       "released_at": "2026-08-10",

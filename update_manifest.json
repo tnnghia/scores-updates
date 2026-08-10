@@ -1,17 +1,23 @@
 {
-  "version": "2.6.2",
+  "version": "2.6.3",
   "released_at": "2026-08-10",
   "channel": "stable",
-  "title": "Ưu tiên mã học phần còn trống",
-  "description": "Điều chỉnh giải thuật cấp MaHP để sử dụng các mã 4 chữ số đang trống trước khi tăng mã mới.",
+  "title": "Quản lý chương trình đào tạo theo lớp",
+  "description": "Hoàn thiện Bước 02 với chức năng xem, lọc, thêm, sửa, xóa, đổi học kỳ, nhập Excel và sao chép CTDTLop giữa các khóa/lớp.",
   "features": [
-    "Tìm mã MaHP nhỏ nhất chưa được sử dụng trong phạm vi 0000-9999",
-    "Ưu tiên lấp các khoảng trống như 0327, 0329 trước khi dùng mã lớn hơn",
-    "Nhập Excel hàng loạt lấy lần lượt nhiều mã trống theo thứ tự tăng dần",
-    "Khóa phạm vi mã trong transaction để tránh hai lượt thêm trùng MaHP",
-    "Giữ nguyên các chức năng xem, tìm kiếm, thêm, sửa, xóa và nhập Excel của Bước 01"
+    "Hiển thị CTDTLop theo khóa, lớp và nhóm từng học kỳ",
+    "Thêm, sửa, xóa học phần và đổi học kỳ trực tiếp",
+    "Liên kết và kiểm tra dữ liệu Hocphan, Lop, Hocky và NhomHPTC",
+    "Có nút tải trực tiếp file Excel mẫu tối giản trên giao diện",
+    "Nhập tối đa 3000 dòng mỗi lần và hoàn tác toàn bộ nếu có lỗi",
+    "Tự sinh Sotinchi = tín chỉ lý thuyết + tín chỉ thực hành",
+    "Tự sinh Sotiet/Sogio = tín chỉ lý thuyết × 15 + tín chỉ thực hành × 30 và cho phép tín chỉ lẻ",
+    "Đồng bộ Dieukien với Khongtinhdiem và KhongtinhdiemHB",
+    "Tự sinh học kỳ thứ, ID còn trống và các cột kỹ thuật",
+    "Sao chép chương trình lớp cũ sang lớp mới và tự dịch mã học kỳ theo khóa",
+    "Cho phép chỉ bổ sung môn chưa có hoặc thay toàn bộ chương trình lớp đích"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.2/Scores_update_v2.6.2.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.3/Scores_update_v2.6.3.zip",
   "release_notes_url": "",
-  "sha256": "020c096b1d1740e93fccc3ad859d37cf87a4cc161d0a5bc21bee1891bb038108"
+  "sha256": "dab95fbd24f3f705a0fdd55e03c6a36030588a6dd652e39131710dcee98c04e1"
 }
