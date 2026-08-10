@@ -1,23 +1,27 @@
 {
-  "version": "2.6.3",
+  "version": "2.6.4",
   "released_at": "2026-08-10",
   "channel": "stable",
-  "title": "Quản lý chương trình đào tạo theo lớp",
-  "description": "Hoàn thiện Bước 02 với chức năng xem, lọc, thêm, sửa, xóa, đổi học kỳ, nhập Excel và sao chép CTDTLop giữa các khóa/lớp.",
+  "title": "Cập nhật tuần tự và hoàn thiện CTĐT theo lớp",
+  "description": "Hoàn thiện cơ chế cập nhật tuần tự, đồng thời điều chỉnh cách nhập, tính giờ/tín chỉ, sao chép và ghi chú nhóm học phần trong CTDTLop.",
   "features": [
-    "Hiển thị CTDTLop theo khóa, lớp và nhóm từng học kỳ",
-    "Thêm, sửa, xóa học phần và đổi học kỳ trực tiếp",
-    "Liên kết và kiểm tra dữ liệu Hocphan, Lop, Hocky và NhomHPTC",
-    "Có nút tải trực tiếp file Excel mẫu tối giản trên giao diện",
-    "Nhập tối đa 3000 dòng mỗi lần và hoàn tác toàn bộ nếu có lỗi",
-    "Tự sinh Sotinchi = tín chỉ lý thuyết + tín chỉ thực hành",
-    "Tự sinh Sotiet/Sogio = tín chỉ lý thuyết × 15 + tín chỉ thực hành × 30 và cho phép tín chỉ lẻ",
-    "Đồng bộ Dieukien với Khongtinhdiem và KhongtinhdiemHB",
-    "Tự sinh học kỳ thứ, ID còn trống và các cột kỹ thuật",
-    "Sao chép chương trình lớp cũ sang lớp mới và tự dịch mã học kỳ theo khóa",
-    "Cho phép chỉ bổ sung môn chưa có hoặc thay toàn bộ chương trình lớp đích"
+    "Lập chuỗi cập nhật từ phiên bản hiện tại đến phiên bản mới nhất theo requires",
+    "Đọc metadata cài đặt các phiên bản trung gian từ releases.json",
+    "Khóa nút cập nhật khi thiếu URL, SHA-256, requires hoặc phiên bản trung gian",
+    "Tải và xác minh toàn bộ gói trước khi bắt đầu thay đổi mã nguồn",
+    "Kiểm tra version và requires bên trong từng file ZIP",
+    "Sao lưu một lần trước toàn bộ chuỗi và ghi nhật ký từng bước",
+    "Cài lần lượt nhiều ZIP và hiển thị tiến độ bước hiện tại",
+    "Rollback toàn bộ chuỗi nếu một bước cài đặt hoặc khởi động lại bị lỗi",
+    "Bỏ giới hạn thời gian chờ cố định trên giao diện trong khi cập nhật",
+    "Đổi dữ liệu nhập CTDTLop sang số giờ lý thuyết và số giờ thực hành",
+    "Tính Sotiet bằng tổng số giờ và tính tín chỉ theo công thức mới, làm tròn nửa lên một chữ số",
+    "Áp dụng công thức Sotiet/45 cho các học phần thực tập và chuyên đề được chỉ định",
+    "Sao chép CTDTLop giữ nguyên toàn bộ giá trị giờ, tiết và tín chỉ của chương trình nguồn",
+    "Hiển thị ghi chú điều kiện chọn nhóm tự chọn và quan hệ môn thay thế OR/AND",
+    "Nhập Excel thay thế CTĐT cũ của các lớp có trong file và hoàn tác toàn bộ nếu xảy ra lỗi"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.3/Scores_update_v2.6.3.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.4/Scores_update_v2.6.4.zip",
   "release_notes_url": "",
-  "sha256": "dab95fbd24f3f705a0fdd55e03c6a36030588a6dd652e39131710dcee98c04e1"
+  "sha256": "87609b4d7d8f0b642a807133ebf0d4fdf710794da733440fb2ea9009ceb1581f"
 }
