@@ -1,5 +1,6 @@
 {
   "latest": "2.6.5",
+  "requires": "2.6.4",
   "releases": [
     {
       "version": "2.6.5",
