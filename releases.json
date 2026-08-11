@@ -1,9 +1,9 @@
 {
   "latest": "2.6.6",
-  "requires": "2.6.5",
   "releases": [
     {
       "version": "2.6.6",
+	  "requires": "2.6.5",
       "released_at": "2026-08-11",
       "channel": "stable",
       "title": "Tối ưu bảng chương trình đào tạo theo học kỳ",
@@ -23,6 +23,7 @@
     },
     {
       "version": "2.6.5",
+	  "requires": "2.6.4",
       "released_at": "2026-08-11",
       "channel": "stable",
       "title": "Nhập chương trình đào tạo theo tên và dữ liệu gốc",
@@ -45,6 +46,7 @@
     },
     {
       "version": "2.6.4",
+	  "requires": "2.6.3",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Cập nhật tuần tự và hoàn thiện CTĐT theo lớp",
