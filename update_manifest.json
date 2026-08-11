@@ -1,21 +1,25 @@
 {
-  "version": "2.6.8",
-  "requires": "2.6.7",
+  "version": "2.6.9",
+  "requires": "2.6.8",
   "released_at": "2026-08-11",
   "channel": "stable",
-  "title": "Tối ưu giao diện tạo lớp học phần và ghép lớp theo từng môn",
-  "description": "Điều chỉnh Bước 03 theo trình tự năm học, lớp chính và cho phép chọn tổ hợp lớp ghép riêng trên từng học phần.",
+  "title": "Đưa HSSV vào lớp học phần",
+  "description": "Hoàn thiện Bước 04: chọn HSSV đang học và lớp học phần theo năm học, đồng bộ an toàn dữ liệu Dangkyhoc và SinhvienLopHP.",
   "features": [
-    "Bộ lọc tuần tự từ năm học đến lớp chính",
-    "Chỉ hiển thị lớp có CTDTLop thuộc học kỳ của năm học đã chọn",
-    "Chọn lớp chính bằng dropdown thay cho danh sách checkbox",
-    "Chọn nhiều lớp ghép riêng cho từng học phần bằng dropdown tại từng dòng",
-    "Tự loại lớp chính khỏi danh sách lớp ghép",
-    "Chỉ hiển thị ứng viên ghép cùng MaHP, MaHK, số tín chỉ và tổng giờ",
-    "Kiểm tra lại trạng thái LopHP đã tồn tại khi thay đổi tổ hợp lớp ghép",
-    "Sắp xếp lại nút theo trình tự chọn môn, bỏ chọn, áp dụng đơn vị và tạo lớp học phần"
+    "Đổi Bước 04 thành Đưa HSSV vào lớp và Bước 05 thành Nhập phân công",
+    "Bộ lọc tuần tự theo năm học, khóa và lớp sinh hoạt",
+    "Chỉ lấy Sinhvien có Tinhtrang bằng 0",
+    "Cho phép chọn cả lớp hoặc chọn riêng từng HSSV",
+    "Cho phép chọn tùy ý một hoặc nhiều LopHP trong năm học",
+    "Tự phân loại chính khóa Dangkymoi bằng 1 và trả nợ/cải thiện bằng 0 theo MaL, MaLs",
+    "Ghi Thoidiem theo SYSDATETIME của SQL Server tại thời điểm đưa vào lớp",
+    "Đồng bộ Dangkyhoc và SinhvienLopHP trong cùng transaction",
+    "Tự bổ sung bảng còn thiếu nếu cặp MaSV, MaLHP chỉ tồn tại ở một bảng",
+    "Không ghi đè dữ liệu điểm hoặc đăng ký học đã tồn tại",
+    "Đặt ThiL0 và ThiL1 bằng 1, ThiL2 bằng 0 cho bản ghi mới",
+    "Hiển thị trước số cặp chính khóa, trả nợ/cải thiện và đã tồn tại"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.8/Scores_update_v2.6.8.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.8",
-  "sha256": "4a9176e852c5e7c1e3737c13f28f986245a269f04245c21153eda139a954a4b3"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.9/Scores_update_v2.6.9.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.9",
+  "sha256": "2c0af386bede28f1fa53a81f2da35757d0e1fe720ea7436cb46fbcfb1ba24a0c"
 }

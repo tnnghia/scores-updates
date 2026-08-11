@@ -1,6 +1,31 @@
 {
-  "latest": "2.6.8",
+  "latest": "2.6.9",
   "releases": [
+    {
+      "version": "2.6.9",
+      "requires": "2.6.8",
+      "released_at": "2026-08-11",
+      "channel": "stable",
+      "title": "Đưa HSSV vào lớp học phần",
+      "description": "Hoàn thiện Bước 04: chọn HSSV đang học và lớp học phần theo năm học, đồng bộ an toàn dữ liệu Dangkyhoc và SinhvienLopHP.",
+      "features": [
+        "Đổi Bước 04 thành Đưa HSSV vào lớp và Bước 05 thành Nhập phân công",
+        "Bộ lọc tuần tự theo năm học, khóa và lớp sinh hoạt",
+        "Chỉ lấy Sinhvien có Tinhtrang bằng 0",
+        "Cho phép chọn cả lớp hoặc chọn riêng từng HSSV",
+        "Cho phép chọn tùy ý một hoặc nhiều LopHP trong năm học",
+        "Tự phân loại chính khóa Dangkymoi bằng 1 và trả nợ/cải thiện bằng 0 theo MaL, MaLs",
+        "Ghi Thoidiem theo SYSDATETIME của SQL Server tại thời điểm đưa vào lớp",
+        "Đồng bộ Dangkyhoc và SinhvienLopHP trong cùng transaction",
+        "Tự bổ sung bảng còn thiếu nếu cặp MaSV, MaLHP chỉ tồn tại ở một bảng",
+        "Không ghi đè dữ liệu điểm hoặc đăng ký học đã tồn tại",
+        "Đặt ThiL0 và ThiL1 bằng 1, ThiL2 bằng 0 cho bản ghi mới",
+        "Hiển thị trước số cặp chính khóa, trả nợ/cải thiện và đã tồn tại"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.9/Scores_update_v2.6.9.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.9",
+      "sha256": "2c0af386bede28f1fa53a81f2da35757d0e1fe720ea7436cb46fbcfb1ba24a0c"
+    },
     {
       "version": "2.6.8",
       "requires": "2.6.7",
