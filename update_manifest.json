@@ -1,23 +1,19 @@
 {
-  "version": "2.6.5",
-  "requires": "2.6.4",
+  "version": "2.6.6",
   "released_at": "2026-08-11",
   "channel": "stable",
-  "title": "Nhập chương trình đào tạo theo tên và dữ liệu gốc",
-  "description": "Điều chỉnh Bước 02 để nhập CTDTLop theo tên hiển thị, lưu trực tiếp tín chỉ và số giờ, đồng thời bổ sung thống kê đầy đủ theo lớp và học kỳ.",
+  "title": "Tối ưu bảng chương trình đào tạo theo học kỳ",
+  "description": "Điều chỉnh bố cục bảng CTDTLop gọn hơn, co giãn theo màn hình và hiển thị đầy đủ danh sách môn của từng học kỳ.",
   "features": [
-    "Mẫu Excel 10 cột theo thứ tự Tên lớp, Tên học kỳ, Tên học phần, tín chỉ và các loại giờ",
-    "Tra cứu tên không phân biệt hoa thường, khoảng trắng và dấu tiếng Việt",
-    "Giữ riêng ký hiệu kỹ thuật như C++ và C# khi đối chiếu tên học phần",
-    "Từ chối nhập khi một tên khớp nhiều mã thay vì tự chọn sai dữ liệu",
-    "Lưu trực tiếp Sotinchi, Sotiet và giờ lý thuyết, không tự tính hoặc quy đổi",
-    "Lưu giờ thực hành bằng giờ thực hành nhập cộng số giờ kiểm tra",
-    "Kiểm tra toàn bộ file trước khi thay CTĐT cũ và rollback toàn bộ nếu có lỗi",
-    "Bỏ ghi chú dữ liệu cũ theo tín chỉ LT/TH",
-    "Tách cột Điều kiện và hiển thị ký hiệu Môn điều kiện",
-    "Thống kê số học phần, tín chỉ, giờ LT và giờ TH cho toàn lớp và từng học kỳ"
+    "Đổi tiêu đề cột Điều kiện thành ĐK",
+    "Đưa cột ĐK đứng trước cột Tín chỉ",
+    "Môn điều kiện chỉ hiển thị bằng dấu tick",
+    "Tự co giãn chiều ngang bảng theo độ phân giải màn hình",
+    "Chỉ cuộn ngang khi màn hình không đủ chiều rộng",
+    "Bỏ giới hạn chiều cao và thanh cuộn dọc trong từng học kỳ",
+    "Hiển thị đầy đủ toàn bộ học phần của mỗi học kỳ"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.5/Scores_update_v2.6.5.zip",
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.6/Scores_update_v2.6.6.zip",
   "release_notes_url": "",
-  "sha256": "d0eb4d04313d9d58aadfe33e7f3fe7c1a9c462f44355df09e498ddb4a45a6829"
+  "sha256": "c4244f5b8101c33c3d4bc90b753ecd15baa2fbd6774f7c10a736f67594ade404"
 }
