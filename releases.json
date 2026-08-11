@@ -1,6 +1,28 @@
 {
-  "latest": "2.6.4",
+  "latest": "2.6.5",
   "releases": [
+    {
+      "version": "2.6.5",
+      "released_at": "2026-08-11",
+      "channel": "stable",
+      "title": "Nhập chương trình đào tạo theo tên và dữ liệu gốc",
+      "description": "Điều chỉnh Bước 02 để nhập CTDTLop theo tên hiển thị, lưu trực tiếp tín chỉ và số giờ, đồng thời bổ sung thống kê đầy đủ theo lớp và học kỳ.",
+      "features": [
+        "Mẫu Excel 10 cột theo thứ tự Tên lớp, Tên học kỳ, Tên học phần, tín chỉ và các loại giờ",
+        "Tra cứu tên không phân biệt hoa thường, khoảng trắng và dấu tiếng Việt",
+        "Giữ riêng ký hiệu kỹ thuật như C++ và C# khi đối chiếu tên học phần",
+        "Từ chối nhập khi một tên khớp nhiều mã thay vì tự chọn sai dữ liệu",
+        "Lưu trực tiếp Sotinchi, Sotiet và giờ lý thuyết, không tự tính hoặc quy đổi",
+        "Lưu giờ thực hành bằng giờ thực hành nhập cộng số giờ kiểm tra",
+        "Kiểm tra toàn bộ file trước khi thay CTĐT cũ và rollback toàn bộ nếu có lỗi",
+        "Bỏ ghi chú dữ liệu cũ theo tín chỉ LT/TH",
+        "Tách cột Điều kiện và hiển thị ký hiệu Môn điều kiện",
+        "Thống kê số học phần, tín chỉ, giờ LT và giờ TH cho toàn lớp và từng học kỳ"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.5/Scores_update_v2.6.5.zip",
+      "release_notes_url": "",
+      "sha256": "d0eb4d04313d9d58aadfe33e7f3fe7c1a9c462f44355df09e498ddb4a45a6829"
+    },
     {
       "version": "2.6.4",
       "released_at": "2026-08-10",
