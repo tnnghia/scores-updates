@@ -1,22 +1,21 @@
 {
-  "version": "2.6.7",
-  "requires": "2.6.6",
+  "version": "2.6.8",
+  "requires": "2.6.7",
   "released_at": "2026-08-11",
   "channel": "stable",
-  "title": "Tạo lớp học phần theo năm học",
-  "description": "Hoàn thiện Bước 03: tạo LopHP cho hai học kỳ từ CTDTLop, hỗ trợ lớp riêng, lớp ghép và chọn đơn vị phụ trách theo từng môn.",
+  "title": "Tối ưu giao diện tạo lớp học phần và ghép lớp theo từng môn",
+  "description": "Điều chỉnh Bước 03 theo trình tự năm học, lớp chính và cho phép chọn tổ hợp lớp ghép riêng trên từng học phần.",
   "features": [
-    "Chọn năm học và hiển thị CTDTLop của học kỳ 1, học kỳ 2 theo lớp",
-    "Liên kết LopHP để nhận biết lớp học phần đã có và không ghi đè dữ liệu cũ",
-    "Chọn đơn vị phụ trách riêng cho từng môn từ Donvi có Daotao bằng 1",
-    "Tạo lớp riêng với sĩ số mặc định 36 và lớp ghép với sĩ số mặc định 50",
-    "Lưu lớp chính trong MaL, các lớp ghép còn lại trong MaLs phân cách bằng dấu phẩy",
-    "Chỉ ghép khi cùng MaHP, MaHK, số tín chỉ và tổng giờ",
-    "Sinh MaLHP từ MaHK, MaDV, MaHP và số thứ tự hai chữ số còn trống",
-    "Tự chọn MaCT2 theo số tín chỉ và thiết lập các cột nhập điểm, xác nhận, công bố, đánh giá, khóa theo yêu cầu",
-    "Kiểm tra toàn bộ lượt tạo trong transaction và rollback nếu có lỗi"
+    "Bộ lọc tuần tự từ năm học đến lớp chính",
+    "Chỉ hiển thị lớp có CTDTLop thuộc học kỳ của năm học đã chọn",
+    "Chọn lớp chính bằng dropdown thay cho danh sách checkbox",
+    "Chọn nhiều lớp ghép riêng cho từng học phần bằng dropdown tại từng dòng",
+    "Tự loại lớp chính khỏi danh sách lớp ghép",
+    "Chỉ hiển thị ứng viên ghép cùng MaHP, MaHK, số tín chỉ và tổng giờ",
+    "Kiểm tra lại trạng thái LopHP đã tồn tại khi thay đổi tổ hợp lớp ghép",
+    "Sắp xếp lại nút theo trình tự chọn môn, bỏ chọn, áp dụng đơn vị và tạo lớp học phần"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.7/Scores_update_v2.6.7.zip",
-  "release_notes_url": "",
-  "sha256": "56ac7538f171baa2f52e4a0e0d34ed93762b00dd56205788f7316f9c84232ecc"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.8/Scores_update_v2.6.8.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.8",
+  "sha256": "4a9176e852c5e7c1e3737c13f28f986245a269f04245c21153eda139a954a4b3"
 }

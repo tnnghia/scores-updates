@@ -1,6 +1,27 @@
 {
-  "latest": "2.6.7",
+  "latest": "2.6.8",
   "releases": [
+    {
+      "version": "2.6.8",
+      "requires": "2.6.7",
+      "released_at": "2026-08-11",
+      "channel": "stable",
+      "title": "Tối ưu giao diện tạo lớp học phần và ghép lớp theo từng môn",
+      "description": "Điều chỉnh Bước 03 theo trình tự năm học, lớp chính và cho phép chọn tổ hợp lớp ghép riêng trên từng học phần.",
+      "features": [
+        "Bộ lọc tuần tự từ năm học đến lớp chính",
+        "Chỉ hiển thị lớp có CTDTLop thuộc học kỳ của năm học đã chọn",
+        "Chọn lớp chính bằng dropdown thay cho danh sách checkbox",
+        "Chọn nhiều lớp ghép riêng cho từng học phần bằng dropdown tại từng dòng",
+        "Tự loại lớp chính khỏi danh sách lớp ghép",
+        "Chỉ hiển thị ứng viên ghép cùng MaHP, MaHK, số tín chỉ và tổng giờ",
+        "Kiểm tra lại trạng thái LopHP đã tồn tại khi thay đổi tổ hợp lớp ghép",
+        "Sắp xếp lại nút theo trình tự chọn môn, bỏ chọn, áp dụng đơn vị và tạo lớp học phần"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.8/Scores_update_v2.6.8.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.8",
+      "sha256": "4a9176e852c5e7c1e3737c13f28f986245a269f04245c21153eda139a954a4b3"
+    },
     {
       "version": "2.6.7",
       "requires": "2.6.6",
