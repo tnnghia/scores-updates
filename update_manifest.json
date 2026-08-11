@@ -1,5 +1,6 @@
 {
   "version": "2.6.6",
+  "requires": "2.6.5",
   "released_at": "2026-08-11",
   "channel": "stable",
   "title": "Tối ưu bảng chương trình đào tạo theo học kỳ",
