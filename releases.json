@@ -3,6 +3,7 @@
   "releases": [
     {
       "version": "2.6.7",
+      "requires": "2.6.6",
       "released_at": "2026-08-11",
       "channel": "stable",
       "title": "Tạo lớp học phần theo năm học",
@@ -95,6 +96,7 @@
     },
     {
       "version": "2.6.3",
+      "requires": "2.6.2",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Quản lý chương trình đào tạo theo lớp",
@@ -118,6 +120,7 @@
     },
     {
       "version": "2.6.2",
+      "requires": "2.6.1",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Ưu tiên mã học phần còn trống",
@@ -135,6 +138,7 @@
     },
     {
       "version": "2.6.1",
+      "requires": "2.6.0",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Quản lý danh mục học phần",
@@ -156,6 +160,7 @@
     },
     {
       "version": "2.6.0",
+      "requires": "2.5.23",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Giao diện quản lý lớp học phần theo học kỳ",
@@ -176,6 +181,7 @@
     },
     {
       "version": "2.5.23",
+      "requires": "2.5.22",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Bổ sung quản trị tài khoản",
@@ -196,6 +202,7 @@
     },
     {
       "version": "2.5.22",
+      "requires": "2.5.21",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Tinh gọn thẻ thống kê tốt nghiệp",
@@ -211,6 +218,7 @@
     },
     {
       "version": "2.5.21",
+      "requires": "2.5.20",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Cải tiến thống kê báo cáo và kiểm tra cập nhật",
@@ -228,6 +236,7 @@
     },
     {
       "version": "2.5.20",
+      "requires": "2.5.19",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Điều chỉnh vị trí trường Dân tộc",
@@ -243,6 +252,7 @@
     },
     {
       "version": "2.5.19",
+      "requires": "2.5.18",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Sửa modal cập nhật thí sinh",
@@ -260,6 +270,7 @@
     },
     {
       "version": "2.5.18",
+      "requires": "2.5.17",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Cập nhật vi sai tuần tự",
@@ -280,6 +291,7 @@
     },
     {
       "version": "2.5.17",
+      "requires": "2.5.16",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Co giãn bảng thống kê tốt nghiệp",
@@ -298,6 +310,7 @@
     },
     {
       "version": "2.5.16",
+      "requires": "2.5.15",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Khôi phục và sửa thống kê tốt nghiệp",
@@ -317,6 +330,7 @@
     },
     {
       "version": "2.5.15",
+      "requires": "2.5.14",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Sửa bảng thống kê theo quyết định tốt nghiệp",
@@ -332,6 +346,7 @@
     },
     {
       "version": "2.5.14",
+      "requires": "2.5.13",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Hoàn thiện thống kê tốt nghiệp",
@@ -350,6 +365,7 @@
     },
     {
       "version": "2.5.13",
+      "requires": "2.5.12",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Sĩ số, tỷ lệ và thẻ xếp loại tốt nghiệp",
@@ -374,6 +390,7 @@
     },
     {
       "version": "2.5.12",
+      "requires": "2.5.11",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Phân lớp cân bằng giới tính",
@@ -393,6 +410,7 @@
     },
     {
       "version": "2.5.11",
+      "requires": "2.5.10",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Bổ sung thống kê Đủ ĐK nhập học",
@@ -411,6 +429,7 @@
     },
     {
       "version": "2.5.10",
+      "requires": "2.5.9",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Xác nhận nhập học trong Quản lý tuyển sinh",
@@ -433,6 +452,7 @@
     },
     {
       "version": "2.5.9",
+      "requires": "2.5.8",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Chuẩn hóa phân lớp từ hồ sơ sinh viên tạm",
@@ -454,6 +474,7 @@
     },
     {
       "version": "2.5.8",
+      "requires": "2.5.7",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Sửa công thức Maso khi phân lớp",
@@ -472,6 +493,7 @@
     },
     {
       "version": "2.5.7",
+      "requires": "2.5.6",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Sửa Phân lớp: phân thử và chuẩn hóa dữ liệu Sinhvien",
@@ -492,6 +514,7 @@
     },
     {
       "version": "2.5.6",
+      "requires": "2.5.5",
       "released_at": "2026-08-09",
       "channel": "stable",
       "title": "Quản sinh - Phân lớp đầu khóa",
@@ -512,6 +535,7 @@
     },
     {
       "version": "2.5.5",
+      "requires": "2.5.4",
       "released_at": "2026-08-08",
       "channel": "stable",
       "title": "Đồng bộ phiên bản từ version.json",
@@ -530,6 +554,7 @@
     },
     {
       "version": "2.5.4",
+      "requires": "2.5.3",
       "released_at": "2026-08-08",
       "channel": "stable",
       "title": "Điều chỉnh tiêu đề học phần",
@@ -549,6 +574,7 @@
     },
     {
       "version": "2.5.3",
+      "requires": "2.5.2",
       "released_at": "2026-08-08",
       "channel": "stable",
       "title": "Lịch sử phiên bản và tự động tạo manifest",
@@ -567,6 +593,7 @@
     },
     {
       "version": "2.5.2",
+      "requires": "2.5.1",
       "released_at": "2026-08-08",
       "channel": "stable",
       "title": "Menu nhóm thu gọn/mở rộng",
@@ -586,6 +613,7 @@
     },
     {
       "version": "2.5.1",
+      "requires": "2.5.0",
       "released_at": "2026-08-08",
       "channel": "stable",
       "title": "Phiên bản & Cập nhật hệ thống",
@@ -604,6 +632,7 @@
     },
     {
       "version": "2.5.0",
+      "requires": "2.4.0",
       "released_at": "2026-08-08",
       "channel": "stable",
       "title": "Cải tiến Tính điểm học tập và cơ chế cập nhật",

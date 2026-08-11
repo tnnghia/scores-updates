@@ -1,5 +1,6 @@
 {
   "version": "2.6.7",
+  "requires": "2.6.6",
   "released_at": "2026-08-11",
   "channel": "stable",
   "title": "Tạo lớp học phần theo năm học",
