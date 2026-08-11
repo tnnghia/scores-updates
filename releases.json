@@ -1,9 +1,30 @@
 {
-  "latest": "2.6.6",
+  "latest": "2.6.7",
   "releases": [
     {
+      "version": "2.6.7",
+      "released_at": "2026-08-11",
+      "channel": "stable",
+      "title": "Tạo lớp học phần theo năm học",
+      "description": "Hoàn thiện Bước 03: tạo LopHP cho hai học kỳ từ CTDTLop, hỗ trợ lớp riêng, lớp ghép và chọn đơn vị phụ trách theo từng môn.",
+      "features": [
+        "Chọn năm học và hiển thị CTDTLop của học kỳ 1, học kỳ 2 theo lớp",
+        "Liên kết LopHP để nhận biết lớp học phần đã có và không ghi đè dữ liệu cũ",
+        "Chọn đơn vị phụ trách riêng cho từng môn từ Donvi có Daotao bằng 1",
+        "Tạo lớp riêng với sĩ số mặc định 36 và lớp ghép với sĩ số mặc định 50",
+        "Lưu lớp chính trong MaL, các lớp ghép còn lại trong MaLs phân cách bằng dấu phẩy",
+        "Chỉ ghép khi cùng MaHP, MaHK, số tín chỉ và tổng giờ",
+        "Sinh MaLHP từ MaHK, MaDV, MaHP và số thứ tự hai chữ số còn trống",
+        "Tự chọn MaCT2 theo số tín chỉ và thiết lập các cột nhập điểm, xác nhận, công bố, đánh giá, khóa theo yêu cầu",
+        "Kiểm tra toàn bộ lượt tạo trong transaction và rollback nếu có lỗi"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.7/Scores_update_v2.6.7.zip",
+      "release_notes_url": "",
+      "sha256": "56ac7538f171baa2f52e4a0e0d34ed93762b00dd56205788f7316f9c84232ecc"
+    },
+    {
       "version": "2.6.6",
-	  "requires": "2.6.5",
+      "requires": "2.6.5",
       "released_at": "2026-08-11",
       "channel": "stable",
       "title": "Tối ưu bảng chương trình đào tạo theo học kỳ",
@@ -23,7 +44,7 @@
     },
     {
       "version": "2.6.5",
-	  "requires": "2.6.4",
+      "requires": "2.6.4",
       "released_at": "2026-08-11",
       "channel": "stable",
       "title": "Nhập chương trình đào tạo theo tên và dữ liệu gốc",
@@ -46,7 +67,7 @@
     },
     {
       "version": "2.6.4",
-	  "requires": "2.6.3",
+      "requires": "2.6.3",
       "released_at": "2026-08-10",
       "channel": "stable",
       "title": "Cập nhật tuần tự và hoàn thiện CTĐT theo lớp",
