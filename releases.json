@@ -1,6 +1,27 @@
 {
-  "latest": "2.6.19",
+  "latest": "2.6.20",
   "releases": [
+    {
+      "version": "2.6.20",
+      "requires": "2.6.19",
+      "released_at": "2026-08-12",
+      "channel": "stable",
+      "title": "Sửa ghi nhận quá trình tốt nghiệp",
+      "description": "Bảo đảm Công nhận tốt nghiệp ghi và xác minh dữ liệu Tốt nghiệp trong QTHoctap, kể cả lớp đã công nhận trước đó.",
+      "features": [
+        "Liên kết Sinhvien.MaDT với Dantoc.MaDT và hiển thị Dantoc",
+        "Liên kết Sinhvien.MaTG với Tongiao.MaTG và hiển thị Tongiao",
+        "Liên kết Sinhvien.MaDTCS với DTCS.MaDTCS và hiển thị DTCS",
+        "Loại khoảng trắng đệm của mã CHAR để tự chọn đúng giá trị đang lưu",
+        "Không âm thầm bỏ qua lỗi cấu trúc danh mục",
+        "Truyền đúng khóa nội bộ Sinhvien.MaSV thay vì nhầm với mã hiển thị Maso",
+        "Tự bổ sung QTHoctap khi lưu lại sinh viên đã được công nhận tốt nghiệp",
+        "Xác minh từng dòng QTHoctap trước khi commit và trả số lượng thêm/cập nhật"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.20/Scores_update_v2.6.20.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.20",
+      "sha256": "a8da69311972f25feb679241bc125755604b510e9cc8c590db47d940d2afeee5"
+    },
     {
       "version": "2.6.19",
       "requires": "2.6.18",
