@@ -1,6 +1,23 @@
 {
-  "latest": "2.6.15",
+  "latest": "2.6.16",
   "releases": [
+    {
+      "version": "2.6.16",
+      "requires": "2.6.15",
+      "released_at": "2026-08-12",
+      "channel": "stable",
+      "title": "Đồng bộ giao diện responsive Bước 06",
+      "description": "Xây dựng lại bố cục Bước 06 để bảng, nút, cây LopHP và các thẻ thống kê tự co giãn theo kích thước, độ phân giải màn hình như các bước còn lại.",
+      "features": [
+        "Đồng bộ kích thước khung, nút và kiểu bảng Bước 06 với các chức năng Lớp học phần",
+        "Tự chuyển cây LopHP và danh sách HSSV từ hai cột sang hai hàng theo chiều rộng thực tế",
+        "Các thẻ thống kê tự chia cột; tiêu đề và nút tự co trên máy tính bảng, điện thoại",
+        "Giữ đầy đủ cột nghiệp vụ và cuộn ngang riêng trong khung bảng khi màn hình hẹp"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.16/Scores_update_v2.6.16.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.16",
+      "sha256": "7728ebfe5c46402d88daa08664f6de84453248fa9d5e72f3a2f7a4e8b5bc48f3"
+    },
     {
       "version": "2.6.15",
       "requires": "2.6.14",
