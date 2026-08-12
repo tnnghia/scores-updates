@@ -1,28 +1,20 @@
 {
   "version": "2.6.10",
   "requires": "2.6.9",
-  "released_at": "2026-08-11",
+  "released_at": "2026-08-12",
   "channel": "stable",
-  "title": "Hoàn thiện lớp ghép, đưa HSSV vào lớp và rollback tự động",
-  "description": "Hiển thị đầy đủ lớp ghép, sửa HTTP 400 và bổ sung quay về phiên bản gần nhất từ backup.",
+  "title": "Hoàn thiện lớp ghép và nhập phân công",
+  "description": "Sửa hiển thị lớp học phần ghép, lỗi đưa HSSV vào lớp và hoàn thiện Bước 05 nhập phân công trực tiếp hoặc bằng Excel.",
   "features": [
-    "Đổi Bước 04 thành Đưa HSSV vào lớp và Bước 05 thành Nhập phân công",
-    "Bộ lọc tuần tự theo năm học, khóa và lớp sinh hoạt",
-    "Chỉ lấy Sinhvien có Tinhtrang bằng 0",
-    "Cho phép chọn cả lớp hoặc chọn riêng từng HSSV",
-    "Cho phép chọn tùy ý một hoặc nhiều LopHP trong năm học",
-    "Tự phân loại chính khóa Dangkymoi bằng 1 và trả nợ/cải thiện bằng 0 theo MaL, MaLs",
-    "Ghi Thoidiem theo SYSDATETIME của SQL Server tại thời điểm đưa vào lớp",
-    "Đồng bộ Dangkyhoc và SinhvienLopHP trong cùng transaction",
-    "Tự bổ sung bảng còn thiếu nếu cặp MaSV, MaLHP chỉ tồn tại ở một bảng",
-    "Không ghi đè dữ liệu điểm hoặc đăng ký học đã tồn tại",
-    "Đặt ThiL0 và ThiL1 bằng 1, ThiL2 bằng 0 cho bản ghi mới",
-    "Hiển thị trước số cặp chính khóa, trả nợ/cải thiện và đã tồn tại",
-    "Hiển thị đầy đủ tên và mã các lớp thành phần của lớp học phần ghép",
-    "Cho phép xử lý năm học hiện có một hoặc nhiều học kỳ",
-    "Tự động quay về phiên bản gần nhất từ backup cập nhật và khởi động lại ứng dụng"
+    "Hiển thị đúng lớp chính MaL và toàn bộ lớp ghép trong MaLs ngay lần tải đầu",
+    "Hiển thị đúng MaLHP và tên đơn vị phụ trách đã chọn của lớp học phần hiện có",
+    "Sửa lỗi checkbox gửi giá trị on gây HTTP 400 tại /api/daotao/lophp-students",
+    "Hoàn thiện Bước 05 với bộ lọc năm học, đơn vị và cả năm hoặc từng học kỳ",
+    "Cho phép phân công một nhà giáo giảng chính và tối đa năm nhà giáo giảng phụ",
+    "Nhà giáo chính và phụ đều được chọn từ danh sách toàn trường, không giới hạn đơn vị",
+    "Xuất và nhập phân công hàng loạt bằng Excel có kiểm tra, rollback khi lỗi"
   ],
   "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.10/Scores_update_v2.6.10.zip",
   "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.10",
-  "sha256": "d7df57695e998d3457c3b11bd81a436d2d0af9dbfead89ee7eef5d3fed212c69"
+  "sha256": "43398f0a896fcb6a162871838135f8771e0939a4c46e460251e2dff08f1c7bb8"
 }
