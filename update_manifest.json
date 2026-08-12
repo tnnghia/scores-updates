@@ -1,19 +1,20 @@
 {
-  "version": "2.6.13",
-  "requires": "2.6.12",
+  "version": "2.6.14",
+  "requires": "2.6.13",
   "released_at": "2026-08-12",
   "channel": "stable",
-  "title": "Hoàn thiện tải Excel chương trình đào tạo",
-  "description": "Chuyển và hợp nhất chức năng tải Excel CTĐT tại Bước 02, đồng thời đổi tên chức năng thành Lớp học phần.",
+  "title": "Giao diện Tra cứu và Nhập điểm dạng cây",
+  "description": "Xây dựng lại giao diện Tra cứu/Nhập điểm thân thiện theo cây Năm học, Đơn vị, Học phần và Lớp học phần; giữ nguyên giải thuật và API điểm hiện có.",
   "features": [
-    "Chuyển nút tải Excel CTĐT từ Bước 03 sang Bước 02",
-    "Hợp nhất nút tải file mẫu và tải CTĐT hiện có thành nút Tải Excel CTĐT",
-    "Xuất toàn bộ chương trình đào tạo của lớp qua tất cả học kỳ khi đã có dữ liệu",
-    "Xuất mẫu Excel CTĐT với các dòng trống khi lớp chưa có chương trình",
-    "Đổi tên Lớp học phần theo học kỳ thành Lớp học phần",
-    "Giữ quy trình 5 bước và không bổ sung Bước 06"
+    "Hiển thị cây Năm học, Đơn vị quản lý, Tên học phần và Tên lớp học phần",
+    "Chỉ tải danh sách HSSV và điểm khi người dùng chọn một lớp học phần",
+    "Giữ đầy đủ 18 cột thông tin và điểm của giao diện hiện có",
+    "Bố trí các nút in danh sách, thi L1, thi L2, kết quả học tập và lưu điểm cạnh thông tin lớp",
+    "Hợp nhất Hủy xác nhận và Hủy công bố thành một nút xử lý theo trạng thái thực tế",
+    "Giữ badge MaLHP, nhà giáo, trạng thái xác nhận và công bố",
+    "Bổ sung tìm kiếm nhanh trong cây lớp học phần và giao diện responsive"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.13/Scores_update_v2.6.13.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.13",
-  "sha256": "c6a0c973aa52199a749ab52fa9845248351d4ab0b7ed8a21a5413e8eb47b18a8"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.14/Scores_update_v2.6.14.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.14",
+  "sha256": "dedc8cf68dcca5b9d1358fd7bd01e8ad7f5d4b92597b8121d7eaa68429f56b85"
 }
