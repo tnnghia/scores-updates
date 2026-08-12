@@ -1,21 +1,18 @@
 {
-  "version": "2.6.18",
-  "requires": "2.6.17",
+  "version": "2.6.19",
+  "requires": "2.6.18",
   "released_at": "2026-08-12",
   "channel": "stable",
-  "title": "Hoàn thiện quá trình học tập HSSV",
-  "description": "Sửa cây khóa theo MaL và hoàn thiện ghi nhận độc lập phân lớp, bảo lưu, học tiếp, thôi học, tốt nghiệp vào QTHoctap.",
+  "title": "Sửa danh mục hồ sơ Lớp sinh hoạt",
+  "description": "Khắc phục modal không hiển thị giá trị và danh sách Dân tộc, Tôn giáo, Đối tượng chính sách.",
   "features": [
-    "Xác định Khóa từ ký tự thứ 2 và 3 của Lop.MaL",
-    "Hiển thị dữ liệu Bảo lưu, Thôi học đã có khi mở modal",
-    "Tách nút Bảo lưu và Học tiếp thành hai nghiệp vụ lưu độc lập",
-    "Bỏ nút ghi Tốt nghiệp tại Lớp sinh hoạt nhưng vẫn hiển thị lịch sử",
-    "Liên kết Thành phần gia đình bằng Sinhvien.MaTPGD và bảng TPGD",
-    "Bổ sung danh mục Trình độ văn hóa và chuẩn hóa Hình thức tạm trú",
-    "Ghi QTHoctap khi lưu Phân lớp và khi Công nhận tốt nghiệp",
-    "Đảm bảo cập nhật Sinhvien, ThisinhXT và QTHoctap trong transaction"
+    "Liên kết Sinhvien.MaDT với Dantoc.MaDT và hiển thị Dantoc",
+    "Liên kết Sinhvien.MaTG với Tongiao.MaTG và hiển thị Tongiao",
+    "Liên kết Sinhvien.MaDTCS với DTCS.MaDTCS và hiển thị DTCS",
+    "Loại khoảng trắng đệm của mã CHAR để tự chọn đúng giá trị đang lưu",
+    "Không âm thầm bỏ qua lỗi cấu trúc danh mục"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.18/Scores_update_v2.6.18.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.18",
-  "sha256": "e745c8ccb91fb23f1efd82f11a2cede85847654d6a7bfc5bc410ada716471a42"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.19/Scores_update_v2.6.19.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.19",
+  "sha256": "bfe4a68d4940aa311b3798f14b0e1c9cb9404d6454a2c46c86eb4fbfe15dcc21"
 }
