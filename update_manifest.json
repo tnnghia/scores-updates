@@ -1,20 +1,17 @@
 {
-  "version": "2.6.10",
-  "requires": "2.6.9",
+  "version": "2.6.11",
+  "requires": "2.6.10",
   "released_at": "2026-08-12",
   "channel": "stable",
-  "title": "Hoàn thiện lớp ghép và nhập phân công",
-  "description": "Sửa hiển thị lớp học phần ghép, lỗi đưa HSSV vào lớp và hoàn thiện Bước 05 nhập phân công trực tiếp hoặc bằng Excel.",
+  "title": "Lọc lớp học phần chính khóa và trả nợ",
+  "description": "Bổ sung bộ lọc loại lớp học phần tại Bước 04 để chọn nhanh lớp chính khóa hoặc trả nợ/cải thiện.",
   "features": [
-    "Hiển thị đúng lớp chính MaL và toàn bộ lớp ghép trong MaLs ngay lần tải đầu",
-    "Hiển thị đúng MaLHP và tên đơn vị phụ trách đã chọn của lớp học phần hiện có",
-    "Sửa lỗi checkbox gửi giá trị on gây HTTP 400 tại /api/daotao/lophp-students",
-    "Hoàn thiện Bước 05 với bộ lọc năm học, đơn vị và cả năm hoặc từng học kỳ",
-    "Cho phép phân công một nhà giáo giảng chính và tối đa năm nhà giáo giảng phụ",
-    "Nhà giáo chính và phụ đều được chọn từ danh sách toàn trường, không giới hạn đơn vị",
-    "Xuất và nhập phân công hàng loạt bằng Excel có kiểm tra, rollback khi lỗi"
+    "Thêm bộ lọc Tất cả, Chính khóa và Trả nợ/Cải thiện tại phần Chọn lớp học phần",
+    "Xác định chính khóa theo lớp sinh hoạt có trong MaL hoặc MaLs của LopHP",
+    "Hiển thị số lượng lớp học phần sau lọc trên tổng số lớp của năm học",
+    "Nút Chọn tất cả chỉ chọn các lớp học phần đang hiển thị theo bộ lọc"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.10/Scores_update_v2.6.10.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.10",
-  "sha256": "43398f0a896fcb6a162871838135f8771e0939a4c46e460251e2dff08f1c7bb8"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.11/Scores_update_v2.6.11.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.11",
+  "sha256": "65c11464f88521ce8bacfca18fdfcdac9f3d849371a8a43bd6745d839a8bfd5d"
 }
