@@ -1,6 +1,26 @@
 {
-  "latest": "2.6.14",
+  "latest": "2.6.15",
   "releases": [
+    {
+      "version": "2.6.15",
+      "requires": "2.6.14",
+      "released_at": "2026-08-12",
+      "channel": "stable",
+      "title": "Quản lý LopHP và thống kê tham dự",
+      "description": "Tối ưu cây Tra cứu/Nhập điểm và bổ sung Bước 06 quản lý HSSV, thống kê điểm danh theo giải thuật Minh chứng Giờ lớp đông.",
+      "features": [
+        "Thu gọn mặc định toàn bộ cây Tra cứu/Nhập điểm và giảm mật độ thông tin",
+        "Nhấn rõ cấp cuối Tenlop bằng nền xanh, biểu tượng và mã LopHP ngắn gọn",
+        "Bổ sung Bước 06 Quản lý LopHP với cây Năm học, Đơn vị, Học phần và LopHP",
+        "Thống kê trực tiếp từ SinhvienLopHP, TKB, Diemdanh, KetquaLopHP2 và CTDTLop",
+        "Phân loại tham dự: đầy đủ, vắng trong giới hạn, vắng nhiều có/không điểm, nghỉ toàn bộ và chưa đủ dữ liệu",
+        "Xác định có điểm kiểm tra theo C11, C12, C21, C22, C23, C24, C25",
+        "Cho phép xóa an toàn HSSV khỏi SinhvienLopHP và Dangkyhoc khi chưa phát sinh điểm hoặc điểm danh"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.15/Scores_update_v2.6.15.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.15",
+      "sha256": "af8168181a1b805af232c0d17186c8337d55d6a1691facaabc70fca54e3ece9e"
+    },
     {
       "version": "2.6.14",
       "requires": "2.6.13",
