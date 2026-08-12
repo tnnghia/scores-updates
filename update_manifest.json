@@ -1,20 +1,19 @@
 {
-  "version": "2.6.12",
-  "requires": "2.6.11",
+  "version": "2.6.13",
+  "requires": "2.6.12",
   "released_at": "2026-08-12",
   "channel": "stable",
-  "title": "Hoàn thiện thao tác lớp học phần",
-  "description": "Bổ sung lọc lớp học phần, xóa LopHP an toàn và xuất chương trình đào tạo hiện có theo mẫu Excel cũ.",
+  "title": "Hoàn thiện tải Excel chương trình đào tạo",
+  "description": "Chuyển và hợp nhất chức năng tải Excel CTĐT tại Bước 02, đồng thời đổi tên chức năng thành Lớp học phần.",
   "features": [
-    "Thêm bộ lọc Tất cả, Chính khóa và Trả nợ/Cải thiện tại phần Chọn lớp học phần",
-    "Xác định chính khóa theo lớp sinh hoạt có trong MaL hoặc MaLs của LopHP",
-    "Hiển thị số lượng lớp học phần sau lọc trên tổng số lớp của năm học",
-    "Nút Chọn tất cả chỉ chọn các lớp học phần đang hiển thị theo bộ lọc",
-    "Bỏ dòng ghi chú trạng thái Bước đã hoạt động trên giao diện",
-    "Thêm nút xóa cạnh MaLHP tại cột Trạng thái và chặn xóa khi đã có dữ liệu liên quan",
-    "Xuất CTĐT của lớp và năm học đang chọn theo đúng mẫu Excel cũ với dữ liệu hiện có"
+    "Chuyển nút tải Excel CTĐT từ Bước 03 sang Bước 02",
+    "Hợp nhất nút tải file mẫu và tải CTĐT hiện có thành nút Tải Excel CTĐT",
+    "Xuất toàn bộ chương trình đào tạo của lớp qua tất cả học kỳ khi đã có dữ liệu",
+    "Xuất mẫu Excel CTĐT với các dòng trống khi lớp chưa có chương trình",
+    "Đổi tên Lớp học phần theo học kỳ thành Lớp học phần",
+    "Giữ quy trình 5 bước và không bổ sung Bước 06"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.12/Scores_update_v2.6.12.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.12",
-  "sha256": "fcf388bd2ddda63976b47be51b6f65058101e696197b73f811c7e39e63c84c98"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.13/Scores_update_v2.6.13.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.13",
+  "sha256": "c6a0c973aa52199a749ab52fa9845248351d4ab0b7ed8a21a5413e8eb47b18a8"
 }
