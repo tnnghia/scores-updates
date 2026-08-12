@@ -1,19 +1,21 @@
 {
-  "version": "2.6.17",
-  "requires": "2.6.16",
+  "version": "2.6.18",
+  "requires": "2.6.17",
   "released_at": "2026-08-12",
   "channel": "stable",
-  "title": "Quản lý lớp sinh hoạt và quá trình học tập",
-  "description": "Bổ sung quản lý hồ sơ Sinhvien theo cây Khóa, Lớp; quản lý tình trạng và lịch sử QTHoctap trong cùng giao diện.",
+  "title": "Hoàn thiện quá trình học tập HSSV",
+  "description": "Sửa cây khóa theo MaL và hoàn thiện ghi nhận độc lập phân lớp, bảo lưu, học tiếp, thôi học, tốt nghiệp vào QTHoctap.",
   "features": [
-    "Cây Khóa, Lớp và danh sách toàn bộ HSSV theo MaL",
-    "Lọc đồng thời nhiều tình trạng và tùy chọn thêm cột hiển thị",
-    "Modal bốn tab: Thông tin chung, Liên hệ, Học tập, Tài khoản",
-    "Cập nhật hồ sơ, reset mật khẩu theo ngày sinh ddMMyyyy và đặt ChangePass về 0",
-    "Chuyển lớp, bảo lưu, thôi học, chuyển học tiếp và tốt nghiệp trong transaction",
-    "Lưu trạng thái hiện hành tại Sinhvien và lịch sử đầy đủ tại QTHoctap"
+    "Xác định Khóa từ ký tự thứ 2 và 3 của Lop.MaL",
+    "Hiển thị dữ liệu Bảo lưu, Thôi học đã có khi mở modal",
+    "Tách nút Bảo lưu và Học tiếp thành hai nghiệp vụ lưu độc lập",
+    "Bỏ nút ghi Tốt nghiệp tại Lớp sinh hoạt nhưng vẫn hiển thị lịch sử",
+    "Liên kết Thành phần gia đình bằng Sinhvien.MaTPGD và bảng TPGD",
+    "Bổ sung danh mục Trình độ văn hóa và chuẩn hóa Hình thức tạm trú",
+    "Ghi QTHoctap khi lưu Phân lớp và khi Công nhận tốt nghiệp",
+    "Đảm bảo cập nhật Sinhvien, ThisinhXT và QTHoctap trong transaction"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.17/Scores_update_v2.6.17.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.17",
-  "sha256": "f1d127762292961264cf3263aa871ada232404a44b6f50612827778567660384"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.18/Scores_update_v2.6.18.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.18",
+  "sha256": "e745c8ccb91fb23f1efd82f11a2cede85847654d6a7bfc5bc410ada716471a42"
 }
