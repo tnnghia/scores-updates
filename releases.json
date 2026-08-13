@@ -1,6 +1,27 @@
 {
-  "latest": "2.6.24",
+  "latest": "13.8.2002",
   "releases": [
+    {
+      "version": "13.8.2002",
+      "requires": "2.6.24",
+      "released_at": "2026-08-13",
+      "channel": "stable",
+      "title": "Bản đặc biệt 13.8.2002",
+      "description": "Hoàn thiện cảnh báo học tập, xét tuyển theo năm, tra cứu nhập điểm, chuyển điểm/miễn môn và dấu hiệu First Dating ngày 13/8.",
+      "features": [
+        "Tổng chỉ tiêu, đã trúng tuyển, số vượt và tỷ lệ theo toàn bộ các đợt cùng năm tuyển sinh",
+        "Danh sách thí sinh trong modal vẫn theo đúng đợt xét tuyển đang chọn",
+        "Cảnh báo học tập hiển thị, in và xuất Excel cột ĐTB với hai chữ số thập phân",
+        "Hiển thị đúng lần cảnh báo theo học kỳ áp dụng và phân màu Lần 1, Lần 2, Lần 3",
+        "Sắp xếp tên học phần theo ABC tiếng Việt trong cây Tra cứu / Nhập điểm",
+        "Khi ghi chuyển điểm hoặc miễn môn, xóa dữ liệu cá nhân khỏi lớp học phần cùng môn và học kỳ",
+        "Dọn cả trường hợp HSSV đã đăng ký học hoặc đã phát sinh tiến trình",
+        "Ngày 13/8 theo múi giờ Việt Nam tự thay logo bằng ba hoa hồng CSS đỏ, hồng, vàng có hiệu ứng lung linh và chữ First Dating"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2002/FlaskApp_13.8.2002.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2002",
+      "sha256": "760e507731cf4e1b8be522ab640a3907d316f2fc10f0b0f89d9a0443bcdc7386"
+    },
     {
       "version": "2.6.24",
       "requires": "2.6.23",
