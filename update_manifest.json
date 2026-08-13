@@ -1,10 +1,10 @@
 {
-  "version": "2.6.22",
-  "requires": "2.6.21",
+  "version": "2.6.23",
+  "requires": "2.6.22",
   "released_at": "2026-08-13",
   "channel": "stable",
-  "title": "Trung tâm quản trị và hoàn thiện cảnh báo học tập",
-  "description": "Tách khu vực Quản trị, quản lý dữ liệu gốc và phân công hiện có, đồng thời hoàn thiện thống kê và ghi nhận cảnh báo học tập.",
+  "title": "Vá bộ lọc học kỳ cảnh báo học tập",
+  "description": "Tách riêng học kỳ lấy kết quả xét và học kỳ áp dụng cảnh báo để người dùng chủ động chọn đúng dữ liệu.",
   "features": [
     "Liên kết Sinhvien.MaDT với Dantoc.MaDT và hiển thị Dantoc",
     "Liên kết Sinhvien.MaTG với Tongiao.MaTG và hiển thị Tongiao",
@@ -26,9 +26,12 @@
     "CRUD và nhập Excel cho Giaovien, Donvi, Phonghoc và Nhomphong",
     "Quản lý trực tiếp RightsDonvi, RightsLop và RightsLopHP, không sinh bảng mới",
     "Cảnh báo học tập chỉ xét Sinhvien.Tinhtrang = 0 và ghi QTHoctap theo lựa chọn tại báo cáo",
-    "Sắp xếp danh mục Hocky đúng trình tự thời gian với cơ chế dự phòng"
+    "Sắp xếp danh mục Hocky đúng trình tự thời gian với cơ chế dự phòng",
+    "Bổ sung bộ chọn học kỳ lấy kết quả xét độc lập",
+    "Giữ bộ chọn học kỳ áp dụng cảnh báo độc lập",
+    "Ghi QTHoctap theo đúng cặp học kỳ người dùng đã chọn"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.22/Scores_update_v2.6.22.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.22",
-  "sha256": "5ee42ccd93a00d4f2e24127004fa553cb365be5727ac588971a952b88320a854"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.23/Scores_update_v2.6.23.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.23",
+  "sha256": "3d0e75440f6ddf1ff619d476f19e83f7a76aeb60c8b4b332781937665262bfe2"
 }
