@@ -1,10 +1,10 @@
 {
-  "version": "2.6.21",
-  "requires": "2.6.20",
+  "version": "2.6.22",
+  "requires": "2.6.21",
   "released_at": "2026-08-13",
   "channel": "stable",
-  "title": "Cảnh báo học tập, lớp riêng và tiến độ đào tạo",
-  "description": "Bổ sung lịch sử cảnh báo học tập, báo cáo theo học kỳ, tạo lớp học phần riêng và làm mới giao diện tiến độ/Dashboard.",
+  "title": "Trung tâm quản trị và hoàn thiện cảnh báo học tập",
+  "description": "Tách khu vực Quản trị, quản lý dữ liệu gốc và phân công hiện có, đồng thời hoàn thiện thống kê và ghi nhận cảnh báo học tập.",
   "features": [
     "Liên kết Sinhvien.MaDT với Dantoc.MaDT và hiển thị Dantoc",
     "Liên kết Sinhvien.MaTG với Tongiao.MaTG và hiển thị Tongiao",
@@ -20,9 +20,15 @@
     "Báo cáo danh sách cảnh báo theo học kỳ, xuất Excel và in",
     "Tạo lớp riêng từ học phần ở mọi học kỳ CTĐT với tên Tên môn - Năm - RNN",
     "Làm mới giao diện Tiến độ đào tạo responsive và đồng bộ dữ liệu Dashboard",
-    "Dashboard tự giữ học kỳ gần nhất khi năm học mới chưa bắt đầu"
+    "Dashboard tự giữ học kỳ gần nhất khi năm học mới chưa bắt đầu",
+    "Tách Báo cáo - Thống kê và Quản trị thành hai nhóm sidebar",
+    "Trung tâm quản trị dạng thẻ cho tài khoản, danh mục, phân công và cập nhật",
+    "CRUD và nhập Excel cho Giaovien, Donvi, Phonghoc và Nhomphong",
+    "Quản lý trực tiếp RightsDonvi, RightsLop và RightsLopHP, không sinh bảng mới",
+    "Cảnh báo học tập chỉ xét Sinhvien.Tinhtrang = 0 và ghi QTHoctap theo lựa chọn tại báo cáo",
+    "Sắp xếp danh mục Hocky đúng trình tự thời gian với cơ chế dự phòng"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.21/Scores_update_v2.6.21.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.21",
-  "sha256": "49f487a38f55e3f5d20b534bf49f1e56d886c524954aa0567674260c9e3e28f6"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.22/Scores_update_v2.6.22.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.22",
+  "sha256": "5ee42ccd93a00d4f2e24127004fa553cb365be5727ac588971a952b88320a854"
 }
