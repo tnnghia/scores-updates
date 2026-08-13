@@ -1,6 +1,34 @@
 {
-  "latest": "2.6.20",
+  "latest": "2.6.21",
   "releases": [
+    {
+      "version": "2.6.21",
+      "requires": "2.6.20",
+      "released_at": "2026-08-13",
+      "channel": "stable",
+      "title": "Cảnh báo học tập, lớp riêng và tiến độ đào tạo",
+      "description": "Bổ sung lịch sử cảnh báo học tập, báo cáo theo học kỳ, tạo lớp học phần riêng và làm mới giao diện tiến độ/Dashboard.",
+      "features": [
+        "Liên kết Sinhvien.MaDT với Dantoc.MaDT và hiển thị Dantoc",
+        "Liên kết Sinhvien.MaTG với Tongiao.MaTG và hiển thị Tongiao",
+        "Liên kết Sinhvien.MaDTCS với DTCS.MaDTCS và hiển thị DTCS",
+        "Loại khoảng trắng đệm của mã CHAR để tự chọn đúng giá trị đang lưu",
+        "Không âm thầm bỏ qua lỗi cấu trúc danh mục",
+        "Truyền đúng khóa nội bộ Sinhvien.MaSV thay vì nhầm với mã hiển thị Maso",
+        "Tự bổ sung QTHoctap khi lưu lại sinh viên đã được công nhận tốt nghiệp",
+        "Xác minh từng dòng QTHoctap trước khi commit và trả số lượng thêm/cập nhật",
+        "Sửa modal Bảo lưu/Học tiếp không hiển thị giá trị và danh sách học kỳ",
+        "Chuẩn hóa mã học kỳ CHAR và tên cột lịch sử QTHoctap không phân biệt hoa thường",
+        "Ghi Cảnh báo học tập vào QTHoctap theo học kỳ áp dụng và tự xác định lần cảnh báo",
+        "Báo cáo danh sách cảnh báo theo học kỳ, xuất Excel và in",
+        "Tạo lớp riêng từ học phần ở mọi học kỳ CTĐT với tên Tên môn - Năm - RNN",
+        "Làm mới giao diện Tiến độ đào tạo responsive và đồng bộ dữ liệu Dashboard",
+        "Dashboard tự giữ học kỳ gần nhất khi năm học mới chưa bắt đầu"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.21/Scores_update_v2.6.21.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.21",
+      "sha256": "49f487a38f55e3f5d20b534bf49f1e56d886c524954aa0567674260c9e3e28f6"
+    },
     {
       "version": "2.6.20",
       "requires": "2.6.19",
