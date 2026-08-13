@@ -1,10 +1,10 @@
 {
-  "version": "2.6.23",
-  "requires": "2.6.22",
+  "version": "2.6.24",
+  "requires": "2.6.23",
   "released_at": "2026-08-13",
   "channel": "stable",
-  "title": "Vá bộ lọc học kỳ cảnh báo học tập",
-  "description": "Tách riêng học kỳ lấy kết quả xét và học kỳ áp dụng cảnh báo để người dùng chủ động chọn đúng dữ liệu.",
+  "title": "Hiển thị đúng lần cảnh báo theo học kỳ",
+  "description": "Xác định số lần cảnh báo theo chính bản ghi của học kỳ áp dụng và phân biệt màu từng mức cảnh báo.",
   "features": [
     "Liên kết Sinhvien.MaDT với Dantoc.MaDT và hiển thị Dantoc",
     "Liên kết Sinhvien.MaTG với Tongiao.MaTG và hiển thị Tongiao",
@@ -29,9 +29,12 @@
     "Sắp xếp danh mục Hocky đúng trình tự thời gian với cơ chế dự phòng",
     "Bổ sung bộ chọn học kỳ lấy kết quả xét độc lập",
     "Giữ bộ chọn học kỳ áp dụng cảnh báo độc lập",
-    "Ghi QTHoctap theo đúng cặp học kỳ người dùng đã chọn"
+    "Ghi QTHoctap theo đúng cặp học kỳ người dùng đã chọn",
+    "Hiển thị đúng lần cảnh báo của chính học kỳ áp dụng đang chọn",
+    "Cảnh báo chưa ghi chỉ đếm các lần xảy ra trước học kỳ đang xem",
+    "Phân màu Lần 1 xanh dương, Lần 2 cam và Lần 3 đỏ"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.23/Scores_update_v2.6.23.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.23",
-  "sha256": "3d0e75440f6ddf1ff619d476f19e83f7a76aeb60c8b4b332781937665262bfe2"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v2.6.24/Scores_update_v2.6.24.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v2.6.24",
+  "sha256": "7ab5bde61f06dac847f8b4b335bf9dbfe830fc60b991cc7a2e940b7dc4353f6f"
 }
