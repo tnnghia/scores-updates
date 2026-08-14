@@ -1,6 +1,31 @@
 {
-  "latest": "13.8.2003",
+  "latest": "13.8.2004",
   "releases": [
+    {
+      "version": "13.8.2004",
+      "requires": "13.8.2003",
+      "released_at": "2026-08-14",
+      "channel": "stable",
+      "title": "Báo cáo biến động HSSV và giao diện tài khoản",
+      "description": "Bổ sung thống kê QTHoctap theo lớp có học phần, cây thư mục theo học kỳ, bộ lọc tiến độ và giao diện đăng nhập/đổi mật khẩu.",
+      "features": [
+        "Cây Tra cứu/Nhập điểm và Lớp học phần Bước 6 theo Năm học, Học kỳ, Đơn vị, Học phần, Lớp học phần",
+        "Tên học phần sắp xếp ABC tiếng Việt và không hiển thị nhánh rỗng",
+        "Bộ lọc Tiến độ đào tạo theo Năm học, Học kỳ, Đơn vị và lớp chính",
+        "Cột Lớp của tiến độ hiển thị đúng LopHP.Tenlop, bao gồm tên lớp ghép",
+        "Báo cáo Biến động HSSV theo học kỳ, đơn vị và từng lớp có học phần",
+        "Thống kê đang học, nghỉ học, bảo lưu, học tiếp, chưa trở lại và cảnh báo từ QTHoctap",
+        "Bảng chi tiết, biểu đồ, bản in và Excel cho thống kê biến động HSSV",
+        "Báo cáo HSSV hiện có chỉ thống kê lớp có LopHP trong học kỳ",
+        "Xây dựng lại giao diện đăng nhập responsive và đồng bộ design system",
+        "Người dùng tự đổi mật khẩu, kiểm tra mật khẩu hiện tại và đăng nhập lại sau khi đổi",
+        "Logo ngày kỷ niệm áp dụng cả màn hình đăng nhập; Năm mới hiển thị năm tự động và pháo hoa nhỏ",
+        "Không bổ sung bảng hoặc cột cơ sở dữ liệu"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2004/FlaskApp_13.8.2004.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2004",
+      "sha256": "08615384c68b0eaf1bdbfb69a5b959ca1f6d54120a730dab0fd127418451e279"
+    },
     {
       "version": "13.8.2003",
       "requires": "13.8.2002",
