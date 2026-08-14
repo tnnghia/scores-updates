@@ -1,20 +1,20 @@
 {
-  "version": "13.8.2007",
-  "requires": "13.8.2006",
+  "version": "13.8.2008",
+  "requires": "13.8.2007",
   "released_at": "2026-08-14",
   "channel": "stable",
-  "title": "Bộ lọc khóa, logo kỷ niệm và nhật ký toàn hệ thống",
-  "description": "Tinh gọn thống kê biến động theo khóa/lớp, chuẩn hóa logo ba ngày và tự động ghi nhật ký thao tác dữ liệu.",
+  "title": "Đồng bộ giao diện nghiệp vụ và phân trang nhật ký",
+  "description": "Chuẩn hóa giao diện chuyển điểm, tính điểm, lịch học/lịch thi và cho phép xem toàn bộ lịch sử hoạt động theo trang.",
   "features": [
-    "Bộ lọc Thống kê biến động chỉ còn Khóa và Lớp; khóa lấy từ ký tự thứ 2-3 của MaL",
-    "Dời cột Còn lại ngay sau Sĩ số gốc và giữ nguyên toàn bộ công thức biến động 13.8.2006",
-    "Ngày trước, ngày chính và ngày sau đều hiển thị đúng ngày kỷ niệm chính",
-    "Logo First Dating dùng ba hoa hồng CSS độc lập màu đỏ, hồng và vàng kèm hiệu ứng lung linh",
-    "Tự động ghi nhật ký mọi yêu cầu POST/PUT/PATCH/DELETE của tất cả tài khoản đã đăng nhập",
-    "Che các trường mật khẩu, token, khóa bí mật và không lưu nội dung tệp vào nhật ký",
+    "Đồng bộ thẻ tiêu đề, bộ lọc, vùng kết quả và hành động của Chuyển điểm / Miễn môn",
+    "Đồng bộ giao diện Tính điểm học tập nhưng giữ nguyên API, JavaScript và nguyên tắc tính",
+    "Chuẩn hóa Lịch học / Lịch thi và các bảng lịch trên desktop, tablet, mobile",
+    "Nhật ký hệ thống phân trang toàn bộ dữ liệu với tùy chọn 100, 250 hoặc 500 dòng mỗi trang",
+    "Bổ sung nút trang đầu, trang trước, trang sau, trang cuối và tổng số hoạt động",
+    "Escape dữ liệu nhật ký trước khi hiển thị để tránh nội dung HTML ngoài ý muốn",
     "Không bổ sung bảng hoặc cột cơ sở dữ liệu"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2007/FlaskApp_13.8.2007.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2007",
-  "sha256": "6af821951b7569156b99ff52b139db177761a1ef9794b0b8eb24e44cfe678750"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2008/FlaskApp_13.8.2008.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2008",
+  "sha256": "0865f68951b77b6165e3f19074bb115b501ff9e416e12f8199df212f74c61153"
 }
