@@ -1,6 +1,26 @@
 {
-  "latest": "13.8.2006",
+  "latest": "13.8.2007",
   "releases": [
+    {
+      "version": "13.8.2007",
+      "requires": "13.8.2006",
+      "released_at": "2026-08-14",
+      "channel": "stable",
+      "title": "Bộ lọc khóa, logo kỷ niệm và nhật ký toàn hệ thống",
+      "description": "Tinh gọn thống kê biến động theo khóa/lớp, chuẩn hóa logo ba ngày và tự động ghi nhật ký thao tác dữ liệu.",
+      "features": [
+        "Bộ lọc Thống kê biến động chỉ còn Khóa và Lớp; khóa lấy từ ký tự thứ 2-3 của MaL",
+        "Dời cột Còn lại ngay sau Sĩ số gốc và giữ nguyên toàn bộ công thức biến động 13.8.2006",
+        "Ngày trước, ngày chính và ngày sau đều hiển thị đúng ngày kỷ niệm chính",
+        "Logo First Dating dùng ba hoa hồng CSS độc lập màu đỏ, hồng và vàng kèm hiệu ứng lung linh",
+        "Tự động ghi nhật ký mọi yêu cầu POST/PUT/PATCH/DELETE của tất cả tài khoản đã đăng nhập",
+        "Che các trường mật khẩu, token, khóa bí mật và không lưu nội dung tệp vào nhật ký",
+        "Không bổ sung bảng hoặc cột cơ sở dữ liệu"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2007/FlaskApp_13.8.2007.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2007",
+      "sha256": "6af821951b7569156b99ff52b139db177761a1ef9794b0b8eb24e44cfe678750"
+    },
     {
       "version": "13.8.2006",
       "requires": "13.8.2005",
