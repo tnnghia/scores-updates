@@ -1,6 +1,31 @@
 {
-  "latest": "13.8.2002",
+  "latest": "13.8.2003",
   "releases": [
+    {
+      "version": "13.8.2003",
+      "requires": "13.8.2002",
+      "released_at": "2026-08-13",
+      "channel": "stable",
+      "title": "Logo kỷ niệm tự động theo ngày",
+      "description": "Tự thay logo theo các ngày lễ, kỷ niệm và Tết Nguyên đán âm lịch Việt Nam.",
+      "features": [
+        "Tổng chỉ tiêu, đã trúng tuyển, số vượt và tỷ lệ theo toàn bộ các đợt cùng năm tuyển sinh",
+        "Danh sách thí sinh trong modal vẫn theo đúng đợt xét tuyển đang chọn",
+        "Cảnh báo học tập hiển thị, in và xuất Excel cột ĐTB với hai chữ số thập phân",
+        "Hiển thị đúng lần cảnh báo theo học kỳ áp dụng và phân màu Lần 1, Lần 2, Lần 3",
+        "Sắp xếp tên học phần theo ABC tiếng Việt trong cây Tra cứu / Nhập điểm",
+        "Khi ghi chuyển điểm hoặc miễn môn, xóa dữ liệu cá nhân khỏi lớp học phần cùng môn và học kỳ",
+        "Dọn cả trường hợp HSSV đã đăng ký học hoặc đã phát sinh tiến trình",
+        "Ngày 13/8 theo múi giờ Việt Nam tự thay logo bằng ba hoa hồng CSS đỏ, hồng, vàng có hiệu ứng lung linh và chữ First Dating",
+        "Logo tự luân phiên theo ngày cho Năm mới, 27/2, 8/3, 30/4–1/5, 29/6, 13/8, 2/9, 20/10, 20/11 và Noel",
+        "Tết Nguyên đán tự tính âm lịch Việt Nam từ 29 tháng Chạp đến mùng 3",
+        "Ngày 29/6 kết hợp sinh nhật Nghĩa và kỷ niệm thành lập Trường Cao đẳng Cà Mau, năm 2026 là năm 0",
+        "Không hiển thị tuổi trong chủ đề sinh nhật"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2003/FlaskApp_13.8.2003.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2003",
+      "sha256": "3c1a42aa2cbed1ed1b37b7ad9e0de136450813391699a6ceea2b6e13aef77a3e"
+    },
     {
       "version": "13.8.2002",
       "requires": "2.6.24",
