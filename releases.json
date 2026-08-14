@@ -1,6 +1,28 @@
 {
-  "latest": "13.8.2004",
+  "latest": "13.8.2005",
   "releases": [
+    {
+      "version": "13.8.2005",
+      "requires": "13.8.2004",
+      "released_at": "2026-08-14",
+      "channel": "stable",
+      "title": "Vá thống kê HSSV và tỷ lệ nhập học",
+      "description": "Sửa thống kê HSSV cũ, chuẩn hóa biến động theo MaHK và tính tỷ lệ nhập học trên chỉ tiêu.",
+      "features": [
+        "Sửa lỗi 500 Thống kê HSSV do biến is_trung_cap chưa được xác định",
+        "Nghỉ học được tính theo đúng MaHKbatdau của học kỳ đang thống kê",
+        "Tỷ lệ nghỉ học tính trên sĩ số thực tế còn lại của từng lớp trong học kỳ",
+        "Chưa trở lại chỉ xác định từ quá trình Bảo lưu và Học tiếp",
+        "Bổ sung cột Sĩ số gốc và Thực tế còn lại",
+        "Đổi cột Lớp chính thành Lớp, bỏ Lớp hiển thị và Cảnh báo",
+        "Thẻ Nhập học tính tỷ lệ Số nhập học trên Tổng chỉ tiêu",
+        "Bổ sung username ẩn trong form đổi mật khẩu để đáp ứng accessibility của trình duyệt",
+        "Không bổ sung bảng hoặc cột cơ sở dữ liệu"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2005/FlaskApp_13.8.2005.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2005",
+      "sha256": "89185e8231c1548ea8985a38eb5ee6507eff61a6118b487b6a952a2eb0c2e106"
+    },
     {
       "version": "13.8.2004",
       "requires": "13.8.2003",
