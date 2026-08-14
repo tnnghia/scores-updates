@@ -1,20 +1,22 @@
 {
-  "version": "13.8.2008",
-  "requires": "13.8.2007",
+  "version": "13.8.2009",
+  "requires": "13.8.2008",
   "released_at": "2026-08-14",
   "channel": "stable",
-  "title": "Đồng bộ giao diện nghiệp vụ và phân trang nhật ký",
-  "description": "Chuẩn hóa giao diện chuyển điểm, tính điểm, lịch học/lịch thi và cho phép xem toàn bộ lịch sử hoạt động theo trang.",
+  "title": "Phân quyền linh hoạt và xếp lịch theo lớp học phần",
+  "description": "Bổ sung ma trận quyền tùy chỉnh, role khảo thí, đăng nhập giảng viên và giao diện mới xếp TKB, thi lần 1, lần 2 theo cây lớp học phần.",
   "features": [
-    "Đồng bộ thẻ tiêu đề, bộ lọc, vùng kết quả và hành động của Chuyển điểm / Miễn môn",
-    "Đồng bộ giao diện Tính điểm học tập nhưng giữ nguyên API, JavaScript và nguyên tắc tính",
-    "Chuẩn hóa Lịch học / Lịch thi và các bảng lịch trên desktop, tablet, mobile",
-    "Nhật ký hệ thống phân trang toàn bộ dữ liệu với tùy chọn 100, 250 hoặc 500 dòng mỗi trang",
-    "Bổ sung nút trang đầu, trang trước, trang sau, trang cuối và tổng số hoạt động",
-    "Escape dữ liệu nhật ký trước khi hiển thị để tránh nội dung HTML ngoài ý muốn",
-    "Không bổ sung bảng hoặc cột cơ sở dữ liệu"
+    "Bổ sung role khảo thí, BGH, đơn vị và ma trận quyền Xem/Thêm/Sửa/Xóa/Xác nhận/Công bố cho từng tài khoản SQLite",
+    "Đăng nhập và đổi mật khẩu giảng viên trực tiếp từ bảng Giaovien SQL; tài khoản quản lý tiếp tục dùng Users SQLite",
+    "PDT, HSSV và BGH được xem lịch sử truy cập theo phân quyền tùy chỉnh",
+    "Tự sinh RightsLopHP khi tạo lớp học phần mới cho PDT, BGH, khảo thí, quản lý đơn vị và giảng viên được phân công",
+    "Xây dựng mới giao diện Lịch học/Lịch thi theo cây Học kỳ - Đơn vị - Học phần - Lớp học phần",
+    "Xếp TKB theo buổi Sáng 1-6, Chiều 7-12, Tối 13-15; chỉ tính TKB có Hieuluc=1",
+    "Xếp thi lần 1/lần 2 theo ThiL1/ThiL2, kiểm tra sức chứa Phonghoc và ghi MaPT1/MaPT2 vào SinhvienLopHP",
+    "Bổ sung kéo ngang bảng bằng chuột trên PC/laptop và giữ vuốt ngang trên mobile",
+    "Sửa trạng thái cập nhật 409/503: tiếp tục kiểm tra tiến trình và xác nhận thành công theo phiên bản thực tế sau khi khởi động lại"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2008/FlaskApp_13.8.2008.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2008",
-  "sha256": "0865f68951b77b6165e3f19074bb115b501ff9e416e12f8199df212f74c61153"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2009/FlaskApp_13.8.2009.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2009",
+  "sha256": "971d81540cd724ccf0ec22a265a2e7bab274997ceb418921b7a95949b333a72f"
 }
