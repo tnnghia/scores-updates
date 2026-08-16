@@ -4,24 +4,21 @@
     {
       "version": "13.8.2009",
       "requires": "13.8.2008",
-      "released_at": "2026-08-14",
+      "released_at": "2026-08-17",
       "channel": "stable",
-      "title": "Phân quyền linh hoạt và xếp lịch theo lớp học phần",
-      "description": "Bổ sung ma trận quyền tùy chỉnh, role khảo thí, đăng nhập giảng viên và giao diện mới xếp TKB, thi lần 1, lần 2 theo cây lớp học phần.",
+      "title": "Đồng bộ tuyển sinh theo MaDXT",
+      "description": "Bổ sung đồng bộ toàn bộ hồ sơ tuyển sinh trực tiếp từ API theo đợt xét tuyển lấy từ SQL Server.",
       "features": [
-        "Bổ sung role khảo thí, BGH, đơn vị và ma trận quyền Xem/Thêm/Sửa/Xóa/Xác nhận/Công bố cho từng tài khoản SQLite",
-        "Đăng nhập và đổi mật khẩu giảng viên trực tiếp từ bảng Giaovien SQL; tài khoản quản lý tiếp tục dùng Users SQLite",
-        "PDT, HSSV và BGH được xem lịch sử truy cập theo phân quyền tùy chỉnh",
-        "Tự sinh RightsLopHP khi tạo lớp học phần mới cho PDT, BGH, khảo thí, quản lý đơn vị và giảng viên được phân công",
-        "Xây dựng mới giao diện Lịch học/Lịch thi theo cây Học kỳ - Đơn vị - Học phần - Lớp học phần",
-        "Xếp TKB theo buổi Sáng 1-6, Chiều 7-12, Tối 13-15; chỉ tính TKB có Hieuluc=1",
-        "Xếp thi lần 1/lần 2 theo ThiL1/ThiL2, kiểm tra sức chứa Phonghoc và ghi MaPT1/MaPT2 vào SinhvienLopHP",
-        "Bổ sung kéo ngang bảng bằng chuột trên PC/laptop và giữ vuốt ngang trên mobile",
-        "Sửa trạng thái cập nhật 409/503: tiếp tục kiểm tra tiến trình và xác nhận thành công theo phiên bản thực tế sau khi khởi động lại"
+        "Lấy danh sách MaDXT trực tiếp từ bảng DotXT trên SQL Server.",
+        "Bấm một nút để tự lấy toàn bộ MaTSXT qua API applicants, không còn phụ thuộc Virtual DOM hay chọn Tất cả trên trình duyệt.",
+        "Tự phân trang với pageSize 5000 và tiếp tục đến khi hết dữ liệu.",
+        "Lấy chi tiết từng applicant và lưu vào ThisinhBackupGoc, bổ sung cột MaDXT.",
+        "Đồng bộ chạy nền trong Flask và giao diện tự cập nhật tiến độ để tránh request dài bị ngắt.",
+        "Hỗ trợ token dưới cookie token và connect.sid bên cạnh Authorization Bearer hiện có."
       ],
       "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2009/FlaskApp_13.8.2009.zip",
       "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2009",
-      "sha256": "971d81540cd724ccf0ec22a265a2e7bab274997ceb418921b7a95949b333a72f"
+      "sha256": "f44e9d141a9edc6c1318e4ee8d9182eac14ebebba249c80b048721f48203a7c5"
     },
     {
       "version": "13.8.2008",
