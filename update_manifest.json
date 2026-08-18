@@ -1,18 +1,17 @@
 {
-  "version": "13.8.2010",
-  "requires": "13.8.2009",
+  "version": "13.8.2011",
+  "requires": "13.8.2010",
   "released_at": "2026-08-18",
   "channel": "stable",
-  "title": "Báo cáo tuyển sinh theo từng đợt",
-  "description": "Nâng cấp báo cáo tuyển sinh: lọc Lần 1/Lần 2/Lần 3/Tổng, đủ 5 chỉ tiêu và xem danh sách thí sinh khi bấm số liệu.",
+  "title": "Chỉnh tiêu đề báo cáo tuyển sinh",
+  "description": "Bản vá giao diện báo cáo tuyển sinh: đổi tên cột và căn lề ngành, nghề đào tạo.",
   "features": [
-    "Bộ lọc năm tuyển sinh và từng lần xét tuyển hoặc Tổng",
-    "Bảng theo Ngành, nghề và Trình độ với Hồ sơ, Hồ sơ đủ ĐK, Trúng tuyển, Đủ ĐK nhập học, Nhập học",
-    "Hiển thị tỷ lệ trên chỉ tiêu ngay dưới Trúng tuyển, Đủ ĐK nhập học và Nhập học",
-    "Bấm số lượng của 5 chỉ tiêu để xem danh sách thí sinh phía dưới bảng",
-    "Giữ tổng theo trình độ và tổng toàn báo cáo"
+    "Đổi tiêu đề Ngành, nghề thành Ngành, nghề đào tạo và căn giữa tiêu đề",
+    "Tên ngành, nghề trong các dòng dữ liệu căn trái",
+    "Đổi Đủ ĐK Nhập học thành Đã làm thủ tục",
+    "Không thay đổi API, SQL hoặc dữ liệu tuyển sinh"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2010/FlaskApp_13.8.2010.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2010",
-  "sha256": "0f8f3df7a238ed8b17ad888f55742a6bc15a1623356dd8afb16b826885feb53f"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2011/FlaskApp_13.8.2011.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2011",
+  "sha256": "7788d27eb7315969496df75db6479416a6297e6d7eb0185fac6e51f8f3e70f74"
 }
