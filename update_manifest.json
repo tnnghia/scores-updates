@@ -1,19 +1,18 @@
 {
-  "version": "13.8.2009",
-  "requires": "13.8.2008",
-  "released_at": "2026-08-17",
+  "version": "13.8.2010",
+  "requires": "13.8.2009",
+  "released_at": "2026-08-18",
   "channel": "stable",
-  "title": "Đồng bộ tuyển sinh theo MaDXT",
-  "description": "Bổ sung đồng bộ toàn bộ hồ sơ tuyển sinh trực tiếp từ API theo đợt xét tuyển lấy từ SQL Server.",
+  "title": "Báo cáo tuyển sinh theo từng đợt",
+  "description": "Nâng cấp báo cáo tuyển sinh: lọc Lần 1/Lần 2/Lần 3/Tổng, đủ 5 chỉ tiêu và xem danh sách thí sinh khi bấm số liệu.",
   "features": [
-    "Lấy danh sách MaDXT trực tiếp từ bảng DotXT trên SQL Server.",
-    "Bấm một nút để tự lấy toàn bộ MaTSXT qua API applicants, không còn phụ thuộc Virtual DOM hay chọn Tất cả trên trình duyệt.",
-    "Tự phân trang với pageSize 5000 và tiếp tục đến khi hết dữ liệu.",
-    "Lấy chi tiết từng applicant và lưu vào ThisinhBackupGoc, bổ sung cột MaDXT.",
-    "Đồng bộ chạy nền trong Flask và giao diện tự cập nhật tiến độ để tránh request dài bị ngắt.",
-    "Hỗ trợ token dưới cookie token và connect.sid bên cạnh Authorization Bearer hiện có."
+    "Bộ lọc năm tuyển sinh và từng lần xét tuyển hoặc Tổng",
+    "Bảng theo Ngành, nghề và Trình độ với Hồ sơ, Hồ sơ đủ ĐK, Trúng tuyển, Đủ ĐK nhập học, Nhập học",
+    "Hiển thị tỷ lệ trên chỉ tiêu ngay dưới Trúng tuyển, Đủ ĐK nhập học và Nhập học",
+    "Bấm số lượng của 5 chỉ tiêu để xem danh sách thí sinh phía dưới bảng",
+    "Giữ tổng theo trình độ và tổng toàn báo cáo"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2009/FlaskApp_13.8.2009.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2009",
-  "sha256": "f44e9d141a9edc6c1318e4ee8d9182eac14ebebba249c80b048721f48203a7c5"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2010/FlaskApp_13.8.2010.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2010",
+  "sha256": "0f8f3df7a238ed8b17ad888f55742a6bc15a1623356dd8afb16b826885feb53f"
 }
