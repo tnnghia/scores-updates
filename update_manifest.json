@@ -1,17 +1,17 @@
 {
-  "version": "13.8.2011",
-  "requires": "13.8.2010",
+  "version": "13.8.2012",
+  "requires": "13.8.2011",
   "released_at": "2026-08-18",
   "channel": "stable",
-  "title": "Chỉnh tiêu đề báo cáo tuyển sinh",
-  "description": "Bản vá giao diện báo cáo tuyển sinh: đổi tên cột và căn lề ngành, nghề đào tạo.",
+  "title": "Đồng bộ màu bảng báo cáo tuyển sinh",
+  "description": "Khôi phục phong cách màu sáng của bảng báo cáo cũ và đồng bộ màu từng cột với thẻ KPI tương ứng.",
   "features": [
-    "Đổi tiêu đề Ngành, nghề thành Ngành, nghề đào tạo và căn giữa tiêu đề",
-    "Tên ngành, nghề trong các dòng dữ liệu căn trái",
-    "Đổi Đủ ĐK Nhập học thành Đã làm thủ tục",
-    "Không thay đổi API, SQL hoặc dữ liệu tuyển sinh"
+    "Khôi phục nền tiêu đề bảng sáng, dễ đọc như báo cáo cũ",
+    "Màu cột Chỉ tiêu, Hồ sơ, Hồ sơ đủ ĐK, Trúng tuyển, Đã làm thủ tục và Nhập học đồng bộ với màu thẻ KPI",
+    "Dùng nền màu rất nhạt ở ô dữ liệu để phân biệt cột nhưng không gây chói",
+    "Giữ nguyên API, SQL, số liệu và chức năng bấm số xem chi tiết"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2011/FlaskApp_13.8.2011.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2011",
-  "sha256": "7788d27eb7315969496df75db6479416a6297e6d7eb0185fac6e51f8f3e70f74"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2012/FlaskApp_13.8.2012.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2012",
+  "sha256": "8de9d4d6d265183e1cb59740e10f23504d4606005f4f0c66cda37019edd94899"
 }
