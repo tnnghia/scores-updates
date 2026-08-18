@@ -1,6 +1,23 @@
 {
-  "latest": "13.8.2012",
+  "latest": "13.8.2013",
   "releases": [
+    {
+      "version": "13.8.2013",
+      "requires": "13.8.2012",
+      "released_at": "2026-08-18",
+      "channel": "stable",
+      "title": "Báo cáo tuyển sinh chỉ dùng màu chữ",
+      "description": "Bỏ nền màu ở các ô/cột KPI của bảng báo cáo tuyển sinh, chỉ giữ màu chữ theo từng nội dung để bảng thoáng và dễ đọc hơn.",
+      "features": [
+        "Bỏ toàn bộ nền màu riêng ở các ô Chỉ tiêu, Hồ sơ, Hồ sơ đủ ĐK, Trúng tuyển, Đã làm thủ tục và Nhập học",
+        "Giữ màu chữ từng cột đồng bộ với màu thẻ KPI tương ứng",
+        "Giữ kiểu nền trung tính của bảng và các dòng tổng để dễ phân nhóm",
+        "Không thay đổi API, SQL, số liệu hoặc chức năng bấm số xem danh sách chi tiết"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2013/FlaskApp_13.8.2013.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2013",
+      "sha256": "25521bbfb810a9466fdfeb111091704968f722a2c201a7d8266579563b8ba404"
+    },
     {
       "version": "13.8.2012",
       "requires": "13.8.2011",
