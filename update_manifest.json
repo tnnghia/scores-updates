@@ -1,18 +1,19 @@
 {
-  "version": "13.8.2014",
-  "requires": "13.8.2013",
+  "version": "13.8.2015",
+  "requires": "13.8.2014",
   "released_at": "2026-08-18",
   "channel": "stable",
-  "title": "Báo cáo tuyển sinh màu chữ đồng bộ KPI",
-  "description": "Bỏ tô nền hàng tiêu đề và các dòng thống kê/tổng; chỉ dùng màu chữ cho 6 cột chỉ tiêu và đồng bộ chính xác với màu thẻ KPI tương ứng.",
+  "title": "Đồng bộ màu báo cáo tuyển sinh theo class cột",
+  "description": "Sửa lệch màu giữa dòng chi tiết và các dòng tổng bằng class ngữ nghĩa cho từng cột; màu chữ khớp chính xác với thẻ KPI.",
   "features": [
-    "Bỏ nền hàng tiêu đề của bảng báo cáo tuyển sinh",
-    "Bỏ nền các dòng Tổng Cao đẳng, Tổng Trung cấp và Tổng số",
-    "Chỉ tiêu, Hồ sơ, Hồ sơ đủ ĐK, Trúng tuyển, Đã làm thủ tục và Nhập học dùng đúng màu chữ của thẻ KPI tương ứng",
-    "Tỷ lệ phần trăm và số liệu trong dòng tổng kế thừa đúng màu cột",
-    "Không thay đổi API, SQL, dữ liệu hoặc chức năng xem danh sách chi tiết"
+    "Gắn class riêng cho Chỉ tiêu, Hồ sơ, Hồ sơ đủ ĐK, Trúng tuyển, Đã làm thủ tục và Nhập học",
+    "Sửa dứt điểm lệch màu do colspan ở các dòng Tổng Cao đẳng, Tổng Trung cấp và Tổng số",
+    "Dùng đúng màu KPI từ design-system.css: xanh dương, cyan, tím, xanh lá, cyan và cam",
+    "Tiêu đề, dòng chi tiết và dòng tổng đồng nhất màu theo nội dung",
+    "Tiếp tục không tô nền tiêu đề và dòng thống kê",
+    "Không thay đổi API, SQL, dữ liệu hoặc logic tính báo cáo"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2014/FlaskApp_13.8.2014.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2014",
-  "sha256": "45512d5867ddabc9f240e99e867057dc88fee149c1bec90369cce7423074b69c"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2015/FlaskApp_13.8.2015.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2015",
+  "sha256": "f94b9672edb8eb5824c6deee2cf0e814588ccf2be50c22b24d46c64fd1d71f21"
 }

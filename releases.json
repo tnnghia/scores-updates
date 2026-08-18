@@ -1,6 +1,25 @@
 {
-  "latest": "13.8.2014",
+  "latest": "13.8.2015",
   "releases": [
+    {
+      "version": "13.8.2015",
+      "requires": "13.8.2014",
+      "released_at": "2026-08-18",
+      "channel": "stable",
+      "title": "Đồng bộ màu báo cáo tuyển sinh theo class cột",
+      "description": "Sửa lệch màu giữa dòng chi tiết và các dòng tổng bằng class ngữ nghĩa cho từng cột; màu chữ khớp chính xác với thẻ KPI.",
+      "features": [
+        "Gắn class riêng cho Chỉ tiêu, Hồ sơ, Hồ sơ đủ ĐK, Trúng tuyển, Đã làm thủ tục và Nhập học",
+        "Sửa dứt điểm lệch màu do colspan ở các dòng Tổng Cao đẳng, Tổng Trung cấp và Tổng số",
+        "Dùng đúng màu KPI từ design-system.css: xanh dương, cyan, tím, xanh lá, cyan và cam",
+        "Tiêu đề, dòng chi tiết và dòng tổng đồng nhất màu theo nội dung",
+        "Tiếp tục không tô nền tiêu đề và dòng thống kê",
+        "Không thay đổi API, SQL, dữ liệu hoặc logic tính báo cáo"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2015/FlaskApp_13.8.2015.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2015",
+      "sha256": "f94b9672edb8eb5824c6deee2cf0e814588ccf2be50c22b24d46c64fd1d71f21"
+    },
     {
       "version": "13.8.2014",
       "requires": "13.8.2013",
