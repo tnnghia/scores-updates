@@ -1,18 +1,20 @@
 {
-  "version": "13.8.2020",
-  "requires": "13.8.2019",
+  "version": "13.8.2021",
+  "requires": "13.8.2020",
   "released_at": "2026-08-19",
   "channel": "stable",
-  "title": "Sửa import Excel và bảng dữ liệu SQL Server kiểu cũ",
-  "description": "Sửa lỗi Quản trị dữ liệu động khi bảng có cột text/ntext và sửa nhận diện khóa record khi cập nhật/upsert từ Excel.",
+  "title": "Thống kê tốt nghiệp theo năm và dữ liệu lịch sử",
+  "description": "Bổ sung thống kê tốt nghiệp theo năm, chuẩn hóa trình độ và cho phép đọc CSDL lịch sử Daotao_CamauVKC khi cần.",
   "features": [
-    "Không ORDER BY trực tiếp cột text/ntext/image/xml; tự chọn cột có thể sắp xếp để tránh SQL Server 42000.",
-    "Import Excel giữ giá trị khóa/identity để nhận diện record hiện có nhưng không ghi đè cột Identity.",
-    "Khi bảng không khai báo PK, tự ưu tiên unique index, identity hoặc cột id làm khóa đối chiếu import.",
-    "So sánh khóa text/ntext qua CAST NVARCHAR(MAX) để tương thích các bảng SQL Server cũ.",
-    "Sau import hiển thị khóa đối chiếu và tối đa 5 lỗi mẫu ngay trên giao diện."
+    "Thêm Thống kê tốt nghiệp theo năm, xác định khóa từ ký tự 2-3 MaSV và ngành từ ký tự 4-8 MaSV.",
+    "Đúng tiến độ khi năm tốt nghiệp chuẩn = 2000 + khóa + 3 và 2 ký tự đầu MaHKTN trùng năm thống kê (251/252 đều là năm 2025).",
+    "Theo từng lớp: Tổng SV, TN đúng tiến độ, tỷ lệ, nữ, dân tộc MaDT khác KIN, Xuất sắc, Giỏi, Khá, Trung bình, Trung cấp, Cao đẳng.",
+    "Tổng hợp toàn năm: tổng Trung cấp, tổng Cao đẳng và tổng chung.",
+    "Nguồn dữ liệu mới dùng kết nối hiện tại; CSDL cũ Daotao_CamauVKC chỉ được kết nối khi chọn Dữ liệu cũ hoặc Tất cả dữ liệu.",
+    "Chuẩn hóa trình độ CSDL cũ: Cao đẳng/Cao đẳng nghề -> Cao đẳng; Trung cấp/Cao đẳng 9+/Trung cấp nghề -> Trung cấp.",
+    "Xuất Excel riêng cho báo cáo tốt nghiệp theo năm."
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2020/FlaskApp_13.8.2020.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2020",
-  "sha256": "2ebbb6dabf05757431c32e8341ffa198a4f0f0145b7221007678e6a36529c980"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2021/Scores_update_v13.8.2021.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2021",
+  "sha256": "71995797be60c1d68991877abdeb9ae3fea0b98620ad80aa79e5da7524e99252"
 }

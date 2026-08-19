@@ -1,6 +1,26 @@
 {
-  "latest": "13.8.2020",
+  "latest": "13.8.2021",
   "releases": [
+    {
+      "version": "13.8.2021",
+      "requires": "13.8.2020",
+      "released_at": "2026-08-19",
+      "channel": "stable",
+      "title": "Thống kê tốt nghiệp theo năm và dữ liệu lịch sử",
+      "description": "Bổ sung thống kê tốt nghiệp theo năm, chuẩn hóa trình độ và cho phép đọc CSDL lịch sử Daotao_CamauVKC khi cần.",
+      "features": [
+        "Thêm Thống kê tốt nghiệp theo năm, xác định khóa từ ký tự 2-3 MaSV và ngành từ ký tự 4-8 MaSV.",
+        "Đúng tiến độ khi năm tốt nghiệp chuẩn = 2000 + khóa + 3 và 2 ký tự đầu MaHKTN trùng năm thống kê (251/252 đều là năm 2025).",
+        "Theo từng lớp: Tổng SV, TN đúng tiến độ, tỷ lệ, nữ, dân tộc MaDT khác KIN, Xuất sắc, Giỏi, Khá, Trung bình, Trung cấp, Cao đẳng.",
+        "Tổng hợp toàn năm: tổng Trung cấp, tổng Cao đẳng và tổng chung.",
+        "Nguồn dữ liệu mới dùng kết nối hiện tại; CSDL cũ Daotao_CamauVKC chỉ được kết nối khi chọn Dữ liệu cũ hoặc Tất cả dữ liệu.",
+        "Chuẩn hóa trình độ CSDL cũ: Cao đẳng/Cao đẳng nghề -> Cao đẳng; Trung cấp/Cao đẳng 9+/Trung cấp nghề -> Trung cấp.",
+        "Xuất Excel riêng cho báo cáo tốt nghiệp theo năm."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2021/Scores_update_v13.8.2021.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2021",
+      "sha256": "71995797be60c1d68991877abdeb9ae3fea0b98620ad80aa79e5da7524e99252"
+    },
     {
       "version": "13.8.2020",
       "requires": "13.8.2019",
