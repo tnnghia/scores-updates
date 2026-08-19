@@ -1,17 +1,19 @@
 {
-  "version": "13.8.2018",
-  "requires": "13.8.2017",
+  "version": "13.8.2019",
+  "requires": "13.8.2018",
   "released_at": "2026-08-19",
   "channel": "stable",
-  "title": "Bổ sung tìm kiếm học phần tại Bước 3",
-  "description": "Bước 3 Tạo lớp học phần bổ sung bộ lọc gõ nhanh theo mã hoặc tên học phần cho bảng danh sách học phần bên dưới.",
+  "title": "Tự động hóa đồng bộ, quản trị dữ liệu SQL và chuẩn hóa cây LopHP",
+  "description": "Nâng mức tự động hóa đồng bộ tuyển sinh từ cURL/Clipboard; bổ sung trình quản trị dữ liệu SQL Server động; chuẩn hóa thứ tự cây lớp học phần và tra cứu nhập điểm.",
   "features": [
-    "Bước 3: thêm ô Tìm học phần ngay phía trên danh sách học phần.",
-    "Tìm kiếm tức thời theo Mã HP hoặc Tên học phần, hỗ trợ tiếng Việt không dấu.",
-    "Áp dụng cho cả Lớp bình thường và Lớp riêng, không làm mất các học phần đã tích chọn.",
-    "Hiển thị số học phần tìm thấy và có nút xóa nhanh nội dung tìm kiếm."
+    "Đồng bộ tuyển sinh: nhận nguyên cURL/Clipboard, chỉ lưu token và connect.sid, tự đọc hạn JWT và kiểm tra phiên trước khi chạy.",
+    "Đồng bộ tuyển sinh: tối đa 4 luồng tải chi tiết, retry lỗi mạng/429/5xx và checkpoint để tiếp tục sau gián đoạn hoặc hết phiên.",
+    "Quản trị hệ thống: thêm Quản trị dữ liệu SQL Server động, tự đọc bảng, cột, kiểu dữ liệu, PK/FK; tìm kiếm và phân trang.",
+    "Quản trị dữ liệu: thêm/sửa/xóa từng record theo khóa chính, Excel mẫu, xuất Excel và import Insert/Update/Upsert.",
+    "Quản trị dữ liệu: quyền ghi mặc định tắt và cấu hình riêng từng bảng cho Thêm/Sửa/Xóa/Import; thao tác ghi có nhật ký.",
+    "Bước 6 Quản lý LopHP và Tra cứu/Nhập điểm: Năm học mới đến cũ; trong mỗi năm HK1 đến HK2 đến HK3; đơn vị và học phần theo ABC không dấu."
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2018/FlaskApp_13.8.2018.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2018",
-  "sha256": "ec2b3107215703a29c59b3358097cb22030dc585d2471ac8e01a72840471ee2b"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2019/FlaskApp_13.8.2019.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2019",
+  "sha256": "a8cd5d0f45ad8088558b0ce5a5fffd77e4a814da97903445bbc57e76d5f0227d"
 }
