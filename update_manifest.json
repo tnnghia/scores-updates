@@ -1,19 +1,16 @@
 {
-  "version": "13.8.2015",
-  "requires": "13.8.2014",
-  "released_at": "2026-08-18",
+  "version": "13.8.2016",
+  "requires": "13.8.2015",
+  "released_at": "2026-08-19",
   "channel": "stable",
-  "title": "Đồng bộ màu báo cáo tuyển sinh theo class cột",
-  "description": "Sửa lệch màu giữa dòng chi tiết và các dòng tổng bằng class ngữ nghĩa cho từng cột; màu chữ khớp chính xác với thẻ KPI.",
+  "title": "Điều chỉnh tạo lớp học phần và nhập phân công",
+  "description": "Lọc lớp chính theo CTDTLop của năm học; mở lớp riêng từ toàn bộ Hocphan theo học kỳ và đơn vị; xuất Excel phân công có dữ liệu hiện hữu, số giờ và số tín chỉ.",
   "features": [
-    "Gắn class riêng cho Chỉ tiêu, Hồ sơ, Hồ sơ đủ ĐK, Trúng tuyển, Đã làm thủ tục và Nhập học",
-    "Sửa dứt điểm lệch màu do colspan ở các dòng Tổng Cao đẳng, Tổng Trung cấp và Tổng số",
-    "Dùng đúng màu KPI từ design-system.css: xanh dương, cyan, tím, xanh lá, cyan và cam",
-    "Tiêu đề, dòng chi tiết và dòng tổng đồng nhất màu theo nội dung",
-    "Tiếp tục không tô nền tiêu đề và dòng thống kê",
-    "Không thay đổi API, SQL, dữ liệu hoặc logic tính báo cáo"
+    "Bước 3 lớp bình thường: chỉ hiển thị lớp có CTDTLop.MaHK thuộc năm học đã chọn.",
+    "Bước 3 lớp riêng: bỏ lớp chính, chọn học kỳ tổ chức và đơn vị; chọn học phần từ toàn bộ bảng Hocphan.",
+    "Bước 5: Excel mẫu giữ phân công hiện có và bổ sung Số giờ, Số tín chỉ ngay sau Tên lớp."
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2015/FlaskApp_13.8.2015.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2015",
-  "sha256": "f94b9672edb8eb5824c6deee2cf0e814588ccf2be50c22b24d46c64fd1d71f21"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2016/FlaskApp_13.8.2016.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2016",
+  "sha256": "622ae45b91ea1625ad6961f64034463be7c9812c6e23d48ee5c9d31a479ed934"
 }

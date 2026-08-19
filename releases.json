@@ -1,6 +1,22 @@
 {
-  "latest": "13.8.2015",
+  "latest": "13.8.2016",
   "releases": [
+    {
+      "version": "13.8.2016",
+      "requires": "13.8.2015",
+      "released_at": "2026-08-19",
+      "channel": "stable",
+      "title": "Điều chỉnh tạo lớp học phần và nhập phân công",
+      "description": "Lọc lớp chính theo CTDTLop của năm học; mở lớp riêng từ toàn bộ Hocphan theo học kỳ và đơn vị; xuất Excel phân công có dữ liệu hiện hữu, số giờ và số tín chỉ.",
+      "features": [
+        "Bước 3 lớp bình thường: chỉ hiển thị lớp có CTDTLop.MaHK thuộc năm học đã chọn.",
+        "Bước 3 lớp riêng: bỏ lớp chính, chọn học kỳ tổ chức và đơn vị; chọn học phần từ toàn bộ bảng Hocphan.",
+        "Bước 5: Excel mẫu giữ phân công hiện có và bổ sung Số giờ, Số tín chỉ ngay sau Tên lớp."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2016/FlaskApp_13.8.2016.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2016",
+      "sha256": "622ae45b91ea1625ad6961f64034463be7c9812c6e23d48ee5c9d31a479ed934"
+    },
     {
       "version": "13.8.2015",
       "requires": "13.8.2014",
