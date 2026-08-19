@@ -1,20 +1,23 @@
 {
-  "version": "13.8.2021",
-  "requires": "13.8.2020",
+  "version": "13.8.2022",
+  "requires": "13.8.2021",
   "released_at": "2026-08-19",
   "channel": "stable",
-  "title": "Thống kê tốt nghiệp theo năm và dữ liệu lịch sử",
-  "description": "Bổ sung thống kê tốt nghiệp theo năm, chuẩn hóa trình độ và cho phép đọc CSDL lịch sử Daotao_CamauVKC khi cần.",
+  "title": "Thống kê tốt nghiệp theo SV cuối khóa và CTĐT thực tế",
+  "description": "Bỏ giải thuật đúng tiến độ cố định; xác định năm cuối khóa theo số học kỳ thực tế của CTDTLop, tính tỷ lệ tốt nghiệp trên số sinh viên cuối khóa và tách đúng logic CSDL mới/cũ.",
   "features": [
-    "Thêm Thống kê tốt nghiệp theo năm, xác định khóa từ ký tự 2-3 MaSV và ngành từ ký tự 4-8 MaSV.",
-    "Đúng tiến độ khi năm tốt nghiệp chuẩn = 2000 + khóa + 3 và 2 ký tự đầu MaHKTN trùng năm thống kê (251/252 đều là năm 2025).",
-    "Theo từng lớp: Tổng SV, TN đúng tiến độ, tỷ lệ, nữ, dân tộc MaDT khác KIN, Xuất sắc, Giỏi, Khá, Trung bình, Trung cấp, Cao đẳng.",
-    "Tổng hợp toàn năm: tổng Trung cấp, tổng Cao đẳng và tổng chung.",
-    "Nguồn dữ liệu mới dùng kết nối hiện tại; CSDL cũ Daotao_CamauVKC chỉ được kết nối khi chọn Dữ liệu cũ hoặc Tất cả dữ liệu.",
-    "Chuẩn hóa trình độ CSDL cũ: Cao đẳng/Cao đẳng nghề -> Cao đẳng; Trung cấp/Cao đẳng 9+/Trung cấp nghề -> Trung cấp.",
-    "Xuất Excel riêng cho báo cáo tốt nghiệp theo năm."
+    "Không còn dùng công thức cố định Cao đẳng +3, Trung cấp +2 hoặc khái niệm tốt nghiệp đúng tiến độ.",
+    "CSDL mới EduManUni_CamauVKC: số học kỳ của lớp = MAX(CTDTLop.Hocky).",
+    "CSDL cũ Daotao_CamauVKC: số học kỳ của lớp = MAX(CTDTLop.MaHK).",
+    "Năm cuối khóa = 2000 + khóa lấy từ ký tự 2-3 MaSV + CEILING(số học kỳ / 2).",
+    "CSDL mới: sinh viên tốt nghiệp khi Tinhtrang=3 hoặc Totnghiep=1; năm tốt nghiệp lấy từ QuyetdinhTN.Ngayky qua MaQDTN.",
+    "CSDL cũ: sinh viên tốt nghiệp khi CNTN=true/1; năm tốt nghiệp lấy từ Sinhvien.Ngayky.",
+    "Tỷ lệ tốt nghiệp = số sinh viên tốt nghiệp trong năm kết thúc khóa / số sinh viên cuối khóa của lớp.",
+    "Bảng báo cáo đổi cột Tổng SV thành SV cuối khóa và TN đúng tiến độ thành Tốt nghiệp.",
+    "Sắp xếp theo trình độ; mỗi trình độ có dòng tổng riêng và cuối bảng có dòng TỔNG CỘNG.",
+    "Xuất Excel sử dụng cùng giải thuật và nhãn cột với giao diện."
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2021/Scores_update_v13.8.2021.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2021",
-  "sha256": "71995797be60c1d68991877abdeb9ae3fea0b98620ad80aa79e5da7524e99252"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2022/Scores_update_v13.8.2022.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2022",
+  "sha256": "f18c9820939277c77d879e0235ab2d21e68534908ebb79ff0dd301de9b68787a"
 }
