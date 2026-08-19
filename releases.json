@@ -1,6 +1,23 @@
 {
-  "latest": "13.8.2016",
+  "latest": "13.8.2017",
   "releases": [
+    {
+      "version": "13.8.2017",
+      "requires": "13.8.2016",
+      "released_at": "2026-08-19",
+      "channel": "stable",
+      "title": "Bổ sung lớp riêng khi đưa HSSV và quản lý lớp riêng",
+      "description": "Bước 4 cho phép nhận diện, lọc và chọn lớp học phần riêng đã tạo; Bước 3 bổ sung danh sách lớp riêng đã tạo và thao tác xóa an toàn.",
+      "features": [
+        "Bước 4: thêm bộ lọc Lớp riêng và hiển thị badge Lớp riêng tách biệt với Trả nợ/Cải thiện.",
+        "Bước 4: cho phép chọn lớp riêng đã tạo để đưa HSSV vào lớp; thống kê riêng số cặp lớp riêng.",
+        "Bước 3: bổ sung bảng Lớp riêng đã tạo theo học kỳ tổ chức và nút Xóa từng lớp.",
+        "Giữ cơ chế xóa an toàn: không cho xóa khi đã có HSSV, đăng ký học, điểm, TKB hoặc lịch thi liên quan."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2017/FlaskApp_13.8.2017.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2017",
+      "sha256": "3d724544c5cdfa8e886133ae98e0f9ad90457394f6eb993461349b56bcead612"
+    },
     {
       "version": "13.8.2016",
       "requires": "13.8.2015",
