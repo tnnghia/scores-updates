@@ -1,6 +1,27 @@
 {
-  "latest": "13.8.2023",
+  "latest": "13.8.2024",
   "releases": [
+    {
+      "version": "13.8.2024",
+      "requires": "13.8.2023",
+      "released_at": "2026-08-20",
+      "channel": "stable",
+      "title": "Vá thống kê tốt nghiệp theo nguồn dữ liệu và trình độ",
+      "description": "Chuẩn hóa nguồn dữ liệu thống kê tốt nghiệp theo năm và trình bày bảng theo nhóm trình độ tương tự báo cáo tuyển sinh.",
+      "features": [
+        "Nguồn dữ liệu thống kê theo năm được chọn tự động, không còn phụ thuộc bộ chọn thủ công.",
+        "Năm 2025 trở đi dùng EduManUni_CamauVKC.",
+        "Năm 2023 trở về trước dùng dữ liệu lịch sử đã đồng bộ từ Daotao_CamauVKC.",
+        "Riêng năm 2024: QĐ 439/QĐ-CĐN (MaQDTN 019) dùng CSDL mới; các QĐ còn lại dùng dữ liệu cũ.",
+        "Bỏ giới hạn nguồn theo khóa MaSV trong báo cáo theo năm để tránh loại sai sinh viên.",
+        "Dữ liệu lịch sử SQLite yêu cầu đồng bộ lại một lần theo quy tắc 13.8.2024.",
+        "Bảng thống kê bổ sung cột Trình độ, chia nhóm Trung cấp/Cao đẳng, có dòng tổng từng trình độ và Tổng cộng.",
+        "Giao diện nhóm trình độ, badge và dòng tổng được điều chỉnh gần với bảng thống kê tuyển sinh."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2024/Scores_update_v13.8.2024.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2024",
+      "sha256": "503e8f22f618e523135216292401cf9a2b1c2c7bf9328c245a8cf9143960bfbb"
+    },
     {
       "version": "13.8.2023",
       "requires": "13.8.2022",

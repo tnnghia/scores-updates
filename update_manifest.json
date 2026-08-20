@@ -1,24 +1,21 @@
 {
-  "version": "13.8.2023",
-  "requires": "13.8.2022",
+  "version": "13.8.2024",
+  "requires": "13.8.2023",
   "released_at": "2026-08-20",
   "channel": "stable",
-  "title": "Thống kê tốt nghiệp theo năm và quyết định",
-  "description": "Nâng cấp thống kê tốt nghiệp: lọc năm theo QuyetdinhTN.Ngayky, chọn một hoặc nhiều quyết định trong năm, sĩ số cuối khóa theo Tinhtrang, thống kê giới tính/xếp loại/việc làm và xem danh sách chi tiết; dữ liệu lịch sử được đồng bộ một lần về SQLite.",
+  "title": "Vá thống kê tốt nghiệp theo nguồn dữ liệu và trình độ",
+  "description": "Chuẩn hóa nguồn dữ liệu thống kê tốt nghiệp theo năm và trình bày bảng theo nhóm trình độ tương tự báo cáo tuyển sinh.",
   "features": [
-    "Năm tốt nghiệp lấy từ YEAR(QuyetdinhTN.Ngayky) cho báo cáo theo năm.",
-    "Sau khi chọn năm, tự liệt kê toàn bộ quyết định tốt nghiệp trong năm; cho phép chọn tất cả hoặc một/vài quyết định.",
-    "CSDL mới: sinh viên tốt nghiệp khi Tinhtrang=3 hoặc Totnghiep=1; CSDL cũ: CNTN=1.",
-    "Sĩ số gốc đếm toàn bộ Sinhvien của lớp; sĩ số cuối khóa đếm Tinhtrang 0 hoặc 3 và dùng làm mẫu số tỷ lệ tốt nghiệp.",
-    "Bảng theo trình độ và lớp: Sĩ số, Tốt nghiệp, Tỷ lệ TN, Nam, Nữ, Xuất sắc, Giỏi, Khá, T.bình khá, Trung bình, Việc làm, Tỷ lệ việc làm.",
-    "Mỗi trình độ có dòng tổng; cuối bảng có dòng TỔNG CỘNG.",
-    "Bấm số tốt nghiệp mở danh sách MaSV, họ tên, số hiệu bằng, số vào sổ, QĐTN, ngày ký, xếp loại.",
-    "Bấm số việc làm mở danh sách chi tiết từ Sinhvien.Noilamviec; hỗ trợ cấu trúc chuỗi khác nhau giữa DB mới và DB cũ.",
-    "Nếu không có thông tin việc làm, số liệu và tỷ lệ việc làm để trống.",
-    "Dữ liệu lịch sử Daotao_CamauVKC có thể đồng bộ thủ công một lần về SQLite; báo cáo cũ sau đó không cần mở kết nối SQL Server cũ.",
-    "Xuất Excel theo cùng cấu trúc thống kê, kèm sĩ số gốc để đối chiếu."
+    "Nguồn dữ liệu thống kê theo năm được chọn tự động, không còn phụ thuộc bộ chọn thủ công.",
+    "Năm 2025 trở đi dùng EduManUni_CamauVKC.",
+    "Năm 2023 trở về trước dùng dữ liệu lịch sử đã đồng bộ từ Daotao_CamauVKC.",
+    "Riêng năm 2024: QĐ 439/QĐ-CĐN (MaQDTN 019) dùng CSDL mới; các QĐ còn lại dùng dữ liệu cũ.",
+    "Bỏ giới hạn nguồn theo khóa MaSV trong báo cáo theo năm để tránh loại sai sinh viên.",
+    "Dữ liệu lịch sử SQLite yêu cầu đồng bộ lại một lần theo quy tắc 13.8.2024.",
+    "Bảng thống kê bổ sung cột Trình độ, chia nhóm Trung cấp/Cao đẳng, có dòng tổng từng trình độ và Tổng cộng.",
+    "Giao diện nhóm trình độ, badge và dòng tổng được điều chỉnh gần với bảng thống kê tuyển sinh."
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2023/Scores_update_v13.8.2023.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2023",
-  "sha256": "fa3aba898518b3832498fd4d5a3685351718949e717adc4842df54d8b55a8c40"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2024/Scores_update_v13.8.2024.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2024",
+  "sha256": "503e8f22f618e523135216292401cf9a2b1c2c7bf9328c245a8cf9143960bfbb"
 }
