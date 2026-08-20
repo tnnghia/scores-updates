@@ -1,6 +1,26 @@
 {
-  "latest": "13.8.2024",
+  "latest": "13.8.2025",
   "releases": [
+    {
+      "version": "13.8.2025",
+      "requires": "13.8.2024",
+      "released_at": "2026-08-20",
+      "channel": "stable",
+      "title": "Vá thống kê tốt nghiệp: xếp loại, trình độ, dân tộc và giao diện QĐ",
+      "description": "Chuẩn hóa nguồn dữ liệu thống kê tốt nghiệp theo năm và trình bày bảng theo nhóm trình độ tương tự báo cáo tuyển sinh.",
+      "features": [
+        "DB cũ: dùng XLTK khi XLHTBon NULL/rỗng hoặc MaXLHTBon=0; ngược lại dùng XLHTBon.",
+        "Cả DB cũ và mới xác định trình độ qua Lop.MaNG -> Nganhhoc.MaNG; BacDTHienthi chứa 'Trung cấp' hoặc 'Cao đẳng' được chuẩn hóa tương ứng.",
+        "Bổ sung thống kê dân tộc với Sinhvien.MaDT khác KIN.",
+        "Tăng cỡ chữ phụ, badge trình độ và thông tin nhỏ dưới số liệu.",
+        "Cô đọng thẻ tổng hợp còn 6 thẻ để cân đối trên màn hình nhỏ.",
+        "Chọn QĐTN bằng cách nhấn trực tiếp tên QĐ: sáng là chọn, mờ là bỏ; có nút Chọn tất cả/Bỏ chọn.",
+        "Cache SQLite lịch sử tự nâng cấu trúc và yêu cầu đồng bộ lại theo rules_version 2025."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2025/Scores_update_v13.8.2025.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2025",
+      "sha256": "5f989cc6e2c736d6b2f061efbeed984fc3383c18e53e14f3e422fd64b94f36ba"
+    },
     {
       "version": "13.8.2024",
       "requires": "13.8.2023",
