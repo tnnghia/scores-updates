@@ -1,6 +1,26 @@
 {
-  "latest": "13.8.2025",
+  "latest": "13.8.2026",
   "releases": [
+    {
+      "version": "13.8.2026",
+      "requires": "13.8.2025",
+      "released_at": "2026-08-20",
+      "channel": "stable",
+      "title": "Quản sinh - Tab Việc làm sinh viên",
+      "description": "Tách thông tin việc làm thành tab riêng trong modal Lớp sinh hoạt và chuẩn hóa cách lưu Sinhvien.Noilamviec.",
+      "features": [
+        "Bỏ ô Nơi làm việc và Nhận xét khỏi tab Liên hệ trong modal Lớp sinh hoạt.",
+        "Thêm tab Việc làm ngay sau Học tập.",
+        "Tách 6 trường nhập: Vị trí, Công ty, Địa chỉ, Thời gian bắt đầu làm việc, Mức lương khởi điểm, Điện thoại liên hệ.",
+        "Khi lưu tự ghép Sinhvien.Noilamviec theo format: Vị trí | Công ty | Địa chỉ | Thời gian bắt đầu | Mức lương | Điện thoại.",
+        "Khi mở hồ sơ tự tách Noilamviec ra các trường nhập để chỉnh sửa.",
+        "Giữ tương thích dữ liệu DB mới cũ đã lưu trước 13.8.2026 bằng nhận diện format cũ có dấu | cuối.",
+        "Báo cáo việc làm tiếp tục đọc đúng cả format cũ và format chuẩn mới."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2026/Scores_update_v13.8.2026.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2026",
+      "sha256": "c628d1666d8ed777b00ecc2f99ddec1973d0c83b74c3dc26ce7844f22d91d883"
+    },
     {
       "version": "13.8.2025",
       "requires": "13.8.2024",
