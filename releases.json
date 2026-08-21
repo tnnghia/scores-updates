@@ -1,6 +1,26 @@
 {
-  "latest": "13.8.2029",
+  "latest": "13.8.2030",
   "releases": [
+    {
+      "version": "13.8.2030",
+      "requires": "13.8.2029",
+      "released_at": "2026-08-21",
+      "channel": "stable",
+      "title": "Tiến độ đào tạo theo giờ CTĐT trừ giờ thi",
+      "description": "Chuẩn hóa cột Thi trong CTDTLop, tính giờ TKB yêu cầu bằng Tổng giờ - Giờ thi, thiết kế lại Dashboard với thanh tiến độ tổng và ba biểu đồ chi tiết.",
+      "features": [
+        "CTDTLop hỗ trợ cột Thi xuyên suốt thêm/sửa/sao chép/nhập/xuất Excel; không tự thay đổi dữ liệu SotinchiTH hiện có.",
+        "Chỉ thống kê học phần tồn tại trong CTDTLop, đúng học kỳ và có Tổng giờ lớn hơn 0; không hard-code tên học phần loại trừ.",
+        "Giờ phải xếp TKB = CTDTLop.Sotiet - CTDTLop.Thi; kết thúc học phần khi giờ đã dạy đạt giờ phải xếp TKB.",
+        "Dashboard mỗi học kỳ có một thanh tiến độ tổng Kỳ vọng/Đã dạy/Đã xếp và bỏ biểu đồ doughnut TKB.",
+        "Ba biểu đồ chi tiết còn lại là Học phần, Thi L1 và Thi L2; màu trạng thái được thống nhất giữa các biểu đồ.",
+        "Thi L2 không hard-code theo tên môn: Thi=0 được xác nhận Không cần thi L2 sau khi học phần kết thúc; môn có giờ thi được xác định theo kết quả L1/L2 thực tế.",
+        "Bước 6 Quản lý LopHP hiển thị Giờ TKB yêu cầu / đã xếp thay cho Tổng giờ CTĐT / đã xếp."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2030/Scores_update_v13.8.2030.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2030",
+      "sha256": "0475cb3962d7da060c2059449a034c1d0cce4db0430bb068195ab031331dd1f6"
+    },
     {
       "version": "13.8.2029",
       "requires": "13.8.2028",
