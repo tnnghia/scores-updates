@@ -1,18 +1,18 @@
 {
-  "version": "13.8.2027",
-  "requires": "13.8.2026",
+  "version": "13.8.2028",
+  "requires": "13.8.2027",
   "released_at": "2026-08-21",
   "channel": "stable",
-  "title": "Đồng bộ giao diện và dữ liệu thống kê tốt nghiệp",
-  "description": "Đồng bộ bảng/thẻ báo cáo và mở rộng thống kê tốt nghiệp dùng cả CSDL mới lẫn dữ liệu lịch sử.",
+  "title": "Hoàn thiện xếp loại tốt nghiệp và sidebar toàn màn hình",
+  "description": "Tách T.bình khá thành chỉ tiêu độc lập trong mọi thống kê tốt nghiệp, hoàn thiện thẻ theo năm và điều chỉnh sidebar luôn phủ đủ chiều cao màn hình.",
   "features": [
-    "Đồng bộ CSS bảng báo cáo theo phong cách Thống kê Tuyển sinh; không cố định tiêu đề/cột và màu chữ thay đổi theo cột.",
-    "Tất cả loại thống kê tốt nghiệp dùng đồng thời dữ liệu mới và dữ liệu lịch sử.",
-    "Thẻ báo cáo được thu gọn và hiển thị 2 thẻ mỗi hàng trên màn hình nhỏ/di động.",
-    "Thẻ thống kê tốt nghiệp theo năm: Sĩ số cuối khóa, Tốt nghiệp kèm tỷ lệ, XS, G, K, TBK, Trung bình.",
-    "Thẻ chọn quyết định theo năm chỉ hiển thị Số quyết định và Ngày ký."
+    "Thống kê tốt nghiệp theo năm dùng tên đầy đủ: Xuất sắc, Giỏi, Khá, T.bình khá, Trung bình; mỗi thẻ xếp loại hiển thị phần trăm so với số tốt nghiệp.",
+    "Các loại thống kê tốt nghiệp còn lại bổ sung thẻ T.bình khá, cột T.bình khá và tỷ lệ tương ứng.",
+    "Backend tách T.bình khá khỏi Trung bình để số liệu tổng hợp chính xác ở mọi loại thống kê.",
+    "Xuất Excel thống kê tốt nghiệp bổ sung cột T.bình khá.",
+    "Sidebar luôn chiếm toàn bộ chiều cao viewport theo độ phân giải, hỗ trợ 100vh và 100dvh trên thiết bị di động."
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2027/Scores_update_v13.8.2027.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2027",
-  "sha256": "eac0291336c634352c5a72e70980def9b35b073a0c31f84fd028d25620559a69"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2028/Scores_update_v13.8.2028.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2028",
+  "sha256": "8fc2cf1b05c3db6c8ac6a8cfca9cee8c796eb133c675b3c5b1ad1cc72ce8f31c"
 }

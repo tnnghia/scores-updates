@@ -1,6 +1,24 @@
 {
-  "latest": "13.8.2027",
+  "latest": "13.8.2028",
   "releases": [
+    {
+      "version": "13.8.2028",
+      "requires": "13.8.2027",
+      "released_at": "2026-08-21",
+      "channel": "stable",
+      "title": "Hoàn thiện xếp loại tốt nghiệp và sidebar toàn màn hình",
+      "description": "Tách T.bình khá thành chỉ tiêu độc lập trong mọi thống kê tốt nghiệp, hoàn thiện thẻ theo năm và điều chỉnh sidebar luôn phủ đủ chiều cao màn hình.",
+      "features": [
+        "Thống kê tốt nghiệp theo năm dùng tên đầy đủ: Xuất sắc, Giỏi, Khá, T.bình khá, Trung bình; mỗi thẻ xếp loại hiển thị phần trăm so với số tốt nghiệp.",
+        "Các loại thống kê tốt nghiệp còn lại bổ sung thẻ T.bình khá, cột T.bình khá và tỷ lệ tương ứng.",
+        "Backend tách T.bình khá khỏi Trung bình để số liệu tổng hợp chính xác ở mọi loại thống kê.",
+        "Xuất Excel thống kê tốt nghiệp bổ sung cột T.bình khá.",
+        "Sidebar luôn chiếm toàn bộ chiều cao viewport theo độ phân giải, hỗ trợ 100vh và 100dvh trên thiết bị di động."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2028/Scores_update_v13.8.2028.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2028",
+      "sha256": "8fc2cf1b05c3db6c8ac6a8cfca9cee8c796eb133c675b3c5b1ad1cc72ce8f31c"
+    },
     {
       "version": "13.8.2027",
       "requires": "13.8.2026",
