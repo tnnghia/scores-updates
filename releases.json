@@ -1,6 +1,23 @@
 {
-  "latest": "13.8.2032",
+  "latest": "13.8.2033",
   "releases": [
+    {
+      "version": "13.8.2033",
+      "requires": "13.8.2032",
+      "released_at": "2026-08-23",
+      "channel": "stable",
+      "title": "Sửa báo cáo tuyển sinh, CTĐT và tiến độ đào tạo",
+      "description": "Đồng bộ màu báo cáo tuyển sinh; ngừng ghi 27 vào các cột CTDTLop không liên quan và dọn dữ liệu sentinel cũ; chuẩn hóa ngưỡng kết thúc học phần 90%.",
+      "features": [
+        "Báo cáo tuyển sinh: màu thẻ KPI, tiêu đề cột và dữ liệu cùng một bảng màu; bỏ chữ trắng trên nền sáng.",
+        "CTDTLop: không còn ghi 27 vào Tienquyet, Hoctruoc, Songhanh, Thaythe, MasoHP khi thêm/import học phần.",
+        "CTDTLop: tự dọn các dòng sentinel cũ khi cả 5 trường cùng bằng 27 và cột cho phép NULL.",
+        "Tiến độ đào tạo: học phần đạt từ 90% giờ TKB yêu cầu được tính là kết thúc ở cả chi tiết và tổng hợp."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2033/Scores_update_v13.8.2033.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2033",
+      "sha256": "276ce26703ecc0ab7d6b026e6202020a30b7e2a0dacca3ce51bd4afb2c686cf9"
+    },
     {
       "version": "13.8.2032",
       "requires": "13.8.2030",

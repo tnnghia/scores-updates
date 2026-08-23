@@ -1,20 +1,17 @@
 {
-  "version": "13.8.2032",
-  "requires": "13.8.2030",
-  "released_at": "2026-08-21",
+  "version": "13.8.2033",
+  "requires": "13.8.2032",
+  "released_at": "2026-08-23",
   "channel": "stable",
-  "title": "Chuẩn hóa giao diện thống kê và tiến độ học kỳ",
-  "description": "Gộp giao diện thống kê toàn hệ thống, thuật toán tiến độ mới có tuần dự phòng và trạng thái Học phần/L1/L2 chi tiết; nâng trực tiếp từ 13.8.2030.",
+  "title": "Sửa báo cáo tuyển sinh, CTĐT và tiến độ đào tạo",
+  "description": "Đồng bộ màu báo cáo tuyển sinh; ngừng ghi 27 vào các cột CTDTLop không liên quan và dọn dữ liệu sentinel cũ; chuẩn hóa ngưỡng kết thúc học phần 90%.",
   "features": [
-    "Chuẩn hóa một kiểu bảng/thẻ responsive cho Tuyển sinh, Tốt nghiệp, HSSV và Học tập–Rèn luyện; tăng cỡ chữ theo độ phân giải nhưng giữ cuộn ngang nội bộ khi màn hình hẹp.",
-    "Đồng bộ màu cùng chỉ tiêu giữa thẻ, cột bảng và biểu đồ; không tô nền ô dữ liệu.",
-    "Tiến độ học kỳ dùng một thanh tổng với 3 mốc Hiện tại, Kỳ vọng, Thực tế; số liệu chỉ hiện qua tooltip.",
-    "Kỳ vọng trừ 1 tuần dự phòng của học kỳ; Thực tế tính theo giờ đã dạy / (Tổng giờ CTĐT - Giờ thi).",
-    "Biểu đồ Học phần có Chưa học/Đang học/Kết thúc; Thi L1 có Chưa thi/Chưa hoàn tất/Hoàn tất; Thi L2 có Không cần thi/Chưa thi/Chưa hoàn tất/Hoàn tất.",
-    "Bổ sung CTDTLop.ThiL2 (bit, mặc định 1) để đánh dấu học phần có/không tổ chức thi L2; tự tạo cột khi chưa tồn tại và đưa vào Bước 2 CTĐT lớp.",
-    "Giữ CTDTLop.Thi làm giờ thi không xếp TKB; học phần chỉ thống kê khi có trong CTDTLop đúng học kỳ và Sotiet > 0."
+    "Báo cáo tuyển sinh: màu thẻ KPI, tiêu đề cột và dữ liệu cùng một bảng màu; bỏ chữ trắng trên nền sáng.",
+    "CTDTLop: không còn ghi 27 vào Tienquyet, Hoctruoc, Songhanh, Thaythe, MasoHP khi thêm/import học phần.",
+    "CTDTLop: tự dọn các dòng sentinel cũ khi cả 5 trường cùng bằng 27 và cột cho phép NULL.",
+    "Tiến độ đào tạo: học phần đạt từ 90% giờ TKB yêu cầu được tính là kết thúc ở cả chi tiết và tổng hợp."
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2032/Scores_update_v13.8.2032.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2032",
-  "sha256": "7b63afba235e77e190dc934018416055d476922fff841c72e09b4d7699742682"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2033/Scores_update_v13.8.2033.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2033",
+  "sha256": "276ce26703ecc0ab7d6b026e6202020a30b7e2a0dacca3ce51bd4afb2c686cf9"
 }
