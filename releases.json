@@ -1,6 +1,25 @@
 {
-  "latest": "13.8.2033",
+  "latest": "13.8.2034",
   "releases": [
+    {
+      "version": "13.8.2034",
+      "requires": "13.8.2033",
+      "released_at": "2026-08-23",
+      "channel": "stable",
+      "title": "Sửa xuất CTĐT và mốc tiến độ",
+      "description": "Sửa lệch cột khi xuất chương trình đào tạo theo lớp, bổ sung dữ liệu Thi lần 2 và bố trí mỗi mốc tiến độ bằng một mũi tên riêng.",
+      "features": [
+        "Xuất CTĐT: cột Thi lần 2 lấy CTDTLop.ThiL2 và hiển thị Có/Không.",
+        "Xuất CTĐT: Tên nhóm tự chọn lấy NhomHPTC.NhomHPTC, không còn nhận nhầm Có/Không.",
+        "Xuất CTĐT: Môn điều kiện lấy CTDTLop.Dieukien và ghi đúng cột 11.",
+        "Nhập CTĐT: kiểm tra đủ 11 cột, bao gồm Thi lần 2, để mẫu xuất/nhập đối xứng.",
+        "Tiến độ đào tạo: Thực tế, Kỳ vọng và Hiện tại có mũi tên riêng; tách vị trí nhãn để tránh chồng chữ.",
+        "Tăng cache version CSS/JS lên 13.8.2034 để trình duyệt nhận giao diện mới ngay sau cập nhật."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2034/Scores_update_v13.8.2034.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2034",
+      "sha256": "040e86b8afb3bba23af83c4ae172d9c5c5c21d99eef073615a9284647953d5c4"
+    },
     {
       "version": "13.8.2033",
       "requires": "13.8.2032",
