@@ -1,6 +1,18 @@
 {
-  "latest": "13.8.2043",
+  "latest": "13.8.2044",
   "releases": [
+    {
+      "version": "13.8.2044",
+      "requires": "13.8.2043",
+      "released_at": "2026-08-28",
+      "channel": "stable",
+      "title": "Sửa nút Tải lại Quản lý tuyển sinh",
+      "description": "",
+      "features": [],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2044/Scores_update_v13.8.2044.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2044",
+      "sha256": "011347570ead88294e8870479f75ec5392df2c3c9cc23b9c7dacfecdee7a09d8"
+    },
     {
       "version": "13.8.2043",
       "requires": "13.8.2042",
