@@ -1,6 +1,18 @@
 {
-  "latest": "13.8.2042",
+  "latest": "13.8.2043",
   "releases": [
+    {
+      "version": "13.8.2043",
+      "requires": "13.8.2042",
+      "released_at": "2026-08-28",
+      "channel": "stable",
+      "title": "Nhật ký chỉnh sửa và tùy biến bảng tuyển sinh",
+      "description": "",
+      "features": [],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2043/Scores_update_v13.8.2043.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2043",
+      "sha256": "3313a5fac2a54dcfde67c088b7d91603f88b785cb7727f49a6a50c34c37ea8d1"
+    },
     {
       "version": "13.8.2042",
       "requires": "13.8.2041",
