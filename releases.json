@@ -1,6 +1,25 @@
 {
-  "latest": "13.8.2034",
+  "latest": "13.8.2035",
   "releases": [
+    {
+      "version": "13.8.2035",
+      "requires": "13.8.2034",
+      "released_at": "2026-08-28",
+      "channel": "stable",
+      "title": "Import thí sinh theo đợt xét tuyển",
+      "description": "Bổ sung import Excel 1 sheet theo đợt xét tuyển, tự sinh mã và ghi đồng bộ 3 bảng tuyển sinh.",
+      "features": [
+        "Thêm mục Tuyển sinh > Import thí sinh.",
+        "Tải mẫu Excel 1 sheet ngay trên WebApp.",
+        "Chọn đợt xét tuyển từ DotXT trước khi import.",
+        "Tự sinh MaTSXT = MaDXT + STT và Maso = Ma_DXT + cùng STT.",
+        "Tra MaNG theo ngành/nghề và bậc đào tạo hiển thị.",
+        "Ghi transaction đồng bộ ThisinhXT, ThisinhXTMonXT và ThisinhXTNguyenvongXT; có lỗi thì rollback toàn file."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2035/Scores_update_v13.8.2035.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2035",
+      "sha256": "220272bd2715cdfee683d60ee9212501358204a8fd360fdb066c56be2fdaf61c"
+    },
     {
       "version": "13.8.2034",
       "requires": "13.8.2033",
