@@ -1,19 +1,19 @@
 {
-  "version": "13.8.2035",
-  "requires": "13.8.2034",
+  "version": "13.8.2036",
+  "requires": "13.8.2035",
   "released_at": "2026-08-28",
   "channel": "stable",
-  "title": "Import thí sinh theo đợt xét tuyển",
-  "description": "Bổ sung import Excel 1 sheet theo đợt xét tuyển, tự sinh mã và ghi đồng bộ 3 bảng tuyển sinh.",
+  "title": "Import thí sinh theo từng dòng và trả file lỗi",
+  "description": "Điều chỉnh import tuyển sinh: dòng hợp lệ vẫn được ghi, dòng lỗi được trả về trong file Excel kết quả để sửa và nhập lại.",
   "features": [
-    "Thêm mục Tuyển sinh > Import thí sinh.",
-    "Tải mẫu Excel 1 sheet ngay trên WebApp.",
-    "Chọn đợt xét tuyển từ DotXT trước khi import.",
-    "Tự sinh MaTSXT = MaDXT + STT và Maso = Ma_DXT + cùng STT.",
-    "Tra MaNG theo ngành/nghề và bậc đào tạo hiển thị.",
-    "Ghi transaction đồng bộ ThisinhXT, ThisinhXTMonXT và ThisinhXTNguyenvongXT; có lỗi thì rollback toàn file."
+    "Đổi cơ chế import từ rollback toàn file sang xử lý độc lập từng dòng.",
+    "Dòng hợp lệ ghi đồng bộ ThisinhXT, ThisinhXTMonXT và ThisinhXTNguyenvongXT; dòng lỗi không để lại dữ liệu dở dang.",
+    "Thông báo tổng số dòng, số thành công và số thất bại sau import.",
+    "Tự tải file Excel kết quả giữ nguyên dữ liệu nguồn và bổ sung Kết quả import, Nội dung lỗi, MaTSXT, Maso.",
+    "Dòng lỗi được đánh dấu nổi bật để sửa và có thể nhập lại ngay.",
+    "Giữ nguyên nguyên tắc chặn CCCD trùng, tra MaNG theo ngành + bậc và kiểm tra ngành thuộc đúng đợt xét tuyển."
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2035/Scores_update_v13.8.2035.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2035",
-  "sha256": "220272bd2715cdfee683d60ee9212501358204a8fd360fdb066c56be2fdaf61c"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2036/Scores_update_v13.8.2036.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2036",
+  "sha256": "6d94b2b5aafcee682674419f92d68166c918a33d4b41bc102338b4d758560b12"
 }
