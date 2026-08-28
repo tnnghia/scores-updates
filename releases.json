@@ -1,6 +1,18 @@
 {
-  "latest": "13.8.2037",
+  "latest": "13.8.2038",
   "releases": [
+    {
+      "version": "13.8.2038",
+      "requires": "13.8.2037",
+      "released_at": "2026-08-28",
+      "channel": "stable",
+      "title": "Điều chỉnh trường bắt buộc khi import thí sinh",
+      "description": "",
+      "features": [],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2038/Scores_update_v13.8.2038.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2038",
+      "sha256": "e7dbd6f88ec129bb884bd95bc52ce77433c816abd8600b87ae12545d3f5a1cf6"
+    },
     {
       "version": "13.8.2037",
       "requires": "13.8.2036",

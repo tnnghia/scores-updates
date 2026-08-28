@@ -1,19 +1,12 @@
 {
-  "version": "13.8.2037",
-  "requires": "13.8.2036",
+  "version": "13.8.2038",
+  "requires": "13.8.2037",
   "released_at": "2026-08-28",
   "channel": "stable",
-  "title": "Ưu tiên db_ThisinhXTnopHoso và fallback SQLite",
-  "description": "Chuyển dữ liệu hồ sơ tuyển sinh sang cơ chế SQL Server chính, SQLite nội bộ chỉ dự phòng khi bảng db_ThisinhXTnopHoso lỗi truy cập.",
-  "features": [
-    "Ưu tiên đọc db_ThisinhXTnopHoso trên SQL Server cho trạng thái hồ sơ, NopOnline, thông tin tiếp nhận và link hồ sơ.",
-    "Chỉ đọc ThisinhBackupGoc trên SQLite khi truy vấn bảng db_ThisinhXTnopHoso phát sinh lỗi; không fallback khi SQL truy cập được nhưng chưa có bản ghi.",
-    "Khi tạo hoặc lưu hồ sơ, ưu tiên ghi db_ThisinhXTnopHoso; nếu ghi bảng phụ SQL lỗi thì tự ghi SQLite nội bộ.",
-    "Giữ nguyên ThisinhXT, ThisinhXTMonXT, ThisinhXTNguyenvongXT và các bảng nghiệp vụ hiện có trên SQL Server, không chuyển toàn hệ thống sang SQLite.",
-    "Danh sách tuyển sinh lấy NopOnline hàng loạt từ SQL trước và chỉ fallback SQLite khi cần.",
-    "Tự dò các cột thực có của db_ThisinhXTnopHoso để tương thích cấu trúc hiện tại và tránh ghi vào cột không tồn tại."
-  ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2037/Scores_update_v13.8.2037.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2037",
-  "sha256": "21c83ba6c6bcb1584cf6c8a5b983b24814c21c79afe0ed5d1065c4fdbe668820"
+  "title": "Điều chỉnh trường bắt buộc khi import thí sinh",
+  "description": "",
+  "features": [],
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2038/Scores_update_v13.8.2038.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2038",
+  "sha256": "e7dbd6f88ec129bb884bd95bc52ce77433c816abd8600b87ae12545d3f5a1cf6"
 }
