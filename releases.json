@@ -1,6 +1,18 @@
 {
-  "latest": "13.8.2039",
+  "latest": "13.8.2040",
   "releases": [
+    {
+      "version": "13.8.2040",
+      "requires": "13.8.2039",
+      "released_at": "2026-08-28",
+      "channel": "stable",
+      "title": "Import cập nhật theo CCCD và ghi thông tin tiếp nhận",
+      "description": "",
+      "features": [],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2040/Scores_update_v13.8.2040.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2040",
+      "sha256": "c5aed1b6d8b84df2eabd894c82a5baaea3f357ec686f97c30705a67ba3782695"
+    },
     {
       "version": "13.8.2039",
       "requires": "13.8.2038",
