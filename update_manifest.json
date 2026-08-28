@@ -1,12 +1,12 @@
 {
-  "version": "13.8.2040",
-  "requires": "13.8.2039",
+  "version": "13.8.2041",
+  "requires": "13.8.2040",
   "released_at": "2026-08-28",
   "channel": "stable",
-  "title": "Import cập nhật theo CCCD và ghi thông tin tiếp nhận",
+  "title": "Tài khoản người nhận, danh mục THPT và ngành học Excel",
   "description": "",
   "features": [],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2040/Scores_update_v13.8.2040.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2040",
-  "sha256": "c5aed1b6d8b84df2eabd894c82a5baaea3f357ec686f97c30705a67ba3782695"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2041/Scores_update_v13.8.2041.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2041",
+  "sha256": "a2866bd8634b01f72f2f1dd5cd2c22c6c85bc53eee21e95d559783da1e41d321"
 }
