@@ -1,6 +1,18 @@
 {
-  "latest": "13.8.2041",
+  "latest": "13.8.2042",
   "releases": [
+    {
+      "version": "13.8.2042",
+      "requires": "13.8.2041",
+      "released_at": "2026-08-28",
+      "channel": "stable",
+      "title": "Sửa route danh mục Trường THPT",
+      "description": "",
+      "features": [],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2042/Scores_update_v13.8.2042.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2042",
+      "sha256": "560a87c3005535f6220e31b5a2c59002fcde533d38920b3f292ea2d25e7c6391"
+    },
     {
       "version": "13.8.2041",
       "requires": "13.8.2040",
