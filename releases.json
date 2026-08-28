@@ -1,6 +1,18 @@
 {
-  "latest": "13.8.2038",
+  "latest": "13.8.2039",
   "releases": [
+    {
+      "version": "13.8.2039",
+      "requires": "13.8.2038",
+      "released_at": "2026-08-28",
+      "channel": "stable",
+      "title": "Danh mục trường THPT và kiểm tra CCCD theo đợt",
+      "description": "",
+      "features": [],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2039/Scores_update_v13.8.2039.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2039",
+      "sha256": "7f70e2e9327983410d2707dcefa7ece550eb8360e199e3e304db80b8d9e99335"
+    },
     {
       "version": "13.8.2038",
       "requires": "13.8.2037",
