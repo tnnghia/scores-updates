@@ -1,19 +1,19 @@
 {
-  "version": "13.8.2036",
-  "requires": "13.8.2035",
+  "version": "13.8.2037",
+  "requires": "13.8.2036",
   "released_at": "2026-08-28",
   "channel": "stable",
-  "title": "Import thí sinh theo từng dòng và trả file lỗi",
-  "description": "Điều chỉnh import tuyển sinh: dòng hợp lệ vẫn được ghi, dòng lỗi được trả về trong file Excel kết quả để sửa và nhập lại.",
+  "title": "Ưu tiên db_ThisinhXTnopHoso và fallback SQLite",
+  "description": "Chuyển dữ liệu hồ sơ tuyển sinh sang cơ chế SQL Server chính, SQLite nội bộ chỉ dự phòng khi bảng db_ThisinhXTnopHoso lỗi truy cập.",
   "features": [
-    "Đổi cơ chế import từ rollback toàn file sang xử lý độc lập từng dòng.",
-    "Dòng hợp lệ ghi đồng bộ ThisinhXT, ThisinhXTMonXT và ThisinhXTNguyenvongXT; dòng lỗi không để lại dữ liệu dở dang.",
-    "Thông báo tổng số dòng, số thành công và số thất bại sau import.",
-    "Tự tải file Excel kết quả giữ nguyên dữ liệu nguồn và bổ sung Kết quả import, Nội dung lỗi, MaTSXT, Maso.",
-    "Dòng lỗi được đánh dấu nổi bật để sửa và có thể nhập lại ngay.",
-    "Giữ nguyên nguyên tắc chặn CCCD trùng, tra MaNG theo ngành + bậc và kiểm tra ngành thuộc đúng đợt xét tuyển."
+    "Ưu tiên đọc db_ThisinhXTnopHoso trên SQL Server cho trạng thái hồ sơ, NopOnline, thông tin tiếp nhận và link hồ sơ.",
+    "Chỉ đọc ThisinhBackupGoc trên SQLite khi truy vấn bảng db_ThisinhXTnopHoso phát sinh lỗi; không fallback khi SQL truy cập được nhưng chưa có bản ghi.",
+    "Khi tạo hoặc lưu hồ sơ, ưu tiên ghi db_ThisinhXTnopHoso; nếu ghi bảng phụ SQL lỗi thì tự ghi SQLite nội bộ.",
+    "Giữ nguyên ThisinhXT, ThisinhXTMonXT, ThisinhXTNguyenvongXT và các bảng nghiệp vụ hiện có trên SQL Server, không chuyển toàn hệ thống sang SQLite.",
+    "Danh sách tuyển sinh lấy NopOnline hàng loạt từ SQL trước và chỉ fallback SQLite khi cần.",
+    "Tự dò các cột thực có của db_ThisinhXTnopHoso để tương thích cấu trúc hiện tại và tránh ghi vào cột không tồn tại."
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2036/Scores_update_v13.8.2036.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2036",
-  "sha256": "6d94b2b5aafcee682674419f92d68166c918a33d4b41bc102338b4d758560b12"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2037/Scores_update_v13.8.2037.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2037",
+  "sha256": "21c83ba6c6bcb1584cf6c8a5b983b24814c21c79afe0ed5d1065c4fdbe668820"
 }
