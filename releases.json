@@ -1,6 +1,26 @@
 {
-  "latest": "13.8.2045",
+  "latest": "13.8.2046",
   "releases": [
+    {
+      "version": "13.8.2046",
+      "requires": "13.8.2045",
+      "released_at": "2026-08-29",
+      "channel": "stable",
+      "title": "Hoàn thiện nền tảng phân quyền nhiều vai trò",
+      "description": "Bổ sung RBAC nhiều vai trò, quyền chi tiết, phạm vi đơn vị và liên kết tài khoản với giáo viên; áp dụng kiểm soát quyền cho Quản lý khai giờ.",
+      "features": [
+        "Bổ sung 7 vai trò: Quản lý sinh viên, Quản lý đào tạo, Thư ký tuyển sinh, Trưởng đơn vị, Ban giám hiệu, Giảng viên và Quản trị.",
+        "Cho phép một tài khoản được cấp đồng thời nhiều vai trò.",
+        "Bổ sung 23 quyền chi tiết, tách quyền nghiệp vụ khỏi quyền quản trị kỹ thuật.",
+        "Thêm liên kết tài khoản QLĐT với MaGV/Maso và phạm vi một hoặc nhiều đơn vị.",
+        "Tự chuyển đổi vai trò cũ sang mô hình mới mà vẫn giữ tương thích Users.role.",
+        "Kiểm soát quyền đọc, cập nhật, đồng bộ và quản trị trong module Quản lý khai giờ.",
+        "Nâng cấp giao diện Quản trị tài khoản để cấp nhiều vai trò và phạm vi dữ liệu."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2046/Scores_update_v13.8.2046.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2046",
+      "sha256": "a8a17b22cb4e535dd8a4715f26b981b946799d5fdaa8c1b61616243c720eb50e"
+    },
     {
       "version": "13.8.2045",
       "requires": "13.8.2044",
