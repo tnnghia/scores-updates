@@ -1,13 +1,13 @@
 {
   "version": "13.8.2044",
   "requires": "13.8.2043",
-  "released_at": "2026-08-29",
+  "released_at": "2026-08-28",
   "channel": "stable",
-  "title": "Hoàn thiện nền tảng phân quyền nhiều vai trò",
-  "description": "Bổ sung RBAC nhiều vai trò, quyền chi tiết, phạm vi đơn vị và liên kết tài khoản với giáo viên; áp dụng kiểm soát quyền cho Quản lý khai giờ.",
+  "title": "Hoàn thiện chức năng quản lý tuyển sinh",
+  "description": "Bổ sung nhập danh sách thí sinh từ mẫu Excel và chức năng quản lý danh mục trường THPT.",
   "features": [
-    "Bổ sung import thí sinh qua mẫu excel",
-    "Thêm chức năng bổ sung danh mục Trường THPT",
+    "Bổ sung import thí sinh qua mẫu Excel",
+    "Thêm chức năng bổ sung danh mục trường THPT"
   ],
   "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2044/Scores_update_v13.8.2044.zip",
   "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2044",
