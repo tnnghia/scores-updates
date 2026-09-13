@@ -1,6 +1,27 @@
 {
-  "latest": "13.8.2044",
+  "latest": "13.8.2057",
   "releases": [
+    {
+      "version": "13.8.2057",
+      "requires": "13.8.2044",
+      "released_at": "2026-09-13",
+      "channel": "stable",
+      "title": "Chuyển đổi CSDL, môn tự chọn CTĐT, gom bộ lọc",
+      "description": "Chọn CSDL ở màn hình đăng nhập; môn tự chọn trong CTĐT; gom bộ lọc học kỳ/lớp/giáo viên; nới ràng buộc xóa lớp học phần; GVCN và giấy xác nhận ở Lớp sinh hoạt.",
+      "features": [
+        "Đăng nhập: chọn cơ sở dữ liệu theo hồ sơ khai báo trong instance/config.json",
+        "Kết nối SQL Server: ép giao thức TCP, bỏ thuộc tính sai, tự thử lại khi rớt mạng",
+        "CTĐT: chọn môn tự chọn theo lớp, kiểm tra tín chỉ, sao chép kèm lựa chọn",
+        "Tạo lớp học phần: bỏ qua môn tự chọn không được chọn",
+        "Xóa lớp học phần: chỉ chặn khi đã xếp lịch hoặc đã có điểm",
+        "Gom bộ lọc: học kỳ theo năm học, lớp theo khóa, giáo viên theo đơn vị",
+        "Lớp sinh hoạt: phân công GVCN và in giấy xác nhận cho HSSV",
+        "Phân lớp: tạo lớp mới, mở quyền cho tài khoản Quản sinh"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2057/goi_cap_nhat_13.8.2057.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2057",
+      "sha256": "33638c581eea3e520691039431af709fea670f801c0e3d9fd02bd0fb8e8bc0b1"
+    },
     {
       "version": "13.8.2044",
       "requires": "13.8.2043",
