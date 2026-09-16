@@ -1,6 +1,23 @@
 {
-  "latest": "13.8.2057",
+  "latest": "13.8.2058",
   "releases": [
+    {
+      "version": "13.8.2058",
+      "requires": "13.8.2057",
+      "released_at": "2026-09-16",
+      "channel": "stable",
+      "title": "Sửa file mẫu Excel Chương trình đào tạo",
+      "description": "Sửa định nghĩa Table trong file mẫu Mau_nhap_CTDTLop.xlsx khiến Excel báo lỗi và phải sửa chữa khi mở file tải về.",
+      "features": [
+        "Table CTDTLopImportTable: mở rộng vùng A4:J54 -> A4:K54, khai báo đủ 11 cột đúng tên tiêu đề",
+        "Chuyển dropdown Có/Không từ cột J (Tên nhóm tự chọn) về cột I (Thi lần 2)",
+        "Mở rộng 3 dòng tiêu đề trộn ô tới cột K, bổ sung độ rộng cột K",
+        "Bỏ định dạng số 0.### gây hiển thị 5. , 75."
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2058/capnhat_v13.8.2058.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2058",
+      "sha256": "0580a430d3953f303f3e0086eb4bd150a642be23571b180ebc3ce0ded0858c57"
+    },
     {
       "version": "13.8.2057",
       "requires": "13.8.2044",
