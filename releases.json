@@ -1,5 +1,5 @@
 {
-  "latest": "13.8.2062",
+  "latest": "13.8.2060",
   "releases": [
     {
       "version": "13.8.2062",
@@ -17,6 +17,23 @@
       "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2062/Scores_update_v13.8.2060.zip",
       "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2062",
       "sha256": "8e413e61aa2305d4cf0a8e1932fc3edb1732fca243565ba83038e6b3f724ddcd"
+    },
+    {
+      "version": "13.8.2060",
+      "requires": "13.8.2059",
+      "released_at": "2026-09-29",
+      "channel": "stable",
+      "title": "Tìm kiếm HSSV chung trên topbar",
+      "description": "Thêm ô tìm kiếm HSSV dùng chung ở thanh topbar (mọi trang): tìm theo tên, họ lót, họ lót+tên hoặc mã HSSV; kết quả cho phép mở thẳng lớp sinh hoạt hoặc mở hồ sơ HSSV.",
+      "features": [
+        "Thêm ô tìm kiếm HSSV trên topbar, tìm theo Tên, Họ lót, Họ lót+Tên (không phân biệt thứ tự) hoặc Mã HSSV/Mã số",
+        "Kết quả tìm kiếm hiển thị lớp hiện tại và tình trạng học tập của HSSV",
+        "Nút \"Xem lớp\": mở thẳng tab Lớp sinh hoạt và chọn đúng lớp của HSSV",
+        "Nút \"Xem hồ sơ\": mở thẳng tab Lớp sinh hoạt, chọn lớp và mở modal hồ sơ chi tiết của HSSV"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2060/Scores_update_v13.8.2060.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2060",
+      "sha256": "1e149342239dff5c299b58b8a917f4f7fedadf9e180557fd318abe5b2b3402c1"
     },
     {
       "version": "13.8.2059",
