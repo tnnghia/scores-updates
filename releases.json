@@ -1,5 +1,5 @@
 {
-  "latest": "13.8.2060",
+  "latest": "13.8.2061",
   "releases": [
     {
       "version": "13.8.2062",
@@ -17,6 +17,25 @@
       "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2062/Scores_update_v13.8.2060.zip",
       "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2062",
       "sha256": "8e413e61aa2305d4cf0a8e1932fc3edb1732fca243565ba83038e6b3f724ddcd"
+    },
+    {
+      "version": "13.8.2061",
+      "requires": "13.8.2060",
+      "released_at": "2026-09-29",
+      "channel": "stable",
+      "title": "Xuất Sổ văn bằng theo mẫu nhập liệu của Bộ GD&ĐT",
+      "description": "Sổ gốc cấp văn bằng, chứng chỉ: thêm nút \"Xuất theo mẫu Bộ\" - xuất Văn bằng (Trung cấp/Trung học nghề/Cao đẳng) đúng theo file mẫu nhập liệu CSDL văn bằng, chứng chỉ của Bộ GD&ĐT, giữ nguyên định dạng/danh mục/dropdown gốc của Bộ.",
+      "features": [
+        "Thêm nút \"Xuất theo mẫu Bộ\" ở Báo cáo - Thống kê > Sổ gốc cấp văn bằng, chứng chỉ",
+        "Tự map dữ liệu đang lưu sang đúng 28 cột theo mẫu của Bộ (Số hiệu bằng, Số vào sổ, Ngành/Mã ngành, Họ tên, Mã người học, CCCD, ngày sinh/ngày cấp dạng dd/MM/yyyy, giới tính, xếp loại, hình thức đào tạo...)",
+        "Tự tra Mã ngành đào tạo theo danh mục ngành của Bộ (đính kèm sẵn trong file mẫu)",
+        "Chuẩn hoá Giới tính/Xếp loại/Hình thức đào tạo về đúng chính tả danh mục Bộ khi khớp được; không khớp thì để trống thay vì đoán sai",
+        "File xuất ra giữ nguyên 100% sheet HuongDan/DanhMuc và toàn bộ dropdown gốc của Bộ - chỉ thêm dữ liệu vào sheet Data",
+        "Cột hệ thống chưa có dữ liệu (Hộ chiếu, Tên trường đã học, Chức danh người ký bằng, Tình trạng văn bằng, Trạng thái số hóa...) để trống, đơn vị tự rà soát điền tay trước khi nộp"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2061/Scores_update_v13.8.2061.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2061",
+      "sha256": "8a856785c9748729d084504fb672c0bf300b93cb84ddd0235081edb023eb3ea7"
     },
     {
       "version": "13.8.2060",

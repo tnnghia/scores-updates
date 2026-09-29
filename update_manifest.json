@@ -1,17 +1,19 @@
 {
-  "version": "13.8.2060",
-  "requires": "13.8.2059",
+  "version": "13.8.2061",
+  "requires": "13.8.2060",
   "released_at": "2026-09-29",
   "channel": "stable",
-  "title": "Tìm kiếm HSSV chung trên topbar",
-  "description": "Thêm ô tìm kiếm HSSV dùng chung ở thanh topbar (mọi trang): tìm theo tên, họ lót, họ lót+tên hoặc mã HSSV; kết quả cho phép mở thẳng lớp sinh hoạt hoặc mở hồ sơ HSSV.",
+  "title": "Xuất Sổ văn bằng theo mẫu nhập liệu của Bộ GD&ĐT",
+  "description": "Sổ gốc cấp văn bằng, chứng chỉ: thêm nút \"Xuất theo mẫu Bộ\" - xuất Văn bằng (Trung cấp/Trung học nghề/Cao đẳng) đúng theo file mẫu nhập liệu CSDL văn bằng, chứng chỉ của Bộ GD&ĐT, giữ nguyên định dạng/danh mục/dropdown gốc của Bộ.",
   "features": [
-    "Thêm ô tìm kiếm HSSV trên topbar, tìm theo Tên, Họ lót, Họ lót+Tên (không phân biệt thứ tự) hoặc Mã HSSV/Mã số",
-    "Kết quả tìm kiếm hiển thị lớp hiện tại và tình trạng học tập của HSSV",
-    "Nút \"Xem lớp\": mở thẳng tab Lớp sinh hoạt và chọn đúng lớp của HSSV",
-    "Nút \"Xem hồ sơ\": mở thẳng tab Lớp sinh hoạt, chọn lớp và mở modal hồ sơ chi tiết của HSSV"
+    "Thêm nút \"Xuất theo mẫu Bộ\" ở Báo cáo - Thống kê > Sổ gốc cấp văn bằng, chứng chỉ",
+    "Tự map dữ liệu đang lưu sang đúng 28 cột theo mẫu của Bộ (Số hiệu bằng, Số vào sổ, Ngành/Mã ngành, Họ tên, Mã người học, CCCD, ngày sinh/ngày cấp dạng dd/MM/yyyy, giới tính, xếp loại, hình thức đào tạo...)",
+    "Tự tra Mã ngành đào tạo theo danh mục ngành của Bộ (đính kèm sẵn trong file mẫu)",
+    "Chuẩn hoá Giới tính/Xếp loại/Hình thức đào tạo về đúng chính tả danh mục Bộ khi khớp được; không khớp thì để trống thay vì đoán sai",
+    "File xuất ra giữ nguyên 100% sheet HuongDan/DanhMuc và toàn bộ dropdown gốc của Bộ - chỉ thêm dữ liệu vào sheet Data",
+    "Cột hệ thống chưa có dữ liệu (Hộ chiếu, Tên trường đã học, Chức danh người ký bằng, Tình trạng văn bằng, Trạng thái số hóa...) để trống, đơn vị tự rà soát điền tay trước khi nộp"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2060/Scores_update_v13.8.2060.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2060",
-  "sha256": "1e149342239dff5c299b58b8a917f4f7fedadf9e180557fd318abe5b2b3402c1"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2061/Scores_update_v13.8.2061.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2061",
+  "sha256": "8a856785c9748729d084504fb672c0bf300b93cb84ddd0235081edb023eb3ea7"
 }
