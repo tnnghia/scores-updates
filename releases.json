@@ -1,6 +1,21 @@
 {
-  "latest": "13.8.2058",
+  "latest": "13.8.2059",
   "releases": [
+    {
+      "version": "13.8.2059",
+      "requires": "13.8.2058",
+      "released_at": "2026-09-29",
+      "channel": "stable",
+      "title": "Bổ sung Khoản thu SV & hoàn tác tính điểm theo Dangkyhoc",
+      "description": "Thêm tab Khoản thu (liệt kê theo học kỳ, thời điểm đóng) ở hồ sơ Lớp sinh hoạt; trả tính điểm học kỳ/năm học về đúng theo chương trình đào tạo chuẩn của lớp (CTDTLop), không còn xét môn đăng ký ngoài chương trình (Dangkyhoc).",
+      "features": [
+        "Lớp sinh hoạt: thêm tab \"Khoản thu\" trong hồ sơ sinh viên, liệt kê các khoản thu theo từng học kỳ kèm ngày nộp, số phiếu, số tiền, lý do nộp, khoản thu, người thu, ghi chú",
+        "Hoàn tác: tính điểm học kỳ/năm học không còn tự động cộng thêm môn đăng ký (Dangkyhoc) ngoài chương trình đào tạo chuẩn của lớp, quay lại đúng cách tính ban đầu"
+      ],
+      "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2059/Scores_update_v13.8.2059.zip",
+      "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2059",
+      "sha256": "9aea828bf80a264dbd1cee5bc8414f9ebb7b3197d84139e5b25f08444484c1a9"
+    },
     {
       "version": "13.8.2058",
       "requires": "13.8.2057",
