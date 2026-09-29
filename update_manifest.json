@@ -1,15 +1,17 @@
 {
-  "version": "13.8.2059",
-  "requires": "13.8.2058",
+  "version": "13.8.2062",
+  "requires": "13.8.2061",
   "released_at": "2026-09-29",
   "channel": "stable",
-  "title": "Bổ sung Khoản thu SV & hoàn tác tính điểm theo Dangkyhoc",
-  "description": "Thêm tab Khoản thu (liệt kê theo học kỳ, thời điểm đóng) ở hồ sơ Lớp sinh hoạt; trả tính điểm học kỳ/năm học về đúng theo chương trình đào tạo chuẩn của lớp (CTDTLop), không còn xét môn đăng ký ngoài chương trình (Dangkyhoc).",
+  "title": "Tìm kiếm HSSV chung trên topbar",
+  "description": "Thêm ô tìm kiếm HSSV dùng chung ở thanh topbar (mọi trang): tìm theo tên, họ lót, họ lót+tên hoặc mã HSSV; kết quả cho phép mở thẳng lớp sinh hoạt hoặc mở hồ sơ HSSV.",
   "features": [
-    "Lớp sinh hoạt: thêm tab \"Khoản thu\" trong hồ sơ sinh viên, liệt kê các khoản thu theo từng học kỳ kèm ngày nộp, số phiếu, số tiền, lý do nộp, khoản thu, người thu, ghi chú",
-    "Hoàn tác: tính điểm học kỳ/năm học không còn tự động cộng thêm môn đăng ký (Dangkyhoc) ngoài chương trình đào tạo chuẩn của lớp, quay lại đúng cách tính ban đầu"
+    "Thêm ô tìm kiếm HSSV trên topbar, tìm theo Tên, Họ lót, Họ lót+Tên (không phân biệt thứ tự) hoặc Mã HSSV/Mã số",
+    "Kết quả tìm kiếm hiển thị lớp hiện tại và tình trạng học tập của HSSV",
+    "Nút \"Xem lớp\": mở thẳng tab Lớp sinh hoạt và chọn đúng lớp của HSSV",
+    "Nút \"Xem hồ sơ\": mở thẳng tab Lớp sinh hoạt, chọn lớp và mở modal hồ sơ chi tiết của HSSV"
   ],
-  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2059/Scores_update_v13.8.2059.zip",
-  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2059",
-  "sha256": "9aea828bf80a264dbd1cee5bc8414f9ebb7b3197d84139e5b25f08444484c1a9"
+  "download_url": "https://github.com/tnnghia/scores-updates/releases/download/v13.8.2062/Scores_update_v13.8.2060.zip",
+  "release_notes_url": "https://github.com/tnnghia/scores-updates/releases/tag/v13.8.2062",
+  "sha256": "8e413e61aa2305d4cf0a8e1932fc3edb1732fca243565ba83038e6b3f724ddcd"
 }
